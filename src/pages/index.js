@@ -1,5 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
+import qfScreenshots from "../images/qfScreenshots.png"
+import snScreenshots from "../images/snScreenshots.png"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -22,7 +23,9 @@ const IndexPage = () => (
     <div id="Projects" className="projects">
       <div className="project w-container">
         <div className="projectimagebg">
-          <a href="" className="projectimage w-inline-block"></a>
+          <a href="" className="projectimage w-inline-block">
+            <img src={qfScreenshots}></img>
+          </a>
         </div>
         <div className="projectinfo">
           <div className="projecttitle">Quick Formula</div>
@@ -36,7 +39,9 @@ const IndexPage = () => (
     <div id="Projects" className="projects">
       <div className="project w-container">
         <div className="projectimagebg">
-          <a href="" className="projectimage w-inline-block"></a>
+          <a href="" className="projectimage w-inline-block">
+            <img src={snScreenshots}></img>
+          </a>
         </div>
         <div className="projectinfo">
           <div className="projecttitle">Stock Notify</div>
