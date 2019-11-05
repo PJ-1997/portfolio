@@ -1,6 +1,8 @@
 import React from "react"
 import qfScreenshots from "../images/qfScreenshots.png"
 import snScreenshots from "../images/snScreenshots.png"
+import github from "../images/githubLogo.png"
+import linkedin from "../images/linkedinLogo.png"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -12,8 +14,11 @@ const IndexPage = () => (
     <div className="introduction" >
       <div className="w-container">
         <h1 className="header">Pedro Molina</h1>
-        <div className="description">iOS Developer and Graphic Designer with years of experience in visual and interaction design.
-    </div>
+        <div className="description">iOS Developer and Graphic Designer with years of experience in visual and interaction design.</div>
+        <div className="icons">
+          <div className="iconContainter"><a href="https://github.com/PJ-1997" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={github} alt="Github"></img></a></div>
+          <div className="iconContainter"><a href="https://www.linkedin.com/in/pedro-molina-465441165/" target="_blank" rel="noopener noreferrer"><img className="imgPic"src={linkedin} alt="Linkedin"></img></a></div>
+        </div>
       </div>
     </div>
     {/* Spacer */}
