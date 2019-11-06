@@ -3,6 +3,7 @@ import qfScreenshots from "../images/qfScreenshots.png"
 import snScreenshots from "../images/snScreenshots.png"
 import github from "../images/githubLogo.png"
 import linkedin from "../images/linkedinLogo.png"
+import appStoreBtn from "../images/btn.png"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -36,7 +37,7 @@ const IndexPage = () => (
           <div className="projecttitle">Quick Formula</div>
           <div className="projectdates">Aug 2017 - Present</div>
           <div className="projectdescription">Quick Formula calculates math and science formulas. Uses a segmented control to separate math and science formulas. Quick Formula is built entirely in Swift and the UI is created programmatically with no interface builder.</div>
-          <div className="link projects">VIEW CASE STUDY</div>
+          <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} width="120"></img></a></div>
         </div>
       </div>
     </div>
@@ -50,9 +51,9 @@ const IndexPage = () => (
         </div>
         <div className="projectinfo">
           <div className="projecttitle">Stock Notify</div>
-          <div className="projectdates">Aug 2017 - Present</div>
+          <div className="projectdates">Nov 2018 - Present</div>
           <div className="projectdescription">Sends a push notification when a stock reaches a price that the user specified. The user can favorite stocks which uses Core Data to persist the data. The user interface is built all programmatically.</div>
-          <a className="link projects" href="/works"> View Case</a>
+          {/* <a className="link projects" href="/works"> View Case</a> */}
         </div>
       </div>
     </div>
