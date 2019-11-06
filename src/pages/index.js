@@ -10,6 +10,7 @@ import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
+  <Layout>
   <body className="body">
     {/* Introduction */}
     <div className="introduction" >
@@ -61,8 +62,7 @@ const IndexPage = () => (
     {/* <SEO title="Home" /> */}
     {/* <Link to="/page-2/">Go to page 2</Link> */}
   </body>
-
-
+  </Layout>
 )
 
 export default IndexPage
