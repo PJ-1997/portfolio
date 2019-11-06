@@ -30,9 +30,7 @@ const IndexPage = () => (
     <div id="Projects" className="projects">
       <div className="project w-container">
         <div className="projectimagebg">
-          <a href="" className="projectimage w-inline-block">
-            <img src={qfScreenshots}></img>
-          </a>
+          <img className="projectimage w-inline-block" src={qfScreenshots}></img>
         </div>
         <div className="projectinfo">
           <div className="projecttitle">Quick Formula</div>
@@ -46,9 +44,7 @@ const IndexPage = () => (
     <div id="Projects" className="projects">
       <div className="project w-container">
         <div className="projectimagebg">
-          <a href="" className="projectimage w-inline-block">
-            <img src={snScreenshots}></img>
-          </a>
+          <img className="projectimage w-inline-block" src={snScreenshots}></img>
         </div>
         <div className="projectinfo">
           <div className="projecttitle">Stock Notify</div>
