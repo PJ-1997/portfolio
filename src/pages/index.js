@@ -60,7 +60,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
-      {/* <SEO title="Home" /> */}
+      <SEO title="Pedro Molina" />
       {/* <Link to="/page-2/">Go to page 2</Link> */}
     </body>
 
