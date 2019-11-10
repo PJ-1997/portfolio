@@ -15,8 +15,41 @@ import Img from "gatsby-image"
 
 const Image = () => {
   const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "qfScreenshots.png" }) {
+    {
+      qfScreenshots: file(relativePath: { eq: "qfScreenshots.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      snScreenshots: file(relativePath: { eq: "snScreenshots.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      
+
+      btn: file(relativePath: { eq: "btn.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      githubLogo: file(relativePath: { eq: "githubLogo.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+
+      linkedinLogo: file(relativePath: { eq: "linkedinLogo.png" }) {
         childImageSharp {
           fluid(maxWidth: 300) {
             ...GatsbyImageSharpFluid
@@ -25,7 +58,7 @@ const Image = () => {
       }
     }
   `)
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return <Img fluid={data.snScreenshots.childImageSharp.fluid} placeholderStyle={{ visibility: "hidden" }}/>
 }
 
 export default Image

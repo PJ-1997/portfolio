@@ -1,16 +1,17 @@
 import React from "react"
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import Image from "../components/image"
+// Images
 import qfScreenshots from "../images/qfScreenshots.png"
 import snScreenshots from "../images/snScreenshots.png"
 import github from "../images/githubLogo.png"
 import linkedin from "../images/linkedinLogo.png"
 import appStoreBtn from "../images/btn.png"
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
-
 const IndexPage = () => (
   <Layout>
+    {/* <div style={{ maxWidth: `300px`}}><Image /></div> */}
     <body className="body">
       {/* Spacer */}
       <div style={{ marginBottom: `2rem` }}> </div>
@@ -42,7 +43,7 @@ const IndexPage = () => (
             <div className="projecttitle">Quick Formula</div>
             <div className="projectdates">Aug 2017 - Present</div>
             <div className="projectdescription">Quick Formula calculates math and science formulas. Uses a segmented control to separate math and science formulas. Quick Formula is built entirely in Swift and UI is created programmatically with no interface builder.</div>
-            <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} width="120"></img></a></div>
+            <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} width="140"></img></a></div>
           </div>
         </div>
       </div>
