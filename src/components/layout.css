@@ -445,16 +445,17 @@
      transition: background-color 300ms ease;
      font-family: 'Circular Std', sans-serif;
      color: #23b16c;
-     font-size: 14px;
+     font-size: 18px;
      line-height: 16px;
      font-weight: 800;
      letter-spacing: 0.75px;
+     text-decoration: none;
    }
    
-   .logo:hover {
+   /* .logo:hover {
      border-color: #129057;
      color: #129057;
-   }
+   } */
    
    .projectdates {
      max-width: 320px;
