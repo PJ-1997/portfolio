@@ -29,7 +29,7 @@ const IndexPage = () => (
       </div>
 
       {/* Spacer */}
-      <div style={{ marginBottom: `7rem` }}> </div>
+      <div style={{ paddingBottom:20 }}> </div>
       {/* Line */}
       <div className="layout-spacer-top"></div>
 
