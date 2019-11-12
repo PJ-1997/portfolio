@@ -20,7 +20,7 @@ const IndexPage = () => (
       <div className="introduction" >
         <div className="w-container">
           <h1 className="header">Pedro Molina</h1>
-          <div className="description">iOS Developer and Graphic Designer with years of experience in visual and interaction design.</div>
+          <div className="description">Graphic Designer and iOS Developer with experience in creating and developing applications form the ground up.</div>
           <div className="icons">
             <div className="iconContainter"><a href="https://www.linkedin.com/in/pedro-molina-465441165/" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={linkedin} alt="Linkedin"></img></a></div>
             <div className="iconContainter"><a href="https://github.com/PJ-1997" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={github} alt="Github"></img></a></div>
