@@ -47,7 +47,7 @@ const IndexPage = () => (
           <div className="projectinfo">
             <div className="projecttitle">Quick Formula</div>
             <div className="projectdates">Aug 2017 - Present</div>
-            <div className="projectdescription">Quick Formula calculates math and science formulas. Uses a segmented control to separate math and science formulas. Quick Formula is built entirely in Swift and UI is created programmatically with no interface builder.</div>
+            <div className="projectdescription">Quick Formula calculates math and science formulas. Quick Formula is built entirely in Swift and UI is created programmatically with no interface builder.</div>
             <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} width="140"></img></a></div>
             {/* <DemoPopup title="Quick Formula" popimage={qfpopImage}
               triggerElement={<button className="button"> Demo </button>}>
@@ -68,7 +68,7 @@ const IndexPage = () => (
           <div className="projectinfo">
             <div className="projecttitle">Stock Notify</div>
             <div className="projectdates">Nov 2018 - Present</div>
-            <div className="projectdescription">Sends a push notification when a stock reaches a price that the user specified. The user can favorite stocks which uses Core Data to persist the data. The user interface is built all programmatically.</div>
+            <div className="projectdescription">Sends notifications on stock prices. The user can favorite stocks which uses Core Data to save favorited stocks. The user interface is built programmatically.</div>
             {/* <DemoPopup title="Stock Notify" popimage={snpopImage} triggerElement=
               {<button className="button"> Demo </button>}>
             </DemoPopup> */}
