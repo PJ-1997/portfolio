@@ -81,7 +81,16 @@
     border: 1px solid #cfcece;
   }
 
-  .button {
+  .youtubeButton {
+      cursor: pointer;
+      height: 49px;
+      margin-top: 14px;
+      border-radius: 15px 15px 15px 15px;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+    }
+
+  .OldDemobutton {
   font-family: Roboto,Arial,sans-serif;
     color: #000;
     cursor: pointer;
