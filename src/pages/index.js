@@ -50,7 +50,7 @@ const IndexPage = () => (
             <div className="projectdates">Aug 2017 - Present</div>
             <div className="projectdescription">Quick Formula calculates math and science formulas. Quick Formula is built entirely in Swift and UI is created programmatically with no interface builder.</div>
             <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} width="140"></img></a></div>
-            <a href="https://youtu.be/0JDdM7wHr7Y" target="_blank" rel="noopener noreferrer"><img src={youtubeBtn} className="youtubeButton"></img></a>
+            <a href=" https://youtu.be/mnsoemOS5Xg" target="_blank" rel="noopener noreferrer"><img src={youtubeBtn} className="youtubeButton"></img></a>
             {/* <DemoPopup title="Quick Formula" popimage={qfpopImage}
               triggerElement={<button className="button"> Demo </button>}>
             </DemoPopup> */}
@@ -71,7 +71,7 @@ const IndexPage = () => (
             <div className="projecttitle">Stock Notify</div>
             <div className="projectdates">Nov 2018 - Present</div>
             <div className="projectdescription">Sends notifications on stock prices. The user can favorite stocks which uses Core Data to save favorited stocks. The user interface is built programmatically.</div>
-            <a href="https://youtu.be/0JDdM7wHr7Y" target="_blank" rel="noopener noreferrer"><img src={youtubeBtn} className="youtubeButton"></img></a>
+            <a href="https://youtu.be/FQ0yO3F7lbE" target="_blank" rel="noopener noreferrer"><img src={youtubeBtn} className="youtubeButton"></img></a>
             {/* <DemoPopup title="Stock Notify" popimage={snpopImage} triggerElement=
               {<button className="button"> Demo </button>}>
             </DemoPopup> */}
