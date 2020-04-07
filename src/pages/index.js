@@ -47,7 +47,7 @@ const IndexPage = () => (
           </div>
           <div className="projectinfo">
             <div className="projecttitle">Quick Formula</div>
-            <div className="projectdates">Aug 2017 - Present</div>
+            <div className="projectdates">Oct 2017 - Jan 2018</div>
             <div className="projectdescription">Quick Formula calculates math and science formulas. Quick Formula is built entirely in Swift and UI is created programmatically with no interface builder.</div>
             <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} width="140"></img></a></div>
             <a href=" https://youtu.be/mnsoemOS5Xg" target="_blank" rel="noopener noreferrer"><img src={youtubeBtn} className="youtubeButton"></img></a>
