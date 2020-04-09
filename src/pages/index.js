@@ -82,6 +82,20 @@ const IndexPage = () => (
       {/* <Link to="/page-2/">Go to page 2</Link> */}
     </body>
 
+    <div id="Contact" class="contact">
+      <div class="container-2 w-container">
+        <div class="layout-spacer-bottom">
+        </div>
+        <div class="header contact">Let's keep in touch</div>
+        <div class="w-row"><div class="column w-col">
+          <h4 class="heading-4">Email</h4><div class="div-block">
+            <a href="mailto:contact@molinapedro.com" class="link contacts">contact@molinapedro.com</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
     {/* Spacer */}
     <div style={{ marginBottom: `2rem` }}> </div>
   </Layout>

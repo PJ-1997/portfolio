@@ -28,9 +28,11 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
-        <footer className="footer-text">
-          © {new Date().getFullYear()} Created by Pedro Molina
-        </footer>
+        <div id="Footer" class="footer">
+          <div class="w-container">
+            <p class="footer-text"> © {new Date().getFullYear()} Created by Pedro Molina</p>
+          </div>
+        </div>
       </div>
     </>
   )
