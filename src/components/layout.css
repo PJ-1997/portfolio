@@ -175,7 +175,7 @@
    }
    
    .link.contacts:hover {
-     border-style: none none solid;
+     /* border-style: none none solid; */
      border-bottom-width: 1px;
      border-bottom-color: #129057;
      color: #129057;
@@ -345,7 +345,7 @@
    
    .heading-4 {
      margin-top: 20px;
-     margin-bottom: 16px;
+     margin-bottom: 8px;
      font-family: 'Circular Std', sans-serif;
      font-size: 25px;
      font-weight: 700;
