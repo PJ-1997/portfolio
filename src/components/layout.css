@@ -61,13 +61,24 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     border: 1px solid #cfcece;
   }
 
-  .youtubeButton {
+  .youtube1 {
       cursor: pointer;
-      height: 49px;
-      margin-top: 14px;
-      border-radius: 15px 15px 15px 15px;
+      width: 140px;
       -webkit-transition: all .3s;
       transition: all .3s;
+      margin-top: 14px;
+    }
+    .youtube2 {
+      cursor: pointer;
+      width: 140px;
+      -webkit-transition: all .3s;
+      transition: all .3s;
+      margin-top: 5px;
+    }
+
+    .appleBtn {
+      width: 140px;
+      margin-top: 5px;
     }
 
   .OldDemobutton {
@@ -847,9 +858,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
      .projectdescription {
        font-size: 14px;
-     }
-     .contact {
-       margin: 128px 0px 32px;
      }
      .navbarsticky {
        padding-top: 12px;

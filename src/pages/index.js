@@ -15,7 +15,6 @@ import youtubeBtn from "../images/youtubeButton.png"
 
 const IndexPage = () => (
   <Layout>
-    {/* <div style={{ maxWidth: `300px`}}><Image /></div> */}
     <body className="body">
       {/* Spacer */}
       <div style={{ marginBottom: `2rem` }}> </div>
@@ -49,8 +48,8 @@ const IndexPage = () => (
             <div className="projecttitle">Quick Formula</div>
             <div className="projectdates">Oct 2017 - Jan 2018</div>
             <div className="projectdescription">Calculates math and science formulas. Built entirely in Swift and UI is created programmatically with no interface builder.</div>
-            <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} width="140"></img></a></div>
-            <a href=" https://youtu.be/mnsoemOS5Xg" target="_blank" rel="noopener noreferrer"><img src={youtubeBtn} className="youtubeButton"></img></a>
+            <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} className="appleBtn" ></img></a></div>
+            <a href=" https://youtu.be/mnsoemOS5Xg" target="_blank" rel="noopener noreferrer"><img src={youtubeBtn} className="youtube1"></img></a>
             {/* <DemoPopup title="Quick Formula" popimage={qfpopImage}
               triggerElement={<button className="button"> Demo </button>}>
             </DemoPopup> */}
@@ -69,9 +68,9 @@ const IndexPage = () => (
           </div>
           <div className="projectinfo">
             <div className="projecttitle">Stock Notify</div>
-            <div className="projectdates">Nov 2018 - Present</div>
+            <div className="projectdates">Nov 2018 - Jan 2020</div>
             <div className="projectdescription">Sends notifications on stock prices. The user can favorite stocks which uses Core Data to save favorited stocks. UI is also built programmatically.</div>
-            <a href="https://youtu.be/FQ0yO3F7lbE" target="_blank" rel="noopener noreferrer"><img src={youtubeBtn} className="youtubeButton"></img></a>
+            <a href="https://youtu.be/FQ0yO3F7lbE" target="_blank" rel="noopener noreferrer"><img src={youtubeBtn} className="youtube2"></img></a>
             {/* <DemoPopup title="Stock Notify" popimage={snpopImage} triggerElement=
               {<button className="button"> Demo </button>}>
             </DemoPopup> */}
@@ -79,22 +78,7 @@ const IndexPage = () => (
         </div>
       </div>
       <SEO title="Pedro Molina" />
-      {/* <Link to="/page-2/">Go to page 2</Link> */}
     </body>
-
-    <div id="Contact" class="contact">
-      <div class="container-2 w-container">
-        <div class="layout-spacer-bottom">
-        </div>
-        <div class="header contact">Let's keep in touch</div>
-        <div class="w-row"><div class="column w-col">
-          <h4 class="heading-4">Email</h4><div class="div-block">
-            <a href="mailto:contact@molinapedro.com" class="link contacts">contact@molinapedro.com</a>
-          </div>
-        </div>
-        </div>
-      </div>
-    </div>
 
     {/* Spacer */}
     <div style={{ marginBottom: `2rem` }}> </div>
