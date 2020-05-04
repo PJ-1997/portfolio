@@ -1,9 +1,15 @@
 import React from 'react';
 import Popup from 'reactjs-popup';
 
+const contentStyle = {
+  width: "60%",
+  minWidth: "350px",
+  maxWidth: "960px"
+};
+
 function OwnPopup({ title, popimage, triggerElement }) {
   return (
-    <Popup trigger={triggerElement} modal>
+    <Popup contentStyle={contentStyle} trigger={triggerElement} modal>
       {close => (
         <div className="modal">
           <a className="close" onClick={close}> &times; </a>
