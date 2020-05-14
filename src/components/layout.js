@@ -39,7 +39,7 @@ const Layout = ({ children }) => {
             </div>
 
             {/* Spacer */}
-            <div style={{ marginBottom: `2rem` }}> </div>
+            <div style={{ marginBottom: `6rem` }}> </div>
             <p class="footer-text"> © {new Date().getFullYear()} Created by Pedro Molina</p>
           </div>
         </div>
