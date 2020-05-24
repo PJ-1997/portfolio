@@ -15,7 +15,11 @@ function OwnPopup({ title, popimage, triggerElement }) {
           <a className="close" onClick={close}> &times; </a>
           <div className="header">{title}</div>
           <div className="content">
-            <img src={popimage}></img>
+
+            <div className="image-container">
+              <img src={popimage}></img>
+            </div>
+
           </div>
         </div>
       )}

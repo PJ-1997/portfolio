@@ -1,7 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import DemoPopup from "../components/popup"
+import ImagePopup from "../components/Popups/popup"
+import DemoPopup from "../components/Popups/demopopup"
 import Image from "../components/image"
 // Images
 import qfpopImage from "../images/qfPopup.jpg"
@@ -40,16 +41,16 @@ const IndexPage = () => (
       <div id="Projects" className="projects">
         <div className="project w-container">
           <div className="projectimagebg">
-            <DemoPopup title="Quick Formula" popimage={qfpopImage}
+            <ImagePopup title="Quick Formula" popimage={qfpopImage}
               triggerElement={<img className="projectimage w-inline-block pointer" src={qfScreenshots}></img>}>
-            </DemoPopup>
+            </ImagePopup>
           </div>
           <div className="projectinfo">
             <div className="projecttitle">Quick Formula</div>
             <div className="projectdates">Oct 2017 - Jan 2018</div>
             <div className="projectdescription">Calculates math and science formulas. Built entirely in Swift and UI is created programmatically with no interface builder.</div>
             <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} className="appleBtn" ></img></a></div>
-            <a href=" https://youtu.be/mnsoemOS5Xg" target="_blank" rel="noopener noreferrer"><img src={youtubeBtn} className="youtube1"></img></a>
+            <DemoPopup title="Quick Formula Demo" url="https://www.youtube.com/embed/mnsoemOS5Xg" triggerElement={<img src={youtubeBtn} className="youtube1"></img>}></DemoPopup>
             {/* <DemoPopup title="Quick Formula" popimage={qfpopImage}
               triggerElement={<button className="button"> Demo </button>}>
             </DemoPopup> */}
@@ -62,15 +63,15 @@ const IndexPage = () => (
       <div id="Projects" className="projects">
         <div className="project w-container">
           <div className="projectimagebg">
-            <DemoPopup title="Stock Notify" popimage={snpopImage}
+            <ImagePopup title="Stock Notify" popimage={snpopImage}
               triggerElement={<img className="projectimage w-inline-block pointer" src={snScreenshots}></img>}>
-            </DemoPopup>
+            </ImagePopup>
           </div>
           <div className="projectinfo">
             <div className="projecttitle">Stock Notify</div>
             <div className="projectdates">Nov 2018 - Jan 2020</div>
             <div className="projectdescription">Sends notifications on stock prices. The user can favorite stocks which uses Core Data to save favorited stocks. UI is also built programmatically.</div>
-            <a href="https://youtu.be/FQ0yO3F7lbE" target="_blank" rel="noopener noreferrer"><img src={youtubeBtn} className="youtube2"></img></a>
+            <DemoPopup title="Stock Notify Demo" url="https://www.youtube.com/embed/FQ0yO3F7lbE" triggerElement={<img src={youtubeBtn} className="youtube2"></img>}></DemoPopup>
             {/* <DemoPopup title="Stock Notify" popimage={snpopImage} triggerElement=
               {<button className="button"> Demo </button>}>
             </DemoPopup> */}
