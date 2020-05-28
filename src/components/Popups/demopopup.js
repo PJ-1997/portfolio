@@ -17,7 +17,7 @@ function DemoPopup({ title, url, triggerElement }) {
           <div className="content">
 
             <div className="ifrane-container">
-              <iframe width="560" height="315" src={url + "?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0"} frameborder="0"
+              <iframe width="560" height="315" src={url + "?vq=hd1080&autoplay=1&modestbranding=1&showinfo=0&rel=0&playsinline=1"} frameborder="0"
                 allowfullscreen="allowfullscreen"
                 mozallowfullscreen="mozallowfullscreen"
                 msallowfullscreen="msallowfullscreen"
