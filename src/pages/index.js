@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { Link } from "gatsby"
 import ImagePopup from "../components/Popups/popup"
 import DemoPopup from "../components/Popups/demopopup"
 import Image from "../components/image"
@@ -49,8 +50,10 @@ const IndexPage = () => (
             <div className="projecttitle">Quick Formula</div>
             <div className="projectdates">Oct 2017 - Jan 2018</div>
             <div className="projectdescription">Calculates math and science formulas. Built entirely in Swift and UI is created programmatically with no interface builder.</div>
+            <Link to="/stocknotifycase">Hello</Link>
             <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} className="appleBtn" ></img></a></div>
             <DemoPopup title="Quick Formula Demo" url="https://www.youtube.com/embed/mnsoemOS5Xg" triggerElement={<img src={youtubeBtn} className="youtube1"></img>}></DemoPopup>
+
             {/* <DemoPopup title="Quick Formula" popimage={qfpopImage}
               triggerElement={<button className="button"> Demo </button>}>
             </DemoPopup> */}
