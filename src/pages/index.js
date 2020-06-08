@@ -50,13 +50,9 @@ const IndexPage = () => (
             <div className="projecttitle">Quick Formula</div>
             <div className="projectdates">Oct 2017 - Jan 2018</div>
             <div className="projectdescription">Calculates math and science formulas. Built entirely in Swift and UI is created programmatically with no interface builder.</div>
-            <Link to="/stocknotifycase">Hello</Link>
-            <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} className="appleBtn" ></img></a></div>
-            <DemoPopup title="Quick Formula Demo" url="https://www.youtube.com/embed/mnsoemOS5Xg" triggerElement={<img src={youtubeBtn} className="youtube1"></img>}></DemoPopup>
-
-            {/* <DemoPopup title="Quick Formula" popimage={qfpopImage}
-              triggerElement={<button className="button"> Demo </button>}>
-            </DemoPopup> */}
+            <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
+            {/* <div><DemoPopup title="Quick Formula Demo" url="https://www.youtube.com/embed/mnsoemOS5Xg" triggerElement={<img src={youtubeBtn} className="youtube1"></img>}></DemoPopup></div> */}
+            {/* <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} className="appleBtn" ></img></a></div> */}
           </div>
         </div>
       </div>
@@ -74,10 +70,8 @@ const IndexPage = () => (
             <div className="projecttitle">Stock Notify</div>
             <div className="projectdates">Nov 2018 - Jan 2020</div>
             <div className="projectdescription">Sends notifications on stock prices. The user can favorite stocks which uses Core Data to save favorited stocks. UI is also built programmatically.</div>
-            <DemoPopup title="Stock Notify Demo" url="https://www.youtube.com/embed/FQ0yO3F7lbE" triggerElement={<img src={youtubeBtn} className="youtube2"></img>}></DemoPopup>
-            {/* <DemoPopup title="Stock Notify" popimage={snpopImage} triggerElement=
-              {<button className="button"> Demo </button>}>
-            </DemoPopup> */}
+            <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
+            {/* <div><DemoPopup title="Stock Notify Demo" url="https://www.youtube.com/embed/FQ0yO3F7lbE" triggerElement={<img src={youtubeBtn} className="youtube2"></img>}></DemoPopup></div> */}
           </div>
         </div>
       </div>

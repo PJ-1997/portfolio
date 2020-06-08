@@ -199,18 +199,26 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      line-height: 40px;
    }
    
-   .link {
-     display: inline;
-     background-color: transparent;
-     font-family: Avenir;
-     color: #4d3df8;
-     font-size: 18px;
-     font-weight: 200;
-     text-align: center;
-     text-decoration: none;
+   .linkcasestudy {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-style: none none solid;
+    border-width: 1.4px;
+    border-color: #000 #000 #23b16c;
+    font-family: 'Circular Std', sans-serif;
+    color: #23b16c;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
    }
+
+   .linkcasestudy:hover {
+    border-bottom-color: #129057;
+    color: #129057;
+  }
    
-   .link.projects {
+   /* .link.projects {
      padding-top: 8px;
      padding-bottom: 8px;
      border-style: none none solid;
@@ -226,7 +234,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .link.projects:hover {
      border-bottom-color: #129057;
      color: #129057;
-   }
+   } */
    
    .link.contacts {
      display: inline-block;
