@@ -3,32 +3,59 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import Rotato from "../images/Rotato.png"
-import containerStyles from "../components/Modules/casestudy.module.css"
+import caseStyle from "../components/Modules/casestudy.module.css"
 
 const CaseStudy = () => (
   <Layout>
     <body className="body">
 
-      <section className={containerStyles.introsection}>
-        <div className={containerStyles.divcenter}>
-          <div className={containerStyles.lefttextcontainer}>
-            <h1 className={containerStyles.toptext}>Stock Notify</h1>
-            <div className={containerStyles.bottomtext}>This is the codfdradf dfljdfl dlfkdjfjdfdfdfdf<br></br>dfasdfsdf lsdkjfsdjf</div>
+      {/* Hero */}
+      <section className={caseStyle.introsection}>
+        <div className={caseStyle.divcenter}>
+          <div className={caseStyle.lefttextcontainer}>
+            <h1 className={caseStyle.toptext}>Stock Notify</h1>
+            <div className={caseStyle.bottomtext}>This is the codfdradf dfljdfl dlfkdjfjdfdfdfdf<br></br>dfasdfsdf lsdkjfsdjf</div>
           </div>
-          <div className={containerStyles.IphonePic}>
-            <img src={Rotato} className={containerStyles.ratioimage}></img>
+          <div className={caseStyle.IphonePic}>
+            <img src={Rotato} className={caseStyle.ratioimage}></img>
           </div>
         </div>
       </section>
+     
+      {/* <div className={caseStyle.layoutspacertop}></div> */}
 
-      <div className={containerStyles.layoutspacertop}></div>
-
-      <section className={containerStyles.sectionaligncenter}>
-        <div className={containerStyles.titlecontainer}>
-          <h1 className={containerStyles.titletext}>Overview</h1>
-          <div className={containerStyles.underlinetitle}></div>
+      {/* Overview */}
+      <section className={caseStyle.sectionaligncenter}>
+        <div className={caseStyle.titlecontainer}>
+          <h1 className={caseStyle.titletext}>Overview</h1>
+          <div className={caseStyle.underlinetitle}></div>
         </div>
-        
+
+        <div className={caseStyle.gridcontainer}>
+          <div>
+            <h1 className={caseStyle.overviewTitle}>Duration</h1>
+            <p className={caseStyle.overviewText}>4 Months</p>
+          </div>
+          <div>
+            <h1 className={caseStyle.overviewTitle}>Focus</h1>
+            <p className={caseStyle.overviewText}>UI/UX Desinger <br></br>iOS Developer </p>
+          </div>
+          <div>
+            <h1 className={caseStyle.overviewTitle}>Team</h1>
+            <p className={caseStyle.overviewText}>Pedro Molina</p>
+          </div>
+        </div>
+
+        <div>
+          <div className={caseStyle.flexcontaineroverview}>
+            <h1 className={caseStyle.flextitleoverview}>My Role</h1>
+            <p className={caseStyle.overviewdescription}>My role was to create ans application that allows the user to homescreen in teh somoething in vise versa. What I dearm is an application that can be used in the stock market for actual rewards</p>
+          </div>
+          <div className={caseStyle.flexcontaineroverview}>
+            <h1 className={caseStyle.flextitleoverview}>Challenge</h1>
+            <p className={caseStyle.overviewdescription}>My role was to create ans application that allows the user to homescreen in teh somoething in vise versa. What I dearm is an application that can be used in the stock market for actual rewards</p>
+          </div>
+        </div>
       </section>
 
     </body>

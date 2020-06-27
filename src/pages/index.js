@@ -68,7 +68,7 @@ const IndexPage = () => (
           </div>
           <div className="projectinfo">
             <div className="projecttitle">Stock Notify</div>
-            <div className="projectdates">Nov 2018 - Jan 2020</div>
+            <div className="projectdates">Nov 2018 - Feb 2019</div>
             <div className="projectdescription">Sends notifications on stock prices. The user can favorite stocks to the homescreen and the user interface is also built programmatically.</div>
             <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
             {/* <div><DemoPopup title="Stock Notify Demo" url="https://www.youtube.com/embed/FQ0yO3F7lbE" triggerElement={<img src={youtubeBtn} className="youtube2"></img>}></DemoPopup></div> */}
