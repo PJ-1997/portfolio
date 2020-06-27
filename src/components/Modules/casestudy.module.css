@@ -2,6 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 650px;
 }
 
 .divcenter {
@@ -138,6 +139,10 @@
 
 
 @media (max-width: 732px) {
+  .introsection {
+    /* background-color: red; */
+    height: 500px;
+  }
   .gridcontainer {
     grid-template-columns: repeat(1, auto);
   }
