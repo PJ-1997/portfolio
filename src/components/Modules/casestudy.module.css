@@ -51,6 +51,7 @@
 
 /* Overview Section */
 .sectionaligncenter {
+  /* 1. Set in the center */
   margin-left:auto;
   margin-right:auto;
   max-width:940px;
@@ -81,56 +82,55 @@
 }
 
 .gridcontainer {
-  /* background-color: red; */
   display: grid;
   grid-template-columns: repeat(3, auto);
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .overviewTitle {
   font-family: 'Circular Std', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 46px;
   text-align: center;
 }
 
 .overviewText {
+  /* 2. Styles for text */
   font-family: 'Circular Std', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 30px;
   text-align: center;
 }
 
-
-
-
 .flexcontaineroverview {
-  /* background-color: yellow; */
   display: flex;
-  margin-top: 50px;
+  margin-top: 10px;
 
 }
 
 .flextitleoverview {
-  /* background-color: red; */
+  /* 3. This is the how to get in the sides */
   width: 33.33%;
+  padding-right: 9px;
+
   text-align: center;
   font-family: 'Circular Std', sans-serif;
   font-style: normal;
   font-weight: bold;
+  font-size: 30px;
 }
 
 .overviewdescription {
-  /* font-family: Circular Std; */
   font-family: 'Circular Std', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 32px;
   width: 528px;
   margin-top: 20px;
   margin-right: 30px;
@@ -140,7 +140,6 @@
 
 @media (max-width: 732px) {
   .introsection {
-    /* background-color: red; */
     height: 500px;
   }
   .gridcontainer {
@@ -152,9 +151,14 @@
   .flextitleoverview{
     text-align: left;
     width: auto;
+    padding-right: 0px;
   }
   .overviewdescription {
     margin-right: 0px;
     width: auto;
+    margin-top: 5px;
+  }
+  .overviewTitle {
+    margin-bottom: 5px;
   }
 }

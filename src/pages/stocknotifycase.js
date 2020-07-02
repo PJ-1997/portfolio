@@ -14,7 +14,7 @@ const CaseStudy = () => (
         <div className={caseStyle.divcenter}>
           <div className={caseStyle.lefttextcontainer}>
             <h1 className={caseStyle.toptext}>Stock Notify</h1>
-            <div className={caseStyle.bottomtext}>This is the codfdradf dfljdfl dlfkdjfjdfdfdfdf<br></br>dfasdfsdf lsdkjfsdjf</div>
+            <div className={caseStyle.bottomtext}>Sends notifications on stock prices.</div>
           </div>
           <div className={caseStyle.IphonePic}>
             <img src={Rotato} className={caseStyle.ratioimage}></img>
@@ -49,15 +49,18 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>My Role</h1>
-            <p className={caseStyle.overviewdescription}>My role was to create ans application that allows the user to homescreen in teh somoething in vise versa. What I dearm is an application that can be used in the stock market for actual rewards</p>
+            <p className={caseStyle.overviewdescription}>My role as a UX desinger was to conduct research. Then I worked extensively on user research and user flows in order to cater the application to its primary users. As a developer, I wrote clean code that followed W3C standards to make it easy for future iOS developers to maintain</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Challenge</h1>
-            <p className={caseStyle.overviewdescription}>My role was to create ans application that allows the user to homescreen in teh somoething in vise versa. What I dearm is an application that can be used in the stock market for actual rewards</p>
+            <p className={caseStyle.overviewdescription}>The challenge is to create an iOS application which sends notification on stock prices. The user is able to easliy set the notification using the application. sldfsdljf s dfsldkfj sdf sdlfksd fs lsdfjs ldfj ds dlfksdfl f </p>
+          </div>
+          <div className={caseStyle.flexcontaineroverview}>
+            <h1 className={caseStyle.flextitleoverview}>Solution</h1>
+            <p className={caseStyle.overviewdescription}>After brainstorming the potential ideas with myself. I set a goal to create a MVP of the application. The application was going to be able to search stock using a stock API. The applcation is also going to favoirte stocks and the user will be able to setup a notification.</p>
           </div>
         </div>
       </section>
-
     </body>
 
     <SEO title="Case Study" />
