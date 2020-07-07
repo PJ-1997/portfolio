@@ -99,7 +99,7 @@
 .overviewText {
   /* 2. Styles for text */
   font-family: 'Circular Std', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 32px;
 
   font-style: normal;
@@ -110,13 +110,17 @@
 .flexcontaineroverview {
   display: flex;
   margin-top: 10px;
+}
 
+.flexcontaineroverviewfirst {
+  display: flex;
+  margin-top: 30px;
 }
 
 .flextitleoverview {
   /* 3. This is the how to get in the sides */
   width: 33.33%;
-  padding-right: 9px;
+  padding-right: 2px;
 
   text-align: center;
   font-family: 'Circular Std', sans-serif;
@@ -136,6 +140,8 @@
   margin-right: 30px;
   margin-left: auto;
 }
+
+/* Research Process */
 
 
 @media (max-width: 732px) {

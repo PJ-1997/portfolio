@@ -42,6 +42,25 @@ const IndexPage = () => (
       <div id="Projects" className="projects">
         <div className="project w-container">
           <div className="projectimagebg">
+            <ImagePopup title="Stock Notify" popimage={snpopImage}
+              triggerElement={<img className="projectimage w-inline-block pointer" src={snScreenshots}></img>}>
+            </ImagePopup>
+          </div>
+          <div className="projectinfo">
+            <div className="projecttitle">Stock Notify</div>
+            <div className="projectdates">Nov 2018 - Feb 2019</div>
+            <div className="projectdescription">Sends notifications on stock prices. The user can favorite stocks to the homescreen and the user interface is also built programmatically.</div>
+            <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
+            {/* <div><DemoPopup title="Stock Notify Demo" url="https://www.youtube.com/embed/FQ0yO3F7lbE" triggerElement={<img src={youtubeBtn} className="youtube2"></img>}></DemoPopup></div> */}
+          </div>
+        </div>
+      </div>
+
+      <div style={{ marginBottom: `100px` }}> </div>
+      
+      <div id="Projects" className="projects">
+        <div className="project w-container">
+          <div className="projectimagebg">
             <ImagePopup title="Quick Formula" popimage={qfpopImage}
               triggerElement={<img className="projectimage w-inline-block pointer" src={qfScreenshots}></img>}>
             </ImagePopup>
@@ -53,25 +72,6 @@ const IndexPage = () => (
             <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
             {/* <div><DemoPopup title="Quick Formula Demo" url="https://www.youtube.com/embed/mnsoemOS5Xg" triggerElement={<img src={youtubeBtn} className="youtube1"></img>}></DemoPopup></div> */}
             {/* <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} className="appleBtn" ></img></a></div> */}
-          </div>
-        </div>
-      </div>
-
-      <div style={{ marginBottom: `100px` }}> </div>
-
-      <div id="Projects" className="projects">
-        <div className="project w-container">
-          <div className="projectimagebg">
-            <ImagePopup title="Stock Notify" popimage={snpopImage}
-              triggerElement={<img className="projectimage w-inline-block pointer" src={snScreenshots}></img>}>
-            </ImagePopup>
-          </div>
-          <div className="projectinfo">
-            <div className="projecttitle">Stock Notify</div>
-            <div className="projectdates">Nov 2018 - Feb 2019</div>
-            <div className="projectdescription">Sends notifications on stock prices. The user can favorite stocks to the homescreen and the user interface is also built programmatically.</div>
-            <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
-            {/* <div><DemoPopup title="Stock Notify Demo" url="https://www.youtube.com/embed/FQ0yO3F7lbE" triggerElement={<img src={youtubeBtn} className="youtube2"></img>}></DemoPopup></div> */}
           </div>
         </div>
       </div>

@@ -541,6 +541,12 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      letter-spacing: 0.75px;
      text-decoration: none;
    }
+
+   @-moz-document url-prefix() {
+    .logo {
+      padding: 16px 24px 14px;
+    }
+  }
    
    .logo:hover {
      border-color: #129057;

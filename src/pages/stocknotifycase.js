@@ -21,8 +21,7 @@ const CaseStudy = () => (
           </div>
         </div>
       </section>
-     
-      {/* <div className={caseStyle.layoutspacertop}></div> */}
+      <div className="layout-spacer-top"></div>
 
       {/* Overview */}
       <section className={caseStyle.sectionaligncenter}>
@@ -49,7 +48,7 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>My Role</h1>
-            <p className={caseStyle.overviewdescription}>My role as a UX desinger was to conduct research. Then I worked extensively on user research and user flows in order to cater the application to its primary users. As a developer, I wrote clean code that followed W3C standards to make it easy for future iOS developers to maintain</p>
+            <p className={caseStyle.overviewdescription}>My role as a UX desinger was to conduct research. Then I worked extensively on user research and user flows in order to cater the application to its primary users. As a developer, I wrote clean code that followed W3C standards to make it easy for future iOS developers to maintain.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Challenge</h1>
@@ -61,8 +60,27 @@ const CaseStudy = () => (
           </div>
         </div>
       </section>
-    </body>
+      <div className="layout-spacer-top"></div>
 
+      {/* Research Process */}
+      <section className={caseStyle.sectionaligncenter}>
+        <div className={caseStyle.titlecontainer}>
+          <h1 className={caseStyle.titletext}>Research Process</h1>
+          <div className={caseStyle.underlinetitle}></div>
+        </div>
+
+        <div>
+          <div className={caseStyle.flexcontaineroverviewfirst}>
+            <h1 className={caseStyle.flextitleoverview}>User Persona</h1>
+            <p className={caseStyle.overviewdescription}>The ideal user is a younger generation just started investing in the stock market.</p>
+          </div>
+        </div>
+
+      </section>
+
+
+
+    </body>
     <SEO title="Case Study" />
   </Layout>
 )
