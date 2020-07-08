@@ -1,3 +1,7 @@
+ :root {
+   --desctription-marginleft: 50px;
+ }
+ 
  .introsection {
   display: flex;
   align-items: center;
@@ -136,9 +140,9 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 32px;
-  width: 528px;
+  max-width: 528px;
   margin-top: 20px;
-  margin-left: 40px;
+  margin-left: var(--desctription-marginleft);
 
   /* THis is the previous code */
   /* margin-right: 30px; */
@@ -148,7 +152,7 @@
 
 /* Design Process */
 .flexTextContainer {
-  margin-left: 40px;
+
 }
 .titleParagraph {
   font-family: 'Circular Std', sans-serif;
@@ -156,12 +160,9 @@
   font-weight: bold;
   font-size: 22px;
   line-height: 32px;
-
-  width: 528px;
+  max-width: 528px;
   margin-top: 20px;
-  margin-right: 30px;
-  margin-left: auto;
-  margin-bottom: 0px;
+  margin-left: var(--desctription-marginleft);
 }
 
 .subjectText {
@@ -170,10 +171,8 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 32px;
-  
-  width: 528px;
-  margin-right: 30px;
-  margin-left: auto;
+  max-width: 528px;
+  margin-left: var(--desctription-marginleft);
 }
 
 @media (max-width: 732px) {
@@ -194,23 +193,26 @@
     width: auto;
     padding-right: 0px;
   }
+  .overviewTitle {
+    margin-bottom: 5px;
+  }
   .overviewdescription {
     margin-right: 0px;
     width: auto;
     margin-top: 5px;
     margin-left: 0px;
-  }
-  .overviewTitle {
-    margin-bottom: 5px;
+    max-width: 732px;
   }
   /* Design Process */
-  .flexTextContainer {
-    margin-left: 0px;
-  }
   .subjectText {
     width: auto;
+    margin-left: 0px;
+    max-width: 732px;
   }
   .titleParagraph {
     width: auto;
+    margin-left: 0px;
+    max-width: 732px;
   }
+  
 }
