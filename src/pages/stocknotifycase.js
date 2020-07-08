@@ -77,7 +77,32 @@ const CaseStudy = () => (
         </div>
 
       </section>
+      <div className="layout-spacer-top"></div>
 
+      {/* Research Process */}
+      <section className={caseStyle.sectionaligncenter}>
+        <div className={caseStyle.titlecontainer}>
+          <h1 className={caseStyle.titletext}>Design Process</h1>
+          <div className={caseStyle.underlinetitle}></div>
+        </div>
+
+        <div>
+          <div className={caseStyle.flexcontaineroverviewfirst}>
+            <h1 className={caseStyle.flextitleoverview}>Assets</h1>
+            <p className={caseStyle.overviewdescription}>The ideal user is a younger generation just started investing in the stock market.</p>
+          </div>
+
+          <div className={caseStyle.flexcontaineroverviewfirst}>
+            <h1 className={caseStyle.flextitleoverview}>Prototyping and Iterations</h1>
+            <div className={caseStyle.flexTextContainer}>
+              <p className={caseStyle.titleParagraph}>High Fidelity Prototyping</p>
+              <p className={caseStyle.subjectText}>The ideal user is a younger generation just started investing in the stock market.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
 
 
     </body>

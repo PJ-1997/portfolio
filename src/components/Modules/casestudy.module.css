@@ -127,6 +127,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
+  line-height: 38px;
 }
 
 .overviewdescription {
@@ -137,12 +138,43 @@
   line-height: 32px;
   width: 528px;
   margin-top: 20px;
+  margin-left: 40px;
+
+  /* THis is the previous code */
+  /* margin-right: 30px; */
+  /* margin-left: auto; */
+
+}
+
+/* Design Process */
+.flexTextContainer {
+  margin-left: 40px;
+}
+.titleParagraph {
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px;
+
+  width: 528px;
+  margin-top: 20px;
+  margin-right: 30px;
+  margin-left: auto;
+  margin-bottom: 0px;
+}
+
+.subjectText {
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  
+  width: 528px;
   margin-right: 30px;
   margin-left: auto;
 }
-
-/* Research Process */
-
 
 @media (max-width: 732px) {
   .introsection {
@@ -154,6 +186,9 @@
   .flexcontaineroverview {
     display: inline-block;
   }
+  .flexcontaineroverviewfirst {
+    display: inline-block;
+  }
   .flextitleoverview{
     text-align: left;
     width: auto;
@@ -163,8 +198,19 @@
     margin-right: 0px;
     width: auto;
     margin-top: 5px;
+    margin-left: 0px;
   }
   .overviewTitle {
     margin-bottom: 5px;
+  }
+  /* Design Process */
+  .flexTextContainer {
+    margin-left: 0px;
+  }
+  .subjectText {
+    width: auto;
+  }
+  .titleParagraph {
+    width: auto;
   }
 }
