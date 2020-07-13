@@ -17,7 +17,7 @@ const CaseStudy = () => (
             <div className={caseStyle.bottomtext}>Sends notifications on stock prices.</div>
           </div>
           <div className={caseStyle.IphonePic}>
-            <img src={Rotato} className={caseStyle.ratioimage}></img>
+            <img src={Rotato} className={caseStyle.ratioimage} alt="Stock Notify"></img>
           </div>
         </div>
       </section>

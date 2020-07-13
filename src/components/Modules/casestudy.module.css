@@ -1,5 +1,8 @@
  :root {
    --desctription-marginleft: 50px;
+   --description-text: 18px;
+   
+   --main-headingleftside-text: 30px;
  }
  
  .introsection {
@@ -95,7 +98,7 @@
   font-family: 'Circular Std', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: var(--main-headingleftside-text);
   line-height: 46px;
   text-align: center;
 }
@@ -103,7 +106,7 @@
 .overviewText {
   /* 2. Styles for text */
   font-family: 'Circular Std', sans-serif;
-  font-size: 18px;
+  font-size: var(--description-text);
   line-height: 32px;
 
   font-style: normal;
@@ -130,7 +133,7 @@
   font-family: 'Circular Std', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
+  font-size: var(--main-headingleftside-text);
   line-height: 38px;
 }
 
@@ -138,7 +141,7 @@
   font-family: 'Circular Std', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: var(--description-text);
   line-height: 32px;
   max-width: 528px;
   margin-top: 20px;
@@ -169,7 +172,7 @@
   font-family: 'Circular Std', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  font-size: var(--description-text);
   line-height: 32px;
   max-width: 528px;
   margin-left: var(--desctription-marginleft);

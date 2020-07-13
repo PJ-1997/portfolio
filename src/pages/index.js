@@ -3,8 +3,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 import ImagePopup from "../components/Popups/popup"
-import DemoPopup from "../components/Popups/demopopup"
-import Image from "../components/image"
+// import DemoPopup from "../components/Popups/demopopup"
+// import Image from "../components/image"
 // Images
 import qfpopImage from "../images/qfPopup.jpg"
 import snpopImage from "../images/snPopup.jpg"
@@ -12,8 +12,8 @@ import qfScreenshots from "../images/qfScreenshots.png"
 import snScreenshots from "../images/snScreenshots.png"
 import github from "../images/githubLogo.png"
 import linkedin from "../images/linkedinLogo.png"
-import appStoreBtn from "../images/btn.png"
-import youtubeBtn from "../images/youtubeButton.png"
+// import appStoreBtn from "../images/btn.png"
+// import youtubeBtn from "../images/youtubeButton.png"
 
 const IndexPage = () => (
   <Layout>
@@ -43,7 +43,7 @@ const IndexPage = () => (
         <div className="project w-container">
           <div className="projectimagebg">
             <ImagePopup title="Stock Notify" popimage={snpopImage}
-              triggerElement={<img className="projectimage w-inline-block pointer" src={snScreenshots}></img>}>
+              triggerElement={<img className="projectimage w-inline-block pointer" src={snScreenshots} alt="Stock Notify"></img>}>
             </ImagePopup>
           </div>
           <div className="projectinfo">
@@ -62,7 +62,7 @@ const IndexPage = () => (
         <div className="project w-container">
           <div className="projectimagebg">
             <ImagePopup title="Quick Formula" popimage={qfpopImage}
-              triggerElement={<img className="projectimage w-inline-block pointer" src={qfScreenshots}></img>}>
+              triggerElement={<img className="projectimage w-inline-block pointer" src={qfScreenshots} alt="Quick Formula"></img>}>
             </ImagePopup>
           </div>
           <div className="projectinfo">
