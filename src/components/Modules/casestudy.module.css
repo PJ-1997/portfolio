@@ -178,6 +178,12 @@
   margin-left: var(--desctription-marginleft);
 }
 
+.styleguideImg {
+  max-width: 500px;
+  margin-top: 20px;
+  margin-left: var(--desctription-marginleft);
+}
+
 @media (max-width: 732px) {
   .introsection {
     height: 500px;
@@ -206,6 +212,9 @@
     margin-left: 0px;
     max-width: 732px;
   }
+  .titletext {
+    margin-top: 50px;
+  }
   /* Design Process */
   .subjectText {
     width: auto;
@@ -216,6 +225,11 @@
     width: auto;
     margin-left: 0px;
     max-width: 732px;
+  }
+
+  .styleguideImg {
+    margin-left: 0px;
+    width: 100%;
   }
   
 }

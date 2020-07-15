@@ -1,9 +1,10 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
-import Rotato from "../images/Rotato.png"
 import caseStyle from "../components/Modules/casestudy.module.css"
+
+import rotatoImg from "../images/Rotato.png"
+import styleImg from "../images/stocknotify-imgs/styleguide.svg"
 
 const CaseStudy = () => (
   <Layout>
@@ -17,7 +18,7 @@ const CaseStudy = () => (
             <div className={caseStyle.bottomtext}>Sends notifications on stock prices.</div>
           </div>
           <div className={caseStyle.IphonePic}>
-            <img src={Rotato} className={caseStyle.ratioimage} alt="Stock Notify"></img>
+            <img src={rotatoImg} className={caseStyle.ratioimage} alt="Stock Notify"></img>
           </div>
         </div>
       </section>
@@ -79,7 +80,7 @@ const CaseStudy = () => (
       </section>
       <div className="layout-spacer-top"></div>
 
-      {/* Research Process */}
+      {/* Design Process */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
           <h1 className={caseStyle.titletext}>Design Process</h1>
@@ -89,7 +90,11 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Assets</h1>
-            <p className={caseStyle.overviewdescription}>The ideal user is a younger generation just started investing in the stock market.</p>
+            <div className={caseStyle.flexTextContainer}>
+              <p className={caseStyle.overviewdescription}>The ideal user is a younger generation just started investing in the stock market.</p>
+              <img className={caseStyle.styleguideImg} src={styleImg} alt="styleimg"></img>
+            </div>
+
           </div>
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
