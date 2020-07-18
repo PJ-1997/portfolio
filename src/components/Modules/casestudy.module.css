@@ -52,9 +52,9 @@
   padding-bottom: 80px;
 }
 
-.ratioimage {
-  max-height: 550px;
-}
+/* .ratioimage {
+
+} */
 
 /* Overview Section */
 .sectionaligncenter {
@@ -154,9 +154,9 @@
 }
 
 /* Design Process */
-.flexTextContainer {
+/* .flexTextContainer {
 
-}
+} */
 .titleParagraph {
   font-family: 'Circular Std', sans-serif;
   font-style: normal;

@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import caseStyle from "../components/Modules/casestudy.module.css"
 
-import rotatoImg from "../images/Rotato.png"
+import rotatoImg from "../images/stocknotify-imgs/rotato.png"
 import styleImg from "../images/stocknotify-imgs/styleguide.svg"
 
 const CaseStudy = () => (
