@@ -5,6 +5,7 @@ import caseStyle from "../components/Modules/casestudy.module.css"
 
 import rotatoImg from "../images/stocknotify-imgs/rotato.png"
 import styleImg from "../images/stocknotify-imgs/styleguide.svg"
+import lofiImg from "../images/stocknotify-imgs/lofi-img.png"
 
 const CaseStudy = () => (
   <Layout>
@@ -73,7 +74,7 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>User Persona</h1>
-            <p className={caseStyle.overviewdescription}>The ideal user is a younger generation just started investing in the stock market.</p>
+            <p className={caseStyle.overviewdescription}>Before any design is layed out, I needed to conduct user research in order to In order to design the application. Creating the user persona will streamline the design process by having</p>
           </div>
         </div>
 
@@ -100,10 +101,9 @@ const CaseStudy = () => (
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Prototyping and Iterations</h1>
             <div className={caseStyle.flexTextContainer}>
-              <p className={caseStyle.titleParagraph}>High Fidelity Prototyping</p>
-              <p className={caseStyle.subjectText}>The ideal user is a younger generation just started investing in the stock market.</p>
-            </div>
-
+              <p className={caseStyle.titleParagraph}>Lo-Fidelity Prototyping</p>
+              <p className={caseStyle.subjectText}>The initial design was to create 3 steps. This includes the ability to search, favorite, and set up a price notification</p>
+            </div>  
           </div>
         </div>
 

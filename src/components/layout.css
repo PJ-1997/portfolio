@@ -405,7 +405,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .footer {
-     margin-top: 64px;
+     /* margin-top: 64px; */
      margin-bottom: 20px;
    }
    

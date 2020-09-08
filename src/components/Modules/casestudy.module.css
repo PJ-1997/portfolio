@@ -184,6 +184,12 @@
   margin-left: var(--desctription-marginleft);
 }
 
+.lofidimg {
+  /* max-width: 500px; */
+  margin-top: 20px;
+  margin-left: var(--desctription-marginleft);
+}
+
 @media (max-width: 732px) {
   .introsection {
     height: 500px;

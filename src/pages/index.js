@@ -7,7 +7,7 @@ import ImagePopup from "../components/Popups/popup"
 // import Image from "../components/image"
 // Images
 import qfpopImage from "../images/qfPopup.jpg"
-import snpopImage from "../images/snPopup.jpg"
+import snpopImage from "../images/snPopup.png"
 import qfScreenshots from "../images/qfScreenshots.png"
 import snScreenshots from "../images/snScreenshots.png"
 import github from "../images/githubLogo.png"
