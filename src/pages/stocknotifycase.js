@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import caseStyle from "../components/Modules/casestudy.module.css"
+import { Link } from "gatsby"
 
 import rotatoImg from "../images/stocknotify-imgs/rotato.png"
 import styleImg from "../images/stocknotify-imgs/styleguide.svg"
@@ -42,7 +43,7 @@ const CaseStudy = () => (
             <p className={caseStyle.overviewText}>UI/UX Desinger <br></br>iOS Developer </p>
           </div>
           <div>
-            <h1 className={caseStyle.overviewTitle}>Team</h1>
+            <h1 className={caseStyle.overviewTitle}>Involvement</h1>
             <p className={caseStyle.overviewText}>Pedro Molina</p>
           </div>
         </div>
@@ -103,12 +104,15 @@ const CaseStudy = () => (
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Lo-Fidelity Prototyping</p>
               <p className={caseStyle.subjectText}>The initial design was to create 3 steps. This includes the ability to search, favorite, and set up a price notification</p>
-            </div>  
+            </div>
           </div>
         </div>
 
       </section>
 
+      <div className="rewind-container">
+        <Link className="rewind" to="/">Back to Portfolio</Link>
+      </div>
 
     </body>
     <SEO title="Case Study" />

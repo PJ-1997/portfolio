@@ -3,7 +3,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
 import ImagePopup from "../components/Popups/popup"
-// import DemoPopup from "../components/Popups/demopopup"
+import DemoPopup from "../components/Popups/demopopup"
 // import Image from "../components/image"
 // Images
 import qfpopImage from "../images/qfPopup.jpg"
@@ -13,7 +13,7 @@ import snScreenshots from "../images/snScreenshots.png"
 import github from "../images/githubLogo.png"
 import linkedin from "../images/linkedinLogo.png"
 // import appStoreBtn from "../images/btn.png"
-// import youtubeBtn from "../images/youtubeButton.png"
+import youtubeBtn from "../images/youtubeButton.png"
 
 const IndexPage = () => (
   <Layout>
@@ -57,7 +57,7 @@ const IndexPage = () => (
       </div>
 
       <div style={{ marginBottom: `100px` }}> </div>
-      
+
       <div id="Projects" className="projects">
         <div className="project w-container">
           <div className="projectimagebg">
@@ -69,8 +69,8 @@ const IndexPage = () => (
             <div className="projecttitle">Quick Formula</div>
             <div className="projectdates">Oct 2017 - Jan 2018</div>
             <div className="projectdescription">Calculates math and science formulas. The user can favoirte most used formulas to the homescreen. User interface is built programmatically.</div>
-            <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
-            {/* <div><DemoPopup title="Quick Formula Demo" url="https://www.youtube.com/embed/mnsoemOS5Xg" triggerElement={<img src={youtubeBtn} className="youtube1"></img>}></DemoPopup></div> */}
+            <div><DemoPopup title="Quick Formula Demo" url="https://www.youtube.com/embed/mnsoemOS5Xg" triggerElement={<a className="linkcasestudy">View Demo</a>}></DemoPopup></div>
+            {/* <Link to="/stocknotifycase" className="linkcasestudy"></Link> */}
             {/* <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} className="appleBtn" ></img></a></div> */}
           </div>
         </div>
