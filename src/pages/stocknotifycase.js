@@ -7,6 +7,8 @@ import { Link } from "gatsby"
 import rotatoImg from "../images/stocknotify-imgs/rotato.png"
 import styleImg from "../images/stocknotify-imgs/styleguide.svg"
 import lofiNotify from "../images/stocknotify-imgs/lofi-notify.png"
+import lofiMain from "../images/stocknotify-imgs/lofi-main.png"
+import hifiMain from "../images/stocknotify-imgs/hifi-main.png"
 
 const CaseStudy = () => (
   <Layout>
@@ -103,10 +105,11 @@ const CaseStudy = () => (
 
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Assets</h1>
+            <h1 className={caseStyle.flextitleoverview}>Findings</h1>
             <div className={caseStyle.flexTextContainer}>
-              <p className={caseStyle.overviewdescription}>The ideal user is a younger generation just started investing in the stock market.</p>
-              <img className={caseStyle.styleguideImg} src={styleImg} alt="styleimg"></img>
+              <p className={caseStyle.overviewdescription}>The goal of the prototyping phase is to evaluates aspects of the new design and to  check if the design meets the desired outcome. From the user data, I constructed a list of features for the Stock Notify application. </p>
+              <p className={caseStyle.overviewdescription}>I chose to focus on three features for the application. This includes the ability to search different stocks, adding stock to some sort of homepage to easily view, and set up a price notification.</p>
+              {/* <img className={caseStyle.styleguideImg} src={styleImg} alt="styleimg"></img> */}
             </div>
 
           </div>
@@ -116,8 +119,8 @@ const CaseStudy = () => (
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Lo-Fidelity Prototyping</p>
               <p className={caseStyle.subjectText}>I like to get my ideas on paper before I move into the digitally creating the low fidelity prototypes. <br></br><br></br>I created low fidelity prototypes to verify the design objective. Once I’ve gone through a couple of iterations, I then shared these low fidelity prototypes with user feedback.</p>
-              <img className={caseStyle.styleguideImg} src={lofiNotify} alt="styleimg"></img>
-              <p className={caseStyle.imgdescriptext}>Initial Iteration of Notify Screen</p>
+              <img className={caseStyle.styleguideImg} src={lofiMain} alt="styleimg"></img>
+              <p className={caseStyle.imgdescriptext}>Lo-Fidelity Wireframes</p>
             </div>
           </div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
@@ -125,6 +128,17 @@ const CaseStudy = () => (
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Evaluating Inital Wireframes</p>
               <p className={caseStyle.subjectText}>The first iteration of the set up notification screen was originally going to incorporate a slide menu showing the user different options which included the less than >, greater than  and equal = sign to setup the condition on the notification. I then created a more simple design giving the user the option without the use of a slide menu. This make the flow of setting up a notification faster and easier on the user.</p>
+              <img className={caseStyle.styleguideImg} src={lofiNotify} alt="styleimg"></img>
+              <p className={caseStyle.imgdescriptext}>Initial Iteration of Notify Screen</p>
+            </div>
+          </div>
+          <div className={caseStyle.flexcontaineroverviewfirst}>
+            <h1 className={caseStyle.flextitleoverview}></h1>
+            <div className={caseStyle.flexTextContainer}>
+              <p className={caseStyle.titleParagraph}>Hi-Fidelity Wireframes</p>
+              <p className={caseStyle.subjectText}>The first iteration of the set up notification screen was originally going to incorporate a slide menu showing the user different options which included the less than >, greater than  and equal = sign to setup the condition on the notification.</p>
+              <img className={caseStyle.styleguideImg} src={hifiMain} alt="styleimg"></img>
+              <p className={caseStyle.imgdescriptext}>Hi-Fidelity Wireframes</p>
             </div>
           </div>
         </div>
