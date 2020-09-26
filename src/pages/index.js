@@ -12,8 +12,6 @@ import qfScreenshots from "../images/qfScreenshots.png"
 import snScreenshots from "../images/snScreenshots.png"
 import github from "../images/githubLogo.png"
 import linkedin from "../images/linkedinLogo.png"
-// import appStoreBtn from "../images/btn.png"
-// import youtubeBtn from "../images/youtubeButton.png"
 
 const IndexPage = () => (
   <Layout>

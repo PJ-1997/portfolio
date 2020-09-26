@@ -6,9 +6,7 @@ import { Link } from "gatsby"
 
 import rotatoImg from "../images/stocknotify-imgs/rotato.png"
 import styleImg from "../images/stocknotify-imgs/styleguide.svg"
-import lofiImg from "../images/stocknotify-imgs/lofi-img.png"
-import testimg from "../images/stocknotify-imgs/Test.jpg"
-import test2nd from "../images/stocknotify-imgs/test2.jpg"
+import lofiNotify from "../images/stocknotify-imgs/lofi-notify.png"
 
 const CaseStudy = () => (
   <Layout>
@@ -118,7 +116,8 @@ const CaseStudy = () => (
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Lo-Fidelity Prototyping</p>
               <p className={caseStyle.subjectText}>I like to get my ideas on paper before I move into the digitally creating the low fidelity prototypes. <br></br><br></br>I created low fidelity prototypes to verify the design objective. Once I’ve gone through a couple of iterations, I then shared these low fidelity prototypes with user feedback.</p>
-              <img className={caseStyle.styleguideImg} src={test2nd} alt="styleimg"></img>
+              <img className={caseStyle.styleguideImg} src={lofiNotify} alt="styleimg"></img>
+              <p className={caseStyle.imgdescriptext}>Initial Iteration of Notify Screen</p>
             </div>
           </div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
