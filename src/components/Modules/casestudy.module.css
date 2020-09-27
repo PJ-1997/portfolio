@@ -202,6 +202,28 @@
   font-weight: 500;
 }
 
+.reflectiontext {
+  /* background-color: red; */
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--description-text);
+  line-height: 32px;
+  text-align: center;
+
+  max-width: 528px;
+  margin-bottom: 0px;
+}
+
+.reflectionContainer {
+  /* background-color: blue; */
+  margin-top: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 732px) {
   .introsection {
     height: 500px;

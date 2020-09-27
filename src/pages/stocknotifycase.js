@@ -144,6 +144,20 @@ const CaseStudy = () => (
         </div>
 
       </section>
+      <div className="layout-spacer-top"></div>
+
+      {/* Conclusion */}
+      <section className={caseStyle.sectionaligncenter}>
+        <div className={caseStyle.titlecontainer}>
+          <h1 className={caseStyle.titletext}>Reflection</h1>
+          <div className={caseStyle.underlinetitle}></div>
+        </div>
+
+        <div className={caseStyle.reflectionContainer}>
+          <p className={caseStyle.reflectiontext}>This project involed the use of a variety of data collection techniques to find out the user painpoints. This is important because we want to make sure we develop features that fufills a users' needs. If their is no painpoint or need to fill in the first place, then we do not have a feature <br></br><br></br> Here is an early demo created in Xcode.</p>
+        </div>
+
+      </section>
 
       <div className="rewind-container">
         <Link className="rewind" to="/">Back to Portfolio</Link>
