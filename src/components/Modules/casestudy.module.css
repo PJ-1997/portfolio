@@ -202,8 +202,20 @@
   font-weight: 500;
 }
 
+.figmacontrainer {
+  margin-top: 40px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.figmaiframe {
+  width: 100%;
+  height: 600px;
+  border: 1px;
+}
+
 .reflectiontext {
-  /* background-color: red; */
   font-family: 'Circular Std', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -216,7 +228,6 @@
 }
 
 .reflectionContainer {
-  /* background-color: blue; */
   margin-top: 50px;
 
   display: flex;

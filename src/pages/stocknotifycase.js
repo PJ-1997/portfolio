@@ -141,6 +141,12 @@ const CaseStudy = () => (
               <p className={caseStyle.imgdescriptext}>Hi-Fidelity Wireframes</p>
             </div>
           </div>
+          
+          {/* TODO figma */}
+          <div className={caseStyle.figmacontrainer}>
+          <iframe className={caseStyle.figmaiframe} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Flo16QmS6ty9ePx0u9UEA8v%2FProtoype-SN%3Fnode-id%3D5%253A96%26viewport%3D553%252C225%252C0.2686116397380829%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
+          </div>
+
         </div>
 
       </section>
@@ -154,7 +160,7 @@ const CaseStudy = () => (
         </div>
 
         <div className={caseStyle.reflectionContainer}>
-          <p className={caseStyle.reflectiontext}>This project involed the use of a variety of data collection techniques to find out the user painpoints. This is important because we want to make sure we develop features that fufills a users' needs. If their is no painpoint or need to fill in the first place, then we do not have a feature <br></br><br></br> Here is an early demo created in Xcode.</p>
+          <p className={caseStyle.reflectiontext}>This project involed the use of a variety of data collection techniques to find out the user painpoints. This is important because we want to make sure we develop features that fufills a users' needs. If their is no painpoint or need to fill in the first place, then we do not have a feature</p>
         </div>
 
       </section>
