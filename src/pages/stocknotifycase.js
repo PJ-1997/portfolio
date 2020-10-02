@@ -141,10 +141,14 @@ const CaseStudy = () => (
               <p className={caseStyle.imgdescriptext}>Hi-Fidelity Wireframes</p>
             </div>
           </div>
-          
+
           {/* TODO figma */}
+          <div className={caseStyle.titleFigContainer}>
+            <h1 className={caseStyle.textFig}>Prototype</h1>
+          </div>
+
           <div className={caseStyle.figmacontrainer}>
-          <iframe className={caseStyle.figmaiframe} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Flo16QmS6ty9ePx0u9UEA8v%2FProtoype-SN%3Fnode-id%3D5%253A96%26viewport%3D553%252C225%252C0.2686116397380829%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
+            <iframe className={caseStyle.figmaiframe} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Flo16QmS6ty9ePx0u9UEA8v%2FProtoype-SN%3Fnode-id%3D5%253A96%26viewport%3D553%252C225%252C0.2686116397380829%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
           </div>
 
         </div>
