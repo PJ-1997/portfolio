@@ -42,7 +42,7 @@ const CaseStudy = () => (
           </div>
           <div>
             <h1 className={caseStyle.overviewTitle}>Focus</h1>
-            <p className={caseStyle.overviewText}>UI/UX Desinger <br></br>iOS Developer </p>
+            <p className={caseStyle.overviewText}>Product Desinger<br></br>iOS Developer </p>
           </div>
           <div>
             <h1 className={caseStyle.overviewTitle}>Involvement</h1>
@@ -53,15 +53,15 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>My Role</h1>
-            <p className={caseStyle.overviewdescription}>My role as a UX desinger was to conduct research. Then I worked extensively on user research and user flows in order to cater the application to its primary users. As a developer, I wrote clean code that followed W3C standards to make it easy for future iOS developers to maintain.</p>
+            <p className={caseStyle.overviewdescription}>My role as a Product designer was to conduct research. This involved asking questions such as who are the users and how they currently accomplish the task. I then designed interfaces to improve the task of setting a price notification.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Challenge</h1>
-            <p className={caseStyle.overviewdescription}>The main challenge during developing the screen to setup a notification. The first iteration of the design involved too much interaction too setup a notification. And how should the favorited and the notified stock be display in one screen.</p>
+            <p className={caseStyle.overviewdescription}>The main challenge occurred when designing the screen which allowed the user to set up a price notification. The initial iteration of the design involved too much interaction to setup a price notification. Which also brought up the question, how should the notified and favorited stocks appear to the user.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Solution</h1>
-            <p className={caseStyle.overviewdescription}>After many iterations of the setup notification screen. I decided to only give the user two option in the notify screen. Set up notification higher or lower than typed in price. The application currently has two tab bar items home which shows favorited stocks and notified stock and search screen.</p>
+            <p className={caseStyle.overviewdescription}>After multiple iterations of the setup notification screen. I decided to only give the user two options in the notify screen.  Either set a price higher or lower than the current stock price. This small amount of choice makes the process of setting a price notification simple to the user.</p>
           </div>
         </div>
       </section>
