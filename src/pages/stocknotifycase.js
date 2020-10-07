@@ -9,6 +9,7 @@ import styleImg from "../images/stocknotify-imgs/styleguide.svg"
 import lofiNotify from "../images/stocknotify-imgs/lofi-notify.png"
 import lofiMain from "../images/stocknotify-imgs/lofi-main.png"
 import hifiMain from "../images/stocknotify-imgs/hifi-main.png"
+import compare from "../images/stocknotify-imgs/compare.png"
 
 const CaseStudy = () => (
   <Layout>
@@ -70,45 +71,45 @@ const CaseStudy = () => (
       {/* Research Process */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Research Process</h1>
+          <h1 className={caseStyle.titletext}>Research</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Initial Research</h1>
-            <p className={caseStyle.overviewdescription}>The first step of the design process begins with collecting user data. This includes who are the users, how do they currently accomplish the task, and what do users perceive are problems with their current practices. These questions can be categorized as one phrase known as the problem space. </p>
+            <h1 className={caseStyle.flextitleoverview}>Explanation</h1>
+            <p className={caseStyle.overviewdescription}>The first step of the design process begins with collecting user data. This includes who are the users, how do they currently accomplish the task, and what do users perceive are problems with their current practices. In this case, I want to find out how do users get up to date with their stock prices.</p>
           </div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Naturalistic Observation</h1>
-            <p className={caseStyle.overviewdescription}>To understand the problem space, we carry out a set of techniques to discover how is the user currently accomplishing the task. In this case, I chose to conduct a naturalistic observation to observe the user with no interaction between me and the user. The goal of this observation was to see how did the user keep themselves notified on price changes in their stocks. The data I found was quite interesting, users would open their respective brokerage application and check the price multiple times throughout day which got me thinking on potential questions to ask during a direct interaction with the user</p>
+            <p className={caseStyle.overviewdescription}>To understand the problem space, I set to carry out a set of techniques to discover how is the user currently accomplishing the task. In this case, I chose to conduct a naturalistic observation to observe the user with no interaction between me and the user. The goal of this observation was to see how did the user keep themselves notified on price changes in their stocks. The data I found was quite interesting, users would open their respective brokerage application and check the price multiple times throughout day which got me thinking on potential questions to ask during a direct interaction with the user.</p>
           </div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>User Interview</h1>
-            <p className={caseStyle.overviewdescription}>From the data I gathered from the Naturalistic Observation	 I chose to conduct an interview with the user to furthering clarify the finding from the observation and to have an opportunity to have a one on one discussion. After the discussion, the user checks the price several times a day seeing if the price is right to sell or buy. From the research I gathered I concluded that the Stock Notify application must have the ability to search different stocks and easily set up a price notification.</p>
+            <p className={caseStyle.overviewdescription}>From the data I gathered from the Naturalistic Observation, I chose to conduct an interview with the user to further clarify the findings from the observation. After the discussion, I concluded that the user checks the price several times a day seeing if the price is right to sell or buy. From the research I gathered I concluded that the Stock Notify application must have the ability to search different stocks and easily set up a price notification.</p>
           </div>
-          <div className={caseStyle.flexcontaineroverviewfirst}>
+          {/* <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>User Persona</h1>
             <p className={caseStyle.overviewdescription}>Now it is time to present what I discovered about the user. In this case, I chose to construct a User Persona to highlight data I collected about the user. </p>
-          </div>
+          </div> */}
         </div>
 
       </section>
       <div className="layout-spacer-top"></div>
 
-      {/* Design Process */}
+      {/* Prototype */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Design Process</h1>
+          <h1 className={caseStyle.titletext}>Design</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Findings</h1>
+            <h1 className={caseStyle.flextitleoverview}>Findings from Research</h1>
             <div className={caseStyle.flexTextContainer}>
-              <p className={caseStyle.overviewdescription}>The goal of the prototyping phase is to evaluates aspects of the new design and to  check if the design meets the desired outcome. From the user data, I constructed a list of features for the Stock Notify application. </p>
-              <p className={caseStyle.overviewdescription}>I chose to focus on three features for the application. This includes the ability to search different stocks, adding stock to some sort of homepage to easily view, and set up a price notification.</p>
+              <p className={caseStyle.overviewdescription}>From the user data, I constructed a list of features for the Stock Notify application. This includes the ability to search, favorite, and set a price notification.</p>
+              <p className={caseStyle.overviewdescription}>The reason I chose to focus on these three features is because these are essential to complete the task of reminding the user on stock prices.</p>
               {/* <img className={caseStyle.styleguideImg} src={styleImg} alt="styleimg"></img> */}
             </div>
 
@@ -118,7 +119,7 @@ const CaseStudy = () => (
             <h1 className={caseStyle.flextitleoverview}>Prototyping and Iterations</h1>
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Lo-Fidelity Prototyping</p>
-              <p className={caseStyle.subjectText}>I like to get my ideas on paper before I move into the digitally creating the low fidelity prototypes. <br></br><br></br>I created low fidelity prototypes to verify the design objective. Once I’ve gone through a couple of iterations, I then shared these low fidelity prototypes with user feedback.</p>
+              <p className={caseStyle.subjectText}>I like to get my ideas on paper before I move into digitally creating the lo-fidelity prototypes.<br></br><br></br>Once I’ve gone through a couple of iterations, I then shared these lo-fidelity prototypes with users to get some feedback. This is an important step to make sure that the design fulfills the users’ need.</p>
               <img className={caseStyle.styleguideImg} src={lofiMain} alt="styleimg"></img>
               <p className={caseStyle.imgdescriptext}>Lo-Fidelity Wireframes</p>
             </div>
@@ -127,7 +128,7 @@ const CaseStudy = () => (
             <h1 className={caseStyle.flextitleoverview}></h1>
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Evaluating Inital Wireframes</p>
-              <p className={caseStyle.subjectText}>The first iteration of the set up notification screen was originally going to incorporate a slide menu showing the user different options which included the less than >, greater than  and equal = sign to setup the condition on the notification. I then created a more simple design giving the user the option without the use of a slide menu. This make the flow of setting up a notification faster and easier on the user.</p>
+              <p className={caseStyle.subjectText}>The first iteration of the set up notification screen was originally going to incorporate a slide menu showing the user different options which included setting the price notification either higher, lower, or equal than the price that the user typed in.<br></br><br></br> This iteration involved too much interaction from the user. From the user feedback, I aimed to create the notify screen more simple to the user.</p>
               <img className={caseStyle.styleguideImg} src={lofiNotify} alt="styleimg"></img>
               <p className={caseStyle.imgdescriptext}>Initial Iteration of Notify Screen</p>
             </div>
@@ -136,7 +137,10 @@ const CaseStudy = () => (
             <h1 className={caseStyle.flextitleoverview}></h1>
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Hi-Fidelity Wireframes</p>
-              <p className={caseStyle.subjectText}>The first iteration of the set up notification screen was originally going to incorporate a slide menu showing the user different options which included the less than >, greater than  and equal = sign to setup the condition on the notification.</p>
+              <p className={caseStyle.subjectText}>I chose to only give the user two options. Either set the price notification	 higher or lower than the inputed price. And I also removed the slide menu so that the options are apparent to the user and not hidden away through a slide menu. This new iteration is simple and improved the task of setting a price notification.</p>
+              <img className={caseStyle.styleguideImg} src={compare} alt="styleimg"></img>
+              <p className={caseStyle.imgdescriptext}>Comparing Iterations</p>
+              <p className={caseStyle.bottomImageST}>I also chose to color code the type of notification. For example, green is above and red is below. I kept this concept when creating the home screen for the application. The user is able to quickly see what notifications are still active and tell how the notified stock will activate based on the color.</p>
               <img className={caseStyle.styleguideImg} src={hifiMain} alt="styleimg"></img>
               <p className={caseStyle.imgdescriptext}>Hi-Fidelity Wireframes</p>
             </div>
@@ -144,7 +148,7 @@ const CaseStudy = () => (
 
           {/* TODO figma */}
           <div className={caseStyle.titleFigContainer}>
-            <h1 className={caseStyle.textFig}>Prototype</h1>
+            <h1 className={caseStyle.textFig}>Figma Prototype</h1>
           </div>
 
           <div className={caseStyle.figmacontrainer}>

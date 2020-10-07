@@ -253,6 +253,17 @@
   justify-content: center;
 }
 
+.bottomImageST {
+  font-family: 'Circular Std', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: var(--description-text);
+  line-height: 32px;
+  max-width: 528px;
+  margin-left: var(--desctription-marginleft);
+  margin-top: 40px;
+}
+
 @media (max-width: 732px) {
   .introsection {
     height: 500px;
@@ -286,6 +297,11 @@
   }
   /* Design Process */
   .subjectText {
+    width: auto;
+    margin-left: 0px;
+    max-width: 732px;
+  }
+  .bottomImageST {
     width: auto;
     margin-left: 0px;
     max-width: 732px;
