@@ -13,7 +13,7 @@ import lofiMain from "../images/stocknotify-imgs/lofi-main.png"
 import hifiMain from "../images/stocknotify-imgs/hifi-main.png"
 import compare from "../images/stocknotify-imgs/compare.png"
 
-import comparePopup from "../images/stocknotify-imgs/popup-images/compare.jpg"
+import comparePopup from "../images/stocknotify-imgs/popup-images/compare.png"
 import lofiPopup from "../images/stocknotify-imgs/popup-images/lofiPopup.png"
 import initialPopup from "../images/stocknotify-imgs/popup-images/initialPopup.png"
 import hifiPopup from "../images/stocknotify-imgs/popup-images/hifiPopup.png"
