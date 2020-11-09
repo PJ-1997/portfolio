@@ -3,13 +3,20 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import caseStyle from "../components/Modules/casestudy.module.css"
 import { Link } from "gatsby"
+import ImagePopup from "../components/Popups/popup"
 
 import rotatoImg from "../images/stocknotify-imgs/rotato.png"
-import styleImg from "../images/stocknotify-imgs/styleguide.svg"
-import lofiNotify from "../images/stocknotify-imgs/lofi-notify.png"
+// import styleImg from "../images/stocknotify-imgs/styleguide.svg"
+
+import initialScreen from "../images/stocknotify-imgs/lofi-notify.png"
 import lofiMain from "../images/stocknotify-imgs/lofi-main.png"
 import hifiMain from "../images/stocknotify-imgs/hifi-main.png"
 import compare from "../images/stocknotify-imgs/compare.png"
+
+import comparePopup from "../images/stocknotify-imgs/popup-images/compare.jpg"
+import lofiPopup from "../images/stocknotify-imgs/popup-images/lofiPopup.png"
+import initialPopup from "../images/stocknotify-imgs/popup-images/initialPopup.png"
+import hifiPopup from "../images/stocknotify-imgs/popup-images/hifiPopup.png"
 
 const CaseStudy = () => (
   <Layout>
@@ -120,16 +127,18 @@ const CaseStudy = () => (
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Lo-Fidelity Prototyping</p>
               <p className={caseStyle.subjectText}>I like to get my ideas on paper before I move into digitally creating the lo-fidelity prototypes.<br></br><br></br>Once I’ve gone through a couple of iterations, I then shared these lo-fidelity prototypes with users to get some feedback. This is an important step to make sure that the design fulfills the users’ need.</p>
-              <img className={caseStyle.styleguideImg} src={lofiMain} alt="styleimg"></img>
+              <ImagePopup title="Lo-Fidelity Wireframes" popimage={lofiPopup}
+                triggerElement={<img className={caseStyle.styleguideImg} src={lofiMain} alt="styleimg"></img>}></ImagePopup>
               <p className={caseStyle.imgdescriptext}>Lo-Fidelity Wireframes</p>
             </div>
           </div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}></h1>
             <div className={caseStyle.flexTextContainer}>
-              <p className={caseStyle.titleParagraph}>Evaluating Inital Wireframes</p>
+              <p className={caseStyle.titleParagraph}>Evaluating Initial Wireframes</p>
               <p className={caseStyle.subjectText}>The first iteration of the set up notification screen was originally going to incorporate a slide menu showing the user different options which included setting the price notification either higher, lower, or equal than the price that the user typed in.<br></br><br></br> This iteration involved too much interaction from the user. From the user feedback, I aimed to create the notify screen more simple to the user.</p>
-              <img className={caseStyle.styleguideImg} src={lofiNotify} alt="styleimg"></img>
+              <ImagePopup title="Initial Iteration of Notify Screen" popimage={initialPopup}
+                triggerElement={<img className={caseStyle.styleguideImg} src={initialScreen} alt="styleimg"></img>}></ImagePopup>
               <p className={caseStyle.imgdescriptext}>Initial Iteration of Notify Screen</p>
             </div>
           </div>
@@ -138,10 +147,14 @@ const CaseStudy = () => (
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Hi-Fidelity Wireframes</p>
               <p className={caseStyle.subjectText}>I chose to only give the user two options. Either set the price notification	 higher or lower than the inputed price. And I also removed the slide menu so that the options are apparent to the user and not hidden away through a slide menu. This new iteration is simple and improved the task of setting a price notification.</p>
-              <img className={caseStyle.styleguideImg} src={compare} alt="styleimg"></img>
+              <ImagePopup title="Comparing Iterations" popimage={comparePopup}
+                triggerElement={<img className={caseStyle.styleguideImg} src={compare} alt="styleimg"></img>}></ImagePopup>
+              {/* <img className={caseStyle.styleguideImg} src={compare} alt="styleimg"></img> */}
               <p className={caseStyle.imgdescriptext}>Comparing Iterations</p>
               <p className={caseStyle.bottomImageST}>I also chose to color code the type of notification. For example, green is above and red is below. I kept this concept when creating the home screen for the application. The user is able to quickly see what notifications are still active and tell how the notified stock will activate based on the color.</p>
-              <img className={caseStyle.styleguideImg} src={hifiMain} alt="styleimg"></img>
+              <ImagePopup title="Hi-Fidelity Wireframes" popimage={hifiPopup}
+                triggerElement={<img className={caseStyle.styleguideImg} src={hifiMain} alt="styleimg"></img>}></ImagePopup>
+
               <p className={caseStyle.imgdescriptext}>Hi-Fidelity Wireframes</p>
             </div>
           </div>
