@@ -45,10 +45,10 @@ const IndexPage = () => (
             </ImagePopup>
           </div>
           <div className="projectinfo">
-            <div className="projecttitle">Stock Notify</div>
+            <div className="projecttitle">Provissions +</div>
             <div className="projectdates">Nov 2018 - Feb 2019</div>
             <div className="projectdescription">Sends notifications on stock prices. The user is able to search, favorite, and set price notifications. These three features helped the user complete the task of setting a price notification.</div>
-            <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
+            <Link to="/provisionscase" className="linkcasestudy">View Case Study</Link>
             {/* <div><DemoPopup title="Stock Notify Demo" url="https://www.youtube.com/embed/FQ0yO3F7lbE" triggerElement={<img src={youtubeBtn} className="youtube2"></img>}></DemoPopup></div> */}
           </div>
         </div>
@@ -64,12 +64,10 @@ const IndexPage = () => (
             </ImagePopup>
           </div>
           <div className="projectinfo">
-            <div className="projecttitle">Quick Formula</div>
-            <div className="projectdates">Oct 2017 - Jan 2018</div>
+            <div className="projecttitle">Stock Notify</div>
+            <div className="projectdates">Nov 2018 - Feb 2019</div>
             <div className="projectdescription">Calculates math and science formulas. This coding project demonstrates familiarity with software development which allows better communication between designer and developer.</div>
-            <div><DemoPopup title="Quick Formula Demo" url="https://www.youtube.com/embed/mnsoemOS5Xg" triggerElement={<a className="linkcasestudy">View Demo</a>}></DemoPopup></div>
-            {/* <Link to="/stocknotifycase" className="linkcasestudy"></Link> */}
-            {/* <div><a href="https://apps.apple.com/us/app/quick-formula/id1462553451?ls=1" target="_blank" rel="noopener noreferrer"><img src={appStoreBtn} className="appleBtn" ></img></a></div> */}
+            <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
           </div>
         </div>
       </div>
