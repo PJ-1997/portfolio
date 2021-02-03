@@ -213,6 +213,17 @@
   font-weight: 500;
 }
 
+.imgdescriptextCenter {
+  margin-bottom: 0px;
+  margin-top: 12px;
+  text-align: center;
+  font-family: 'Circular Std', sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  color: rgba(188, 188, 188, 1);
+  font-weight: 500;
+}
+
 .titleFigContainer {
   align-content: center;
   justify-content: center;

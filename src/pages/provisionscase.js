@@ -6,6 +6,8 @@ import { Link } from "gatsby"
 import ImagePopup from "../components/Popups/popup"
 
 import provis from "../images/provisions-imgs/provis.png"
+import oldpics from "../images/provisions-imgs/oldpics.png"
+import newpics from "../images/provisions-imgs/newpics.svg"
 
 import initialScreen from "../images/stocknotify-imgs/lofi-notify.png"
 import lofiMain from "../images/stocknotify-imgs/lofi-main.png"
@@ -86,6 +88,13 @@ const CaseStudy = () => (
             <h1 className={caseStyle.flextitleoverview}>Explanation</h1>
             <p className={caseStyle.overviewdescription}>The first step of the design process begins with collecting user data. This includes who are the users, how do they currently accomplish the task, and what do users perceive are problems with their current practices. In this case, I want to find out how do users get up to date with their stock prices.</p>
           </div>
+
+          {/* Center Big Image */}
+          <div className={caseStyle.figmacontrainer}>
+            <img src={oldpics} alt="Old Pics"></img>
+            <p className={caseStyle.imgdescriptextCenter}>Original Screens</p>
+          </div>
+
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Naturalistic Observation</h1>
             <p className={caseStyle.overviewdescription}>To understand the problem space, I set to carry out a set of techniques to discover how is the user currently accomplishing the task. In this case, I chose to conduct a naturalistic observation to observe the user with no interaction between me and the user. The goal of this observation was to see how did the user keep themselves notified on price changes in their stocks. The data I found was quite interesting, users would open their respective brokerage application and check the price multiple times throughout day which got me thinking on potential questions to ask during a direct interaction with the user.</p>
@@ -94,10 +103,6 @@ const CaseStudy = () => (
             <h1 className={caseStyle.flextitleoverview}>User Interview</h1>
             <p className={caseStyle.overviewdescription}>From the data I gathered from the Naturalistic Observation, I chose to conduct an interview with the user to further clarify the findings from the observation. After the discussion, I concluded that the user checks the price several times a day seeing if the price is right to sell or buy. From the research I gathered I concluded that the Stock Notify application must have the ability to search different stocks and easily set up a price notification.</p>
           </div>
-          {/* <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>User Persona</h1>
-            <p className={caseStyle.overviewdescription}>Now it is time to present what I discovered about the user. In this case, I chose to construct a User Persona to highlight data I collected about the user. </p>
-          </div> */}
         </div>
 
       </section>
@@ -116,9 +121,13 @@ const CaseStudy = () => (
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.overviewdescription}>From the user data, I constructed a list of features for the Stock Notify application. This includes the ability to search, favorite, and set a price notification.</p>
               <p className={caseStyle.overviewdescription}>The reason I chose to focus on these three features is because these are essential to complete the task of reminding the user on stock prices.</p>
-              {/* <img className={caseStyle.styleguideImg} src={styleImg} alt="styleimg"></img> */}
             </div>
+          </div>
 
+          {/* Center Big Image */}
+          <div className={caseStyle.figmacontrainer}>
+            <img src={newpics} alt="New Pics"></img>
+            <p className={caseStyle.imgdescriptextCenter}>High Fidelity Screens</p>
           </div>
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
