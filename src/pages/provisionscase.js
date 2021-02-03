@@ -8,6 +8,7 @@ import ImagePopup from "../components/Popups/popup"
 import provis from "../images/provisions-imgs/provis.png"
 import oldpics from "../images/provisions-imgs/oldpics.png"
 import newpics from "../images/provisions-imgs/newpics.svg"
+import inspir from "../images/provisions-imgs/inspir.jpg"
 
 import initialScreen from "../images/stocknotify-imgs/lofi-notify.png"
 import lofiMain from "../images/stocknotify-imgs/lofi-main.png"
@@ -96,13 +97,19 @@ const CaseStudy = () => (
           </div>
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Naturalistic Observation</h1>
-            <p className={caseStyle.overviewdescription}>To understand the problem space, I set to carry out a set of techniques to discover how is the user currently accomplishing the task. In this case, I chose to conduct a naturalistic observation to observe the user with no interaction between me and the user. The goal of this observation was to see how did the user keep themselves notified on price changes in their stocks. The data I found was quite interesting, users would open their respective brokerage application and check the price multiple times throughout day which got me thinking on potential questions to ask during a direct interaction with the user.</p>
+            <h1 className={caseStyle.flextitleoverview}>Differentaion from Competition</h1>
+            <p className={caseStyle.overviewdescription}>The current style of the app incorporates a young demographic. A number of images and the image that stood out the most was this. The incorporation of mutilpe color of the dark background made it pop. That is where I had the design as a dark theme with the use of bright color like a neon sign.</p>
           </div>
-          <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>User Interview</h1>
-            <p className={caseStyle.overviewdescription}>From the data I gathered from the Naturalistic Observation, I chose to conduct an interview with the user to further clarify the findings from the observation. After the discussion, I concluded that the user checks the price several times a day seeing if the price is right to sell or buy. From the research I gathered I concluded that the Stock Notify application must have the ability to search different stocks and easily set up a price notification.</p>
+
+          <div className={caseStyle.flexSideImageContainer}>
+            <h1 className={caseStyle.flextitleoverview}></h1>
+            <div className={caseStyle.flexTextContainer}>
+              <ImagePopup title="Inspiration" popimage={initialPopup}
+                triggerElement={<img className={caseStyle.styleguideImg} src={inspir} alt="Inspiration"></img>}></ImagePopup>
+              <p className={caseStyle.imgdescriptext}>Inspiration</p>
+            </div>
           </div>
+
         </div>
 
       </section>

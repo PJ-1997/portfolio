@@ -121,6 +121,10 @@
   margin-top: 10px;
 }
 
+.flexSideImageContainer{
+  display: flex;
+}
+
 .flexcontaineroverviewfirst {
   display: flex;
   margin-top: 30px;
@@ -302,6 +306,9 @@
     display: inline-block;
   }
   .flexcontaineroverviewfirst {
+    display: inline-block;
+  }
+  .flexSideImageContainer{
     display: inline-block;
   }
   .flextitleoverview{
