@@ -6,7 +6,6 @@ import { Link } from "gatsby"
 import ImagePopup from "../components/Popups/popup"
 
 import rotatoImg from "../images/stocknotify-imgs/rotato.png"
-// import styleImg from "../images/stocknotify-imgs/styleguide.svg"
 
 import initialScreen from "../images/stocknotify-imgs/lofi-notify.png"
 import lofiMain from "../images/stocknotify-imgs/lofi-main.png"

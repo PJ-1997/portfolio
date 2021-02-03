@@ -6,7 +6,6 @@ import { Link } from "gatsby"
 import ImagePopup from "../components/Popups/popup"
 
 import provis from "../images/provisions-imgs/provis.png"
-// import styleImg from "../images/stocknotify-imgs/styleguide.svg"
 
 import initialScreen from "../images/stocknotify-imgs/lofi-notify.png"
 import lofiMain from "../images/stocknotify-imgs/lofi-main.png"
@@ -26,7 +25,7 @@ const CaseStudy = () => (
       <section className={caseStyle.introsection}>
         <div className={caseStyle.divcenter}>
           <div className={caseStyle.lefttextcontainer}>
-            <h1 className={caseStyle.toptext}>Provissions +</h1>
+            <h1 className={caseStyle.toptext}>Provisions +</h1>
             <div className={caseStyle.bottomtext}>Sends notifications on stock prices.</div>
           </div>
           <div className={caseStyle.IphonePic}>
