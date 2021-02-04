@@ -4,9 +4,9 @@ import SEO from "../components/seo"
 import { Link } from "gatsby"
 import ImagePopup from "../components/Popups/popup"
 // Images
-import qfpopImage from "../images/qfPopup.jpg"
+import provImage from "../images/provisions-imgs/provIndexImage.png"
+import provisPopImage from "../images/provisions-imgs/provPopImage.png"
 import snpopImage from "../images/snPopup.png"
-import qfScreenshots from "../images/qfScreenshots.png"
 import snScreenshots from "../images/snScreenshots.png"
 import github from "../images/githubLogo.png"
 import linkedin from "../images/linkedinLogo.png"
@@ -38,8 +38,8 @@ const IndexPage = () => (
       <div id="Projects" className="projects">
         <div className="project w-container">
           <div className="projectimagebg">
-            <ImagePopup title="Provisions +" popimage={qfpopImage}
-              triggerElement={<img className="projectimage w-inline-block pointer" src={qfScreenshots} alt="Provisions +"></img>}>
+            <ImagePopup title="Provisions +" popimage={provisPopImage}
+              triggerElement={<img className="projectimage w-inline-block pointer" src={provImage} alt="Provisions +"></img>}>
             </ImagePopup>
           </div>
           <div className="projectinfo">
