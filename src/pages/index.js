@@ -44,8 +44,8 @@ const IndexPage = () => (
           </div>
           <div className="projectinfo">
             <div className="projecttitle">Provisions +</div>
-            <div className="projectdates">Nov 2018 - Feb 2019</div>
-            <div className="projectdescription">Sends notifications on stock prices. The user is able to search, favorite, and set price notifications. These three features helped the user complete the task of setting a price notification.</div>
+            <div className="projectdates">Oct 2020 - Present</div>
+            <div className="projectdescription">Deals on Surplus food. I was in charge of redesigning the original mockups and making the app presentable to potential investors. I also constructed a prototype to demonstrate how the app functions.</div>
             <Link to="/provisionscase" className="linkcasestudy">View Case Study</Link>
           </div>
         </div>
