@@ -8,7 +8,14 @@ import ImagePopup from "../components/Popups/popup"
 import provis from "../images/provisions-imgs/provis.png"
 import oldpics from "../images/provisions-imgs/oldpics.png"
 import newpics from "../images/provisions-imgs/newpics.svg"
-import inspir from "../images/provisions-imgs/inspir.jpg"
+import inspir from "../images/provisions-imgs/inspir.png"
+import layout from "../images/provisions-imgs/layout.svg"
+
+// Problems / Soulutions
+import prob1 from "../images/provisions-imgs/problempics/prob1.svg"
+import solu1 from "../images/provisions-imgs/problempics/solu1.svg"
+import prob2 from "../images/provisions-imgs/problempics/prob2.svg"
+import solu2 from "../images/provisions-imgs/problempics/solu2.svg"
 
 import lofiMain from "../images/stocknotify-imgs/lofi-main.png"
 import lofiPopup from "../images/stocknotify-imgs/popup-images/lofiPopup.png"
@@ -46,7 +53,7 @@ const CaseStudy = () => (
           </div>
           <div>
             <h1 className={caseStyle.overviewTitle}>Focus</h1>
-            <p className={caseStyle.overviewText}>Product Desinger<br></br>iOS Developer </p>
+            <p className={caseStyle.overviewText}>Product Desinger</p>
           </div>
           <div>
             <h1 className={caseStyle.overviewTitle}>Involvement</h1>
@@ -80,7 +87,7 @@ const CaseStudy = () => (
 
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Explanation</h1>
+            <h1 className={caseStyle.flextitleoverview}>Original Design</h1>
             <p className={caseStyle.overviewdescription}>The first step of the design process begins with collecting user data. This includes who are the users, how do they currently accomplish the task, and what do users perceive are problems with their current practices. In this case, I want to find out how do users get up to date with their stock prices.</p>
           </div>
 
@@ -132,6 +139,20 @@ const CaseStudy = () => (
           </div>
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
+            <h1 className={caseStyle.flextitleoverview}>Flow of the App</h1>
+            <p className={caseStyle.overviewdescription}>The app is organized into a tab which houses the order, explore (swipe screen to place an order) , and account screen. I decided to incorporate color to make it pop between screen and also to differentiate from the competition</p>
+          </div>
+
+          <div className={caseStyle.flexSideImageContainer}>
+            <h1 className={caseStyle.flextitleoverview}></h1>
+            <div className={caseStyle.flexTextContainer}>
+              <ImagePopup title="Inspiration" popimage={initialPopup}
+                triggerElement={<img className={caseStyle.styleguideImg} src={layout} alt="Inspiration"></img>}></ImagePopup>
+              <p className={caseStyle.imgdescriptext}>Inspiration</p>
+            </div>
+          </div>
+
+          {/* <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Prototyping and Iterations</h1>
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Lo-Fidelity Prototyping</p>
@@ -140,9 +161,9 @@ const CaseStudy = () => (
                 triggerElement={<img className={caseStyle.styleguideImg} src={lofiMain} alt="styleimg"></img>}></ImagePopup>
               <p className={caseStyle.imgdescriptext}>Lo-Fidelity Wireframes</p>
             </div>
-          </div>
+          </div> */}
 
-          
+
 
         </div>
       </section>
@@ -153,6 +174,22 @@ const CaseStudy = () => (
         <div className={caseStyle.titlecontainer}>
           <h1 className={caseStyle.titletext}>Design Problems</h1>
           <div className={caseStyle.underlinetitle}></div>
+        </div>
+
+        <div className={caseStyle.inDepthPics}>
+          <img src={prob1} alt="New Pics"></img>
+        </div>
+
+        <div className={caseStyle.inDepthPics}>
+          <img src={solu1} alt="New Pics"></img>
+        </div>
+
+        <div className={caseStyle.inDepthPics}>
+          <img src={prob2} alt="New Pics"></img>
+        </div>
+
+        <div className={caseStyle.inDepthPics}>
+          <img src={solu2} alt="New Pics"></img>
         </div>
 
       </section>
@@ -166,13 +203,13 @@ const CaseStudy = () => (
         </div>
 
         {/* Figma Prototype */}
-        <div className={caseStyle.titleFigContainer}>
-            <h1 className={caseStyle.textFig}>Figma Prototype</h1>
-          </div>
+        {/* <div className={caseStyle.titleFigContainer}>
+          <h1 className={caseStyle.textFig}>Figma Prototype</h1>
+        </div> */}
 
-          <div className={caseStyle.figmacontrainer}>
-            <iframe className={caseStyle.figmaiframe} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FzEoPUhZmfDCzKJs89sUn0q%2FPrototype-Provisions-Explore%3Fnode-id%3D491%253A3862%26viewport%3D505%252C279%252C0.08314408361911774%26scaling%3Dscale-down" allowfullscreen></iframe>
-          </div>
+        <div className={caseStyle.figmacontrainer}>
+          <iframe className={caseStyle.figmaiframe} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FzEoPUhZmfDCzKJs89sUn0q%2FPrototype-Provisions-Explore%3Fnode-id%3D491%253A3862%26viewport%3D505%252C279%252C0.08314408361911774%26scaling%3Dscale-down" allowfullscreen></iframe>
+        </div>
 
       </section>
       <div className="layout-spacer-top"></div>
