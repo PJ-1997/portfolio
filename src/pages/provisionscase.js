@@ -7,13 +7,13 @@ import ImagePopup from "../components/Popups/popup"
 
 import provis from "../images/provisions-imgs/provis.png"
 import oldpics from "../images/provisions-imgs/oldpics.png"
-import newpics from "../images/provisions-imgs/newpics.svg"
+import newpics from "../images/provisions-imgs/newpics.png"
 import inspir from "../images/provisions-imgs/inspir.png"
-import layout from "../images/provisions-imgs/layout.svg"
+import layout from "../images/provisions-imgs/layout.png"
 
 // Problems / Soulutions
-import prob1 from "../images/provisions-imgs/problempics/prob1.svg"
-import solu1 from "../images/provisions-imgs/problempics/solu1.svg"
+import prob1 from "../images/provisions-imgs/problempics/prob1.png"
+import solu1 from "../images/provisions-imgs/problempics/solu1.png"
 import prob2 from "../images/provisions-imgs/problempics/prob2.svg"
 import solu2 from "../images/provisions-imgs/problempics/solu2.svg"
 
