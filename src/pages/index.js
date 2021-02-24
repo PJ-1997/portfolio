@@ -38,14 +38,14 @@ const IndexPage = () => (
       <div id="Projects" className="projects">
         <div className="project w-container">
           <div className="projectimagebg">
-            <ImagePopup title="Provisions +" popimage={provisPopImage}
-              triggerElement={<img className="projectimage w-inline-block pointer" src={provImage} alt="Provisions +"></img>}>
+            <ImagePopup title="+provisions" popimage={provisPopImage}
+              triggerElement={<img className="projectimage w-inline-block pointer" src={provImage} alt="+provisions"></img>}>
             </ImagePopup>
           </div>
           <div className="projectinfo">
-            <div className="projecttitle">Provisions +</div>
+            <div className="projecttitle">+provisions</div>
             <div className="projectdates">Oct 2020 - Present</div>
-            <div className="projectdescription">Deals on Surplus food. I was in charge of redesigning the original mockups and making the app presentable to potential investors. I also constructed a prototype to demonstrate how the app functions.</div>
+            <div className="projectdescription">Deals on Surplus food. I was in charge of redesigning the app and creating high fidelity wireframes to make the design presentable to potential investors. I also created a prototype to demonstrate how the app functions.</div>
             <Link to="/provisionscase" className="linkcasestudy">View Case Study</Link>
           </div>
         </div>

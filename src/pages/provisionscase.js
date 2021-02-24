@@ -29,7 +29,7 @@ const CaseStudy = () => (
       <section className={caseStyle.introsection}>
         <div className={caseStyle.divcenter}>
           <div className={caseStyle.lefttextcontainer}>
-            <h1 className={caseStyle.toptext}>Provisions +</h1>
+            <h1 className={caseStyle.toptext}>+provisions</h1>
             <div className={caseStyle.bottomtext}>Deals on surplus food, helping to <br></br>prevent food waste</div>
           </div>
           <div className={caseStyle.IphonePic}>
@@ -64,15 +64,15 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>My Role</h1>
-            <p className={caseStyle.overviewdescription}>My role as a Product designer was to conduct research. This involved asking questions such as who are the users and how they currently accomplish the task. I then designed interfaces to improve the task of setting a price notification.</p>
+            <p className={caseStyle.overviewdescription}>My role as a Product designer was to redesign the original screens. This involved reconstructing how the user navigates around the app. I also created a prototype of the swipe feature to demonstrate the process of placing an order.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Challenge</h1>
-            <p className={caseStyle.overviewdescription}>The main challenge occurred when designing the screen which allowed the user to set up a price notification. The initial iteration of the design involved too much interaction to setup a price notification. Which also brought up the question, how should the notified and favorited stocks appear to the user.</p>
+            <p className={caseStyle.overviewdescription}>The main challenge was the time constraint. The goal was to have high fidelity wireframes and a prototype of the app before a specific deadline. In time for an accelerator program. Another challenge was differentiating the design of the app from other surplus food apps on the market. We want the app to stand out from the crowd.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Solution</h1>
-            <p className={caseStyle.overviewdescription}>After multiple iterations of the setup notification screen. I decided to only give the user two options in the notify screen.  Either set a price higher or lower than the current stock price. This small amount of choice makes the process of setting a price notification simple to the user.</p>
+            <p className={caseStyle.overviewdescription}>We decided to pursue a dark theme and incorporate color to make the design popout from the competition. I also used Figma to collaborate and get feedback on the design in real time. The target user for the app are young adults looking to save some money on their next meal.</p>
           </div>
         </div>
       </section>
