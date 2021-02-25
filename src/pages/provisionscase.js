@@ -16,6 +16,8 @@ import prob1 from "../images/provisions-imgs/problempics/prob1.png"
 import solu1 from "../images/provisions-imgs/problempics/solu1.png"
 import prob2 from "../images/provisions-imgs/problempics/prob2.svg"
 import solu2 from "../images/provisions-imgs/problempics/solu2.svg"
+import prob3 from "../images/provisions-imgs/problempics/prob3.png"
+import solu3 from "../images/provisions-imgs/problempics/solu3.png"
 
 import lofiMain from "../images/stocknotify-imgs/lofi-main.png"
 import lofiPopup from "../images/stocknotify-imgs/popup-images/lofiPopup.png"
@@ -88,7 +90,7 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Original Design</h1>
-            <p className={caseStyle.overviewdescription}>The first step of the design process begins with collecting user data. This includes who are the users, how do they currently accomplish the task, and what do users perceive are problems with their current practices. In this case, I want to find out how do users get up to date with their stock prices.</p>
+            <p className={caseStyle.overviewdescription}>The first step is to ask questions about the vision and design inspiration for the app. Upon the initial discussion with the creator of the app, the main feature of the app is the swipe card mechanic which allows the user to swipe through different food options. The original design was inspired by Figma’s website with its use of color and bold font.</p>
           </div>
 
           {/* Center Big Image */}
@@ -99,14 +101,13 @@ const CaseStudy = () => (
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Differentaion from Competition</h1>
-            <p className={caseStyle.overviewdescription}>The current style of the app incorporates a young demographic. A number of images and the image that stood out the most was this. The incorporation of mutilpe color of the dark background made it pop. That is where I had the design as a dark theme with the use of bright color like a neon sign.</p>
+            <p className={caseStyle.overviewdescription}>I then created a Figma file and invited the creator of the app to show him some design inspiration for the app. I shared images to get an understanding of the design he’s looking for. The images ranged from watercolor to a paper texture design. But the image that stood out the most was this one. The way the pink and orange contrasted with the dark background made the items pop.</p>
           </div>
 
           <div className={caseStyle.flexSideImageContainer}>
             <h1 className={caseStyle.flextitleoverview}></h1>
             <div className={caseStyle.flexTextContainer}>
-              <ImagePopup title="Inspiration" popimage={initialPopup}
-                triggerElement={<img className={caseStyle.styleguideImg} src={inspir} alt="Inspiration"></img>}></ImagePopup>
+              <img className={caseStyle.styleguideImg} src={inspir} alt="Inspiration"></img>
               <p className={caseStyle.imgdescriptext}>Inspiration</p>
             </div>
           </div>
@@ -127,8 +128,8 @@ const CaseStudy = () => (
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Findings from Research</h1>
             <div className={caseStyle.flexTextContainer}>
-              <p className={caseStyle.overviewdescription}>From the user data, I constructed a list of features for the Stock Notify application. This includes the ability to search, favorite, and set a price notification.</p>
-              <p className={caseStyle.overviewdescription}>The reason I chose to focus on these three features is because these are essential to complete the task of reminding the user on stock prices.</p>
+              <p className={caseStyle.overviewdescription}>I then walked myself into the user journey. Since the user is picking the food up from the restaurant. Having the number of miles between the user and the restaurant is useful information to show how far the restaurant is from the user’s current location.</p>
+              <p className={caseStyle.overviewdescription}>This was one of many design improvements I came up with during this phase. In summary, the user journey involved the user to swipe the food item, place order, and open directions. Also having a screen to show current orders.</p>
             </div>
           </div>
 
@@ -140,15 +141,14 @@ const CaseStudy = () => (
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Flow of the App</h1>
-            <p className={caseStyle.overviewdescription}>The app is organized into a tab which houses the order, explore (swipe screen to place an order) , and account screen. I decided to incorporate color to make it pop between screen and also to differentiate from the competition</p>
+            <p className={caseStyle.overviewdescription}>The app is tab bar based which is recommended by Apple’s Human Interface Guidelines which allows users to quickly switch into different sections of an app. In this case, I chose 3 sections which include account, orders, and explore (swipe feature). This is where color came into play and color coded the different sections.</p>
           </div>
 
           <div className={caseStyle.flexSideImageContainer}>
             <h1 className={caseStyle.flextitleoverview}></h1>
             <div className={caseStyle.flexTextContainer}>
-              <ImagePopup title="Inspiration" popimage={initialPopup}
-                triggerElement={<img className={caseStyle.styleguideImg} src={layout} alt="Inspiration"></img>}></ImagePopup>
-              <p className={caseStyle.imgdescriptext}>Inspiration</p>
+              <img className={caseStyle.styleguideImg} src={layout} alt="Inspiration"></img>
+              <p className={caseStyle.imgdescriptext}>Tab Bar Layout</p>
             </div>
           </div>
 
@@ -190,6 +190,14 @@ const CaseStudy = () => (
 
         <div className={caseStyle.inDepthPics}>
           <img src={solu2} alt="New Pics"></img>
+        </div>
+
+        <div className={caseStyle.inDepthPics}>
+          <img src={prob3} alt="New Pics"></img>
+        </div>
+
+        <div className={caseStyle.inDepthPics}>
+          <img src={solu3} alt="New Pics"></img>
         </div>
 
       </section>
