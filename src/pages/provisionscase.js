@@ -230,7 +230,7 @@ const CaseStudy = () => (
         </div>
 
         <div className={caseStyle.reflectionContainer}>
-          <p className={caseStyle.reflectiontext}>This project involed the use of a variety of data collection techniques to find out the user painpoints. This is important because we want to make sure we develop features that fufills a users' needs. If their is no painpoint or need to fill in the first place, then we do not have a feature</p>
+          <p className={caseStyle.reflectiontext}>This project consisted of time management and collaboration with the owner of the startup. Which is extremely important in bigger companies that want products as fast as possible to turn a profit for the investors. At the end of the day, it’s all about investor return and also collaborating with people outside of the design loop. And explain the importance of good design and user experience.</p>
         </div>
 
       </section>
