@@ -9,7 +9,7 @@ import provis from "../images/provisions-imgs/provis.png"
 import oldpics from "../images/provisions-imgs/oldpics.png"
 import newpics from "../images/provisions-imgs/newpics.png"
 import inspir from "../images/provisions-imgs/inspir.png"
-import layout from "../images/provisions-imgs/layout.png"
+import layout from "../images/provisions-imgs/layout.jpg"
 
 // Problems / Soulutions
 import prob1 from "../images/provisions-imgs/problempics/prob1.png"
