@@ -4,7 +4,7 @@ import SEO from "../components/seo"
 import { Link } from "gatsby"
 import ImagePopup from "../components/Popups/popup"
 // Images
-import provImage from "../images/provisions-imgs/provIndexImage.png"
+import provImage from "../images/provisions-imgs/provDisplayImage.png"
 import provisPopImage from "../images/provisions-imgs/provPopImage.png"
 import snpopImage from "../images/snPopup.png"
 import snScreenshots from "../images/snScreenshots.png"
