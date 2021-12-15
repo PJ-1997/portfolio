@@ -63,7 +63,7 @@ const IndexPage = () => (
           <div className="projectinfo">
             <div className="projecttitle">Stock Notify</div>
             <div className="projectdates">Nov 2018 - Feb 2019</div>
-            <div className="projectdescription">Sends notifications on stock prices. The user is able to search, favorite, and set price notifications. These three features helped the user complete the task of setting a price notification.</div>
+            <div className="projectdescription">Personal project that I designed <br></br>and programmed in Xcode. Sends notifications on stock prices. The user can search, favorite, and set price notifications.</div>
             <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
           </div>
         </div>
