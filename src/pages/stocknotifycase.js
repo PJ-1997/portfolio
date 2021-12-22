@@ -180,7 +180,7 @@ const CaseStudy = () => (
         </div>
 
         <div className={caseStyle.reflectionContainer}>
-          <p className={caseStyle.reflectiontext}>This project involed the use of a variety of data collection techniques to find out the user painpoints. This is important because we want to make sure we develop features that fufills a users' needs. If their is no painpoint or need to fill in the first place, then we do not have a feature</p>
+          <p className={caseStyle.reflectiontext}>This project involved the use of a variety of data collection techniques to find out the user pain points. This is important because we want to make sure we develop features that fulfills a users' needs. If there is no pain point or need to fill in the first place, then we do not have a feature</p>
         </div>
 
       </section>
