@@ -38,7 +38,7 @@ const CaseStudy = () => (
       {/* Overview */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Overview</h1>
+          <h1 className={caseStyle.titletextUnderGrnLine}>Overview</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
@@ -77,7 +77,7 @@ const CaseStudy = () => (
       {/* Research Process */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Research</h1>
+          <h1 className={caseStyle.titletextUnderGrnLine}>Research</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
@@ -106,13 +106,13 @@ const CaseStudy = () => (
       {/* Prototype */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Design</h1>
+          <h1 className={caseStyle.titletextUnderGrnLine}>Design</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Findings from Research</h1>
+            <h1 className={caseStyle.flextitleoverview}>Findings from <br></br>Research</h1>
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.overviewdescription}>From the user data, I constructed a list of features for the Stock Notify application. This includes the ability to search, favorite, and set a price notification.</p>
               <p className={caseStyle.overviewdescription}>The reason I chose to focus on these three features is because these are essential to complete the task of reminding the user on stock prices.</p>
@@ -175,7 +175,7 @@ const CaseStudy = () => (
       {/* Conclusion */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Reflection</h1>
+          <h1 className={caseStyle.titletextUnderGrnLine}>Reflection</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 

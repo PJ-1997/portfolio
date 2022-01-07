@@ -44,7 +44,7 @@ const CaseStudy = () => (
       {/* Overview */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Overview</h1>
+          <h1 className={caseStyle.titletextUnderGrnLine}>Overview</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
@@ -83,7 +83,7 @@ const CaseStudy = () => (
       {/* Starting Out / Inspiration */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Research</h1>
+          <h1 className={caseStyle.titletextUnderGrnLine}>Research</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
@@ -100,7 +100,7 @@ const CaseStudy = () => (
           </div>
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Differentaion from Competition</h1>
+            <h1 className={caseStyle.flextitleoverview}>Differentiation from Competition</h1>
             <p className={caseStyle.overviewdescription}>I then created a Figma file and invited the creator of the app to show him some design inspiration for the app. I shared images to get an understanding of the design he’s looking for. The images ranged from watercolor to a paper texture design. But the image that stood out the most was this one. The way the pink and orange contrasted with the dark background made the items pop.</p>
           </div>
 
@@ -120,13 +120,13 @@ const CaseStudy = () => (
       {/* New Design */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Design</h1>
+          <h1 className={caseStyle.titletextUnderGrnLine}>Design</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Findings from Research</h1>
+            <h1 className={caseStyle.flextitleoverview}>Findings from <br></br>Research</h1>
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.overviewdescription}>I then walked myself into the user journey. Since the user is picking the food up from the restaurant. Having the number of miles between the user and the restaurant is useful information to show how far the restaurant is from the user’s current location.</p>
               <p className={caseStyle.overviewdescription}>This was one of many design improvements I came up with during this phase. In summary, the user journey involved the user to swipe the food item, place order, and open directions. Also having a screen to show current orders.</p>
@@ -172,7 +172,7 @@ const CaseStudy = () => (
       {/* Indepth Design Problems */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Design Problems</h1>
+          <h1 className={caseStyle.titletextUnderGrnLine}>Design Problems</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
@@ -206,7 +206,7 @@ const CaseStudy = () => (
       {/* Prototype */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Prototype</h1>
+          <h1 className={caseStyle.titletextUnderGrnLine}>Prototype</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
@@ -225,7 +225,7 @@ const CaseStudy = () => (
       {/* Conclusion */}
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
-          <h1 className={caseStyle.titletext}>Reflection</h1>
+          <h1 className={caseStyle.titletextUnderGrnLine}>Reflection</h1>
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
