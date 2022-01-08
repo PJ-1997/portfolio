@@ -74,7 +74,7 @@ const CaseStudy = () => (
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Solution</h1>
-            <p className={caseStyle.overviewdescription}>We decided to pursue a dark theme and incorporate color to make the design popout from the competition. I also used Figma to collaborate and get feedback on the design in real time. The target user for the app are young adults looking to save some money on their next meal.</p>
+            <p className={caseStyle.overviewdescription}>We decided to pursue a dark theme and incorporate color to make the design pop out from the competition. I also used Figma to collaborate and get feedback on the design in real time. The target user for the app are young adults looking to save some money on their next meal.</p>
           </div>
         </div>
       </section>
