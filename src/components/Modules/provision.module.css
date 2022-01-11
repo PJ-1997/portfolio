@@ -127,6 +127,18 @@
   text-align: center;
 }
 
+.overviewText3names {
+  /* 2. Styles for text */
+  font-family: 'Circular Std', sans-serif;
+  font-size: var(--description-text);
+  line-height: 32px;
+
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
 .flexcontaineroverview {
   display: flex;
   margin-top: 10px;

@@ -59,7 +59,7 @@ const CaseStudy = () => (
           </div>
           <div>
             <h1 className={caseStyle.overviewTitle}>Involvement</h1>
-            <p className={caseStyle.overviewText}>Pedro Molina</p>
+            <p className={caseStyle.overviewText3names}>Aaron Aguirre (Founder) <br></br> George Garcia (Engineer)<br></br>Pedro Molina</p>
           </div>
         </div>
 
