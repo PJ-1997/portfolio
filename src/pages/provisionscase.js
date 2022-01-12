@@ -216,7 +216,7 @@ const CaseStudy = () => (
         </div> */}
 
         <div className={caseStyle.figmacontrainer}>
-          <iframe className={caseStyle.figmaiframe} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FzEoPUhZmfDCzKJs89sUn0q%2FPrototype-Provisions-Explore%3Fnode-id%3D491%253A3862%26viewport%3D505%252C279%252C0.08314408361911774%26scaling%3Dscale-down" allowfullscreen></iframe>
+          <iframe className={caseStyle.figmaiframe} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F62FcgnGks1xMkn5onJPun4%2F%252Bprovisions-Prototype%3Fpage-id%3D0%253A1%26node-id%3D491%253A3862%26viewport%3D241%252C48%252C0.47%26scaling%3Dscale-down%26starting-point-node-id%3D491%253A3862" allowfullscreen></iframe>
         </div>
 
       </section>
