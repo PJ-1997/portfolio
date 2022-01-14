@@ -10,6 +10,9 @@ import oldpics from "../images/provisions-imgs/oldpics.jpg"
 import newpics from "../images/provisions-imgs/newpics.jpg"
 import inspir from "../images/provisions-imgs/inspir.jpg"
 import layout from "../images/provisions-imgs/layout.jpg"
+import competitors from "../images/provisions-imgs/competitors.jpg"
+import survey from "../images/provisions-imgs/survey.jpg"
+import persona from "../images/provisions-imgs/persona.jpg"
 
 // Problems / Soulutions
 import prob1 from "../images/provisions-imgs/problempics/prob1.jpg"
@@ -90,7 +93,7 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Original Design</h1>
-            <p className={caseStyle.overviewdescription}>The first step is to ask questions about the vision and design inspiration for the app. Upon the initial discussion with the creator of the app, the main feature of the app is the swipe card mechanic which allows the user to swipe through different food options. The original design was inspired by Figma’s website with its use of color and bold font.</p>
+            <p className={caseStyle.overviewdescription}>The first step is to ask questions about the vision and design inspiration for the app. The main feature of the app is the swipe card mechanic which allows the user to swipe through different food options. The original design was inspired by Figma’s website with its use of color and bold font.</p>
           </div>
 
           {/* Center Big Image */}
@@ -100,8 +103,32 @@ const CaseStudy = () => (
           </div>
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
+            <h1 className={caseStyle.flextitleoverview}>Conducting a <br></br>Survey</h1>
+            <p className={caseStyle.overviewdescription}>I chose to run a survey through Google forms to find out impressions about the original design. I also asked the participant's age to find out what demographic I need to design for. Due to the time constraint, I surveyed 31 participants through Slack and LinkedIn.</p>
+          </div>
+
+          <div className={caseStyle.flexSideImageContainer}>
+            <h1 className={caseStyle.flextitleoverview}></h1>
+            <div className={caseStyle.flexTextContainer}>
+              <img className={caseStyle.styleguideImg} src={survey} alt="Survey"></img>
+              <p className={caseStyle.imgdescriptext}>Survey</p>
+            </div>
+          </div>
+
+          <div className={caseStyle.flexcontaineroverviewfirst}>
+            <h1 className={caseStyle.flextitleoverview}>Who is the User?</h1>
+            <p className={caseStyle.overviewdescription}>From the survey, users are mid 20s to early 30s. We could infer that the users are Millennials. The design must appeal to that demographic. Millennials are used to getting necessary information instantly. I want to make sure the app is easy to use and requires little thinking from the user.</p>
+          </div>
+
+          {/* Center Big Image */}
+          <div className={caseStyle.figmacontrainer}>
+            <img src={persona} alt="Persona"></img>
+            <p className={caseStyle.imgdescriptextCenter}>Persona</p>
+          </div>
+
+          <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Differentiation from Competition</h1>
-            <p className={caseStyle.overviewdescription}>I then created a Figma file and invited the creator of the app to show him some design inspiration for the app. I shared images to get an understanding of the design he’s looking for. The images ranged from watercolor to a paper texture design. But the image that stood out the most was this one. The way the pink and orange contrasted with the dark background made the items pop.</p>
+            <p className={caseStyle.overviewdescription}>I then created a Figma file and invited the founder of the app to show him some design inspiration for the app. The image that stood out the most was this. The way the pink and orange contrasted with the dark background made the items pop.</p>
           </div>
 
           <div className={caseStyle.flexSideImageContainer}>
@@ -124,12 +151,23 @@ const CaseStudy = () => (
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
+        <div className={caseStyle.flexcontaineroverviewfirst}>
+            <h1 className={caseStyle.flextitleoverview}>Why the switch to <br></br>dark theme?</h1>
+            <p className={caseStyle.overviewdescription}>The main reason for the switch was to stand out the competition. I surveyed participants on their impression on the theme choice. And participants responded positively with the neon dark theme. Other surplus food apps in the market are light theme with one main primary color.</p>
+          </div>
+
+          {/* Center Big Image */}
+          <div className={caseStyle.figmacontrainer}>
+            <img src={competitors} alt="Competitors"></img>
+            <p className={caseStyle.imgdescriptextCenter}>Competitors</p>
+          </div>
+
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Findings from <br></br>Research</h1>
             <div className={caseStyle.flexTextContainer}>
-              <p className={caseStyle.overviewdescription}>I then walked myself into the user journey. Since the user is picking the food up from the restaurant. Having the number of miles between the user and the restaurant is useful information to show how far the restaurant is from the user’s current location.</p>
-              <p className={caseStyle.overviewdescription}>This was one of many design improvements I came up with during this phase. In summary, the user journey involved the user to swipe the food item, place order, and open directions. Also having a screen to show current orders.</p>
+              <p className={caseStyle.overviewdescription}>From the survey, the most amount of feedback came from the swipe screen and placing an order. Participants wanted the price of the food item shown in the swipe screen. The swipe feature wasn’t clear to the participants. Others wanted to know how far they must drive to pick up their order.</p>
+              <p className={caseStyle.overviewdescription}>After purchasing the order, participants felt lost. They wanted to know where to pick up their order and show directions to the restaurant. Others felt placing an order can done in one screen instead of two.</p>
             </div>
           </div>
 
@@ -141,7 +179,7 @@ const CaseStudy = () => (
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Flow of the App</h1>
-            <p className={caseStyle.overviewdescription}>The app is tab bar based which is recommended by Apple’s Human Interface Guidelines which allows users to quickly switch into different sections of an app. In this case, I chose 3 sections which include account, orders, and explore (swipe feature). This is where color came into play and color coded the different sections.</p>
+            <p className={caseStyle.overviewdescription}>The app is tab bar based which is recommended by Apple’s Human Interface Guidelines which allows users to quickly switch into different sections of an app. After competitive analysis, I chose 3 sections: account, orders, and explore (swipe feature). This is where color came into play and color coded the different sections.</p>
           </div>
 
           <div className={caseStyle.flexSideImageContainer}>
@@ -230,7 +268,7 @@ const CaseStudy = () => (
         </div>
 
         <div className={caseStyle.reflectionContainer}>
-          <p className={caseStyle.reflectiontext}>This project consisted of time management and collaboration with the owner of the startup. This is extremely important in bigger companies that want products as fast as possible to turn a profit for the investors. It’s all about investor return and collaborating with people outside of the design loop. And explaining the importance of good design and user experience.</p>
+          <p className={caseStyle.reflectiontext}>This project consisted of time management and collaboration. This is extremely important in bigger companies that want products as fast as possible to turn a profit for the investors. It’s all about investor return and collaborating with people outside of the design loop. And explaining the importance of good design and user experience.</p>
         </div>
 
       </section>
