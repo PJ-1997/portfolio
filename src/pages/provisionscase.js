@@ -104,7 +104,7 @@ const CaseStudy = () => (
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Conducting a <br></br>Survey</h1>
-            <p className={caseStyle.overviewdescription}>I chose to run a survey through Google forms to find out impressions about the original design. I also asked the participant's age to find out what demographic I need to design for. Due to the time constraint, I surveyed 31 participants through Slack and LinkedIn.</p>
+            <p className={caseStyle.overviewdescription}>I chose to run a survey through Google Forms to find out impressions about the original design. I also asked the participants' age to find out which demographic I need to design for. Due to the time constraint, I surveyed 31 participants through Slack and LinkedIn.</p>
           </div>
 
           <div className={caseStyle.flexSideImageContainer}>
@@ -117,7 +117,7 @@ const CaseStudy = () => (
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Who is the User?</h1>
-            <p className={caseStyle.overviewdescription}>From the survey, users are mid 20s to early 30s. We could infer that the users are Millennials. The design must appeal to that demographic. Millennials are used to getting necessary information instantly. I want to make sure the app is easy to use and requires little thinking from the user.</p>
+            <p className={caseStyle.overviewdescription}>From the survey, participants were mid 20s to early 30s. We could infer that the users are Millennials, and the design must appeal to that demographic. Millennials are used to getting necessary information instantly. I want to make sure the app is easy to use and requires little thinking from the user.</p>
           </div>
 
           {/* Center Big Image */}
