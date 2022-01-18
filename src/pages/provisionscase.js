@@ -1,9 +1,9 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+// import DesignProb from "../components/Popups/designProbs"
 import caseStyle from "../components/Modules/provision.module.css"
 import { Link } from "gatsby"
-import ImagePopup from "../components/Popups/popup"
 
 import provis from "../images/provisions-imgs/provis.jpg"
 import oldpics from "../images/provisions-imgs/oldpics.jpg"
@@ -15,16 +15,13 @@ import survey from "../images/provisions-imgs/survey.jpg"
 import persona from "../images/provisions-imgs/persona.jpg"
 
 // Problems / Soulutions
-import prob1 from "../images/provisions-imgs/problempics/prob1.jpg"
-import solu1 from "../images/provisions-imgs/problempics/solu1.jpg"
-import prob2 from "../images/provisions-imgs/problempics/prob2.jpg"
-import solu2 from "../images/provisions-imgs/problempics/solu2.jpg"
-import prob3 from "../images/provisions-imgs/problempics/prob3.jpg"
-import solu3 from "../images/provisions-imgs/problempics/solu3.jpg"
+import pic1 from "../images/provisions-imgs/problempics/pic1.jpg"
+import pic2 from "../images/provisions-imgs/problempics/pic2.jpg"
+import pic3 from "../images/provisions-imgs/problempics/pic3.jpg"
+import pic4 from "../images/provisions-imgs/problempics/pic4.jpg"
+import pic5 from "../images/provisions-imgs/problempics/pic5.jpg"
+import pic6 from "../images/provisions-imgs/problempics/pic6.jpg"
 
-import lofiMain from "../images/stocknotify-imgs/lofi-main.png"
-import lofiPopup from "../images/stocknotify-imgs/popup-images/lofiPopup.png"
-import initialPopup from "../images/stocknotify-imgs/popup-images/initialPopup.png"
 
 const CaseStudy = () => (
   <Layout>
@@ -152,15 +149,15 @@ const CaseStudy = () => (
         </div>
 
         <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Why the switch to <br></br>dark theme?</h1>
-            <p className={caseStyle.overviewdescription}>The main reason for the switch was to stand out the competition. I surveyed participants on their impression on the theme choice. And participants responded positively with the neon dark theme. Other surplus food apps in the market are light theme with one main primary color.</p>
-          </div>
+          <h1 className={caseStyle.flextitleoverview}>Why the switch to <br></br>dark theme?</h1>
+          <p className={caseStyle.overviewdescription}>The main reason for the switch was to stand out the competition. I surveyed participants on their impression on the theme choice. And participants responded positively with the neon dark theme. Other surplus food apps in the market are light theme with one main primary color.</p>
+        </div>
 
-          {/* Center Big Image */}
-          <div className={caseStyle.figmacontrainer}>
-            <img src={competitors} alt="Competitors"></img>
-            <p className={caseStyle.imgdescriptextCenter}>Competitors</p>
-          </div>
+        {/* Center Big Image */}
+        <div className={caseStyle.figmacontrainer}>
+          <img src={competitors} alt="Competitors"></img>
+          <p className={caseStyle.imgdescriptextCenter}>Competitors</p>
+        </div>
 
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
@@ -214,28 +211,129 @@ const CaseStudy = () => (
           <div className={caseStyle.underlinetitle}></div>
         </div>
 
-        <div className={caseStyle.inDepthPics}>
-          <img src={prob1} alt="New Pics"></img>
-        </div>
+        {/* HELLA Images (6) */}
+        <div className={caseStyle.mainContainr}>
+          <div className={caseStyle.leftDPImg}>
+            <img className={caseStyle.pic1} src={pic1}></img>
+          </div>
 
-        <div className={caseStyle.inDepthPics}>
-          <img src={solu1} alt="New Pics"></img>
+          <div className={caseStyle.rigtDPtext}>
+            <div className={caseStyle.titleProb}>Problem #1: Swipe Screen</div>
+            <div className={caseStyle.sidewayrightCon}>
+              <div className={caseStyle.numcirlrigt}>1</div>
+              <div className={caseStyle.textDPrigt}>No price indication of the food item</div>
+            </div>
+            <div className={caseStyle.sidewayrightCBOTTOM}>
+              <div className={caseStyle.numcirlrigt}>2</div>
+              <div className={caseStyle.textDPrigt}>No indication of distance between user and the restaurant</div>
+            </div>
+            <div className={caseStyle.sidewayrightCBOTTOM}>
+              <div className={caseStyle.numcirlrigt}>3</div>
+              <div className={caseStyle.textDPrigt}>Swipe feature is not apparent to the user</div>
+            </div>
+          </div>
         </div>
+        {/* 2 */}
+        <div className={caseStyle.mainContainr}>
+          <div className={caseStyle.leftDPImg}>
+            <img className={caseStyle.pic2} src={pic2}></img>
+          </div>
 
-        <div className={caseStyle.inDepthPics}>
-          <img src={prob2} alt="New Pics"></img>
+          <div className={caseStyle.rigtDPtext}>
+            <div className={caseStyle.titleProb}>Solution</div>
+            <div className={caseStyle.sidewayrightCon}>
+              <div className={caseStyle.numcirlrigt}>1</div>
+              <div className={caseStyle.textDPrigt}>Price and regular full price are visible to show the user that they're getting a deal</div>
+            </div>
+            <div className={caseStyle.sidewayrightCBOTTOM}>
+              <div className={caseStyle.numcirlrigt}>2</div>
+              <div className={caseStyle.textDPrigt}>Replaced city name with number of miles between user and restaurant</div>
+            </div>
+            <div className={caseStyle.sidewayrightCBOTTOM}>
+              <div className={caseStyle.numcirlrigt}>3</div>
+              <div className={caseStyle.textDPrigt}>Added buttons to make the action clear. (Checkmark to place order, red “X” to move to the next food item)</div>
+            </div>
+          </div>
         </div>
+        {/* 3 */}
+        <div className={caseStyle.mainContainr}>
+          <div className={caseStyle.leftDPImg}>
+            <img className={caseStyle.pic3} src={pic3}></img>
+          </div>
 
-        <div className={caseStyle.inDepthPics}>
-          <img src={solu2} alt="New Pics"></img>
+          <div className={caseStyle.rigtDPtext}>
+            <div className={caseStyle.titleProb}>Problem #2: Placing an Order</div>
+            <div className={caseStyle.sidewayrightCon}>
+              <div className={caseStyle.numcirlrigt}>1</div>
+              <div className={caseStyle.textDPrigt}>User must go through 2 screens to place an order</div>
+            </div>
+            <div className={caseStyle.sidewayrightCBOTTOM}>
+              <div className={caseStyle.numcirlrigt}>2</div>
+              <div className={caseStyle.textDPrigt}>The white space between elements can be condensed to fit more information into a single viewport</div>
+            </div>
+          </div>
         </div>
+        {/* 4 */}
+        <div className={caseStyle.mainContainr}>
+          <div className={caseStyle.leftDPImg}>
+            <img className={caseStyle.pic4} src={pic4}></img>
+          </div>
 
-        <div className={caseStyle.inDepthPics}>
-          <img src={prob3} alt="New Pics"></img>
+          <div className={caseStyle.rigtDPtext}>
+            <div className={caseStyle.titleProb}>Solution</div>
+            <div className={caseStyle.sidewayrightCon}>
+              <div className={caseStyle.numcirlrigt}>1</div>
+              <div className={caseStyle.textDPrigt}>Condensed information into a single viewport</div>
+            </div>
+            <div className={caseStyle.sidewayrightCBOTTOM}>
+              <div className={caseStyle.numcirlrigt}>2</div>
+              <div className={caseStyle.textDPrigt}>Added a subtotal section to show the cost of the order. Suggested through competitive analysis.</div>
+            </div>
+            <div className={caseStyle.sidewayrightCBOTTOM}>
+              <div className={caseStyle.numcirlrigt}>3</div>
+              <div className={caseStyle.textDPrigt}>Added “You Saved” phrase at the end to incentivize users to add more to their order. (The more you add to your order, the more you save)</div>
+            </div>
+          </div>
         </div>
+        {/* 3 */}
+        <div className={caseStyle.mainContainr}>
+          <div className={caseStyle.leftDPImg}>
+            <img className={caseStyle.pic5} src={pic5}></img>
+          </div>
 
-        <div className={caseStyle.inDepthPics}>
-          <img src={solu3} alt="New Pics"></img>
+          <div className={caseStyle.rigtDPtext}>
+            <div className={caseStyle.titleProb}>Problem #3: After Placing an Order</div>
+            <div className={caseStyle.sidewayrightCon}>
+              <div className={caseStyle.numcirlrigt}>1</div>
+              <div className={caseStyle.textDPrigt}>No address of the restaurant</div>
+            </div>
+            <div className={caseStyle.sidewayrightCBOTTOM}>
+              <div className={caseStyle.numcirlrigt}>2</div>
+              <div className={caseStyle.textDPrigt}>Unable to input location on external map app</div>
+            </div>
+          </div>
+        </div>
+        {/* 6 */}
+        <div className={caseStyle.mainContainr}>
+          <div className={caseStyle.leftDPImg}>
+            <img className={caseStyle.pic6} src={pic6}></img>
+          </div>
+
+          <div className={caseStyle.rigtDPtext}>
+            <div className={caseStyle.titleProb}>Solution</div>
+            <div className={caseStyle.sidewayrightCon}>
+              <div className={caseStyle.numcirlrigt}>1</div>
+              <div className={caseStyle.textDPrigt}>Address of the restaurant is visible. Also included the distance between user and restaurant.</div>
+            </div>
+            <div className={caseStyle.sidewayrightCBOTTOM}>
+              <div className={caseStyle.numcirlrigt}>2</div>
+              <div className={caseStyle.textDPrigt}>Added a button to open in an external map app</div>
+            </div>
+            <div className={caseStyle.sidewayrightCBOTTOM}>
+              <div className={caseStyle.numcirlrigt}>3</div>
+              <div className={caseStyle.textDPrigt}>Changed the call to action to be more direct. “Pickup” color is changed to green to stand out from the text.</div>
+            </div>
+          </div>
         </div>
 
       </section>

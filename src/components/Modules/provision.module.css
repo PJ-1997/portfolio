@@ -311,7 +311,100 @@
   margin-top: 40px;
 }
 
+/* Desgin Problem CSS */
+  .mainContainr { 
+  width: auto;
+  display: flex;
+  margin-top: 70px;
+  }  
+
+  .leftDPImg {
+    margin-right: auto;
+  }
+
+  .rigtDPtext{
+    width: 508px;
+    height: auto;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 12px;
+    
+  }
+    /* rightxt Words */
+    .titleProb {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+    }
+
+    .sidewayrightCon {
+      display: flex;
+      margin-top: 18px;
+    }
+
+    .sidewayrightCBOTTOM {
+      display: flex;
+      margin-top: 26px;
+    }
+
+    .numcirlrigt {
+      border-radius: 50%;
+      min-width: 34px;
+      height: 34px;
+      background: #23b16c;
+      color: #fff;
+      margin-right: 15px;
+      font-family: Circular Std;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+    }
+
+    .textDPrigt{
+      font-family: Circular Std;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 26px;
+      line-height: 35px;
+      color: #000000;
+      max-width: 452px;
+    }
+
+    /* picssizes  */
+    .pic1 {
+      width: 280px;
+      margin-left: 60px;
+    }
+    .pic2 {
+      width: 349px;
+      margin-left: 25px;
+    }
+    .pic3 {
+      width: 349px;
+      margin-left: 25px;
+    }
+    .pic4 {
+      width: 366px;
+      margin-left: 23px;
+    }
+    .pic5 {
+      width: 343px;
+      margin-left: 29px;
+    }
+    .pic6 {
+      width: 384px;
+      margin-left: 18px;
+    }
+
 @media (max-width: 732px) {
+  .mainContainr {
+    display: block;
+  }
   .ratioimage {
     margin-left: 0px;
     max-width: 100%;
