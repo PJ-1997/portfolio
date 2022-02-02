@@ -114,6 +114,7 @@
   font-size: var(--main-headingleftside-text);
   line-height: 46px;
   text-align: center;
+  margin-bottom: 6px;
 }
 
 .overviewText {
@@ -242,6 +243,17 @@
   font-weight: 500;
 }
 
+.newpicimgdescription {
+  margin-bottom: 0px;
+  margin-top: 14px;
+  text-align: center;
+  font-family: 'Circular Std', sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  color: rgba(188, 188, 188, 1);
+  font-weight: 500;
+}
+
 .titleFigContainer {
   align-content: center;
   justify-content: center;
@@ -269,6 +281,13 @@
 
 .figmacontrainer {
   margin-top: 40px;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hifiPiccontainer{
+  margin-top: 20px;
   align-content: center;
   justify-content: center;
   text-align: center;
@@ -351,6 +370,12 @@
     }
 
     .numcirlrigt {
+      min-width: 34px;
+      height: 34px;
+      margin-right: 15px;
+    }
+
+    /* .numcirlrigt {
       border-radius: 50%;
       min-width: 34px;
       height: 34px;
@@ -363,7 +388,7 @@
       font-size: 24px;
       line-height: 32px;
       text-align: center;
-    }
+    } */
 
     .textDPrigt{
       font-family: Circular Std;
@@ -385,20 +410,21 @@
       margin-left: 25px;
     }
     .pic3 {
-      width: 349px;
-      margin-left: 25px;
+      height: 600px;
+      width: auto;
+      margin-left: 60px;
     }
     .pic4 {
       width: 366px;
       margin-left: 23px;
     }
     .pic5 {
-      width: 343px;
-      margin-left: 29px;
+      width: 279.016px;
+      margin-left: 60.5px;
     }
     .pic6 {
-      width: 384px;
-      margin-left: 18px;
+      width: 383px;
+      margin-left: 17.5px;
     }
 
 @media (max-width: 732px) {

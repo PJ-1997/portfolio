@@ -21,17 +21,17 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
-        <div id="Footer" class="footer">
-          <div class="w-container">
+        <div id="Footer" className="footer">
+          <div className="w-container">
 
-            <div id="Contact" class="contact">
-              <div class="container-2 w-container">
-                <div class="layout-spacer-bottom">
+            <div id="Contact" className="contact">
+              <div className="container-2 w-container">
+                <div className="layout-spacer-bottom">
                 </div>
-                <div class="header contact">Let's keep in touch</div>
-                <div class="w-row"><div class="column w-col">
-                  <h4 class="heading-4">Email</h4><div class="div-block">
-                    <a href="mailto:contact@molinapedro.com" class="link contacts">contact@molinapedro.com</a>
+                <div className="header contact">Let's keep in touch</div>
+                <div className="w-row"><div className="column w-col">
+                  <h4 className="heading-4">Email</h4><div className="div-block">
+                    <a href="mailto:contact@molinapedro.com" className="link contacts">contact@molinapedro.com</a>
                   </div>
                 </div>
                 </div>
@@ -40,7 +40,7 @@ const Layout = ({ children }) => {
 
             {/* Spacer */}
             <div style={{ marginBottom: `6rem` }}> </div>
-            <p class="footer-text"> © {new Date().getFullYear()} Created using React.js</p>
+            <p className="footer-text"> © {new Date().getFullYear()} Created using React.js</p>
           </div>
         </div>
       </div>

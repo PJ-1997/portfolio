@@ -13,13 +13,18 @@ import layout from "../images/provisions-imgs/layout.jpg"
 import competitors from "../images/provisions-imgs/competitors.jpg"
 import survey from "../images/provisions-imgs/survey.jpg"
 import persona from "../images/provisions-imgs/persona.jpg"
+import dataSurvey from "../images/provisions-imgs/dataSurvey.jpg"
+import lofiPaper from "../images/provisions-imgs/lofipaper.jpg"
+import cirl1 from "../images/provisions-imgs/1Circle.png"
+import cirl2 from "../images/provisions-imgs/2Circle.png"
+import cirl3 from "../images/provisions-imgs/3Circle.png"
 
 // Problems / Soulutions
-import pic1 from "../images/provisions-imgs/problempics/pic1.jpg"
+import pic1 from "../images/provisions-imgs/problempics/pic1.png"
 import pic2 from "../images/provisions-imgs/problempics/pic2.jpg"
-import pic3 from "../images/provisions-imgs/problempics/pic3.jpg"
+import pic3 from "../images/provisions-imgs/problempics/pic3.png"
 import pic4 from "../images/provisions-imgs/problempics/pic4.jpg"
-import pic5 from "../images/provisions-imgs/problempics/pic5.jpg"
+import pic5 from "../images/provisions-imgs/problempics/pic5.png"
 import pic6 from "../images/provisions-imgs/problempics/pic6.jpg"
 
 
@@ -54,8 +59,8 @@ const CaseStudy = () => (
             <p className={caseStyle.overviewText}>4 Months</p>
           </div>
           <div>
-            <h1 className={caseStyle.overviewTitle}>Focus</h1>
-            <p className={caseStyle.overviewText}>Product Desinger</p>
+            <h1 className={caseStyle.overviewTitle}>My Role</h1>
+            <p className={caseStyle.overviewText}>Product Design, UX/UI</p>
           </div>
           <div>
             <h1 className={caseStyle.overviewTitle}>Involvement</h1>
@@ -65,7 +70,7 @@ const CaseStudy = () => (
 
         <div>
           <div className={caseStyle.flexcontaineroverview}>
-            <h1 className={caseStyle.flextitleoverview}>My Role</h1>
+            <h1 className={caseStyle.flextitleoverview}>Summary</h1>
             <p className={caseStyle.overviewdescription}>My role as a Product designer was to redesign the original screens. This involved reconstructing how the user navigates around the app. I also created a prototype of the swipe feature to demonstrate the process of placing an order.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
@@ -90,7 +95,7 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Original Design</h1>
-            <p className={caseStyle.overviewdescription}>The first step is to ask questions about the vision and design inspiration for the app. The main feature of the app is the swipe card mechanic which allows the user to swipe through different food options. The original design was inspired by Figma’s website with its use of color and bold font.</p>
+            <p className={caseStyle.overviewdescription}>I asked the founder questions regarding the vision and design inspiration for the app. The main feature of the app is the swipe card mechanic which allows the user to swipe through different food options. The original design was inspired by Figma’s website with its use of color and bold font.</p>
           </div>
 
           {/* Center Big Image */}
@@ -168,15 +173,42 @@ const CaseStudy = () => (
             </div>
           </div>
 
+          <div className={caseStyle.flexSideImageContainer}>
+            <h1 className={caseStyle.flextitleoverview}></h1>
+            <div className={caseStyle.flexTextContainer}>
+              <img className={caseStyle.styleguideImg} src={dataSurvey} alt="Data Survey"></img>
+              <p className={caseStyle.imgdescriptext}>Survey Data</p>
+            </div>
+          </div>
+          <div className={caseStyle.flexcontaineroverviewfirst}>
+            <h1 className={caseStyle.flextitleoverview}>Low Fidelity<br></br> Wireframes</h1>
+            <div className={caseStyle.flexTextContainer}>
+              <p className={caseStyle.overviewdescription}>Sketched lofi wireframes based on feedback from the survey. Also changed the design to a tab bar layout, recommended by Apple’s Human Interface Guidelines. </p>
+            </div>
+          </div>
+
           {/* Center Big Image */}
           <div className={caseStyle.figmacontrainer}>
+            <img src={lofiPaper} alt="Low Pics"></img>
+            <p className={caseStyle.imgdescriptextCenter}>Low Fidelity Screens</p>
+          </div>
+
+          <div className={caseStyle.flexcontaineroverviewfirst}>
+            <h1 className={caseStyle.flextitleoverview}>High Fidelity<br></br> Wireframes</h1>
+            <div className={caseStyle.flexTextContainer}>
+              <p className={caseStyle.overviewdescription}>Designed hifi wireframes to get impressions of the redesign. The color scheme of the app and tab bar menu received positive impressions.</p>
+            </div>
+          </div>
+
+          {/* Center Big Image */}
+          <div className={caseStyle.hifiPiccontainer}>
             <img src={newpics} alt="New Pics"></img>
-            <p className={caseStyle.imgdescriptextCenter}>High Fidelity Screens</p>
+            <p className={caseStyle.newpicimgdescription}>High Fidelity Screens</p>
           </div>
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Flow of the App</h1>
-            <p className={caseStyle.overviewdescription}>The app is tab bar based which is recommended by Apple’s Human Interface Guidelines which allows users to quickly switch into different sections of an app. After competitive analysis, I chose 3 sections: account, orders, and explore (swipe feature). This is where color came into play and color coded the different sections.</p>
+            <p className={caseStyle.overviewdescription}> After competitive analysis, I chose 3 tab bar sections: account, orders, and explore (swipe feature). This is where color came into play and color coded the different sections.</p>
           </div>
 
           <div className={caseStyle.flexSideImageContainer}>
@@ -212,6 +244,10 @@ const CaseStudy = () => (
         </div>
 
         {/* HELLA Images (6) */}
+        {/* <DesignProb title="Problem #1: Swipe Screen" pic={pic1} picClass={caseStyle.pic1} arrayQ={["No price indication of the food item","No indication of distance between user and the restaurant", "Swipe feature is not apparent to the user"]}></DesignProb>
+
+        <DesignProb title="Problem #1: Swipe Screen" picClass={caseStyle.pic2} pic={pic2} arrayQ={["No price indication of the food item","No indication of distance between user and the restaurant", "Swipe feature is not apparent to the user"]}></DesignProb> */}
+
         <div className={caseStyle.mainContainr}>
           <div className={caseStyle.leftDPImg}>
             <img className={caseStyle.pic1} src={pic1}></img>
@@ -220,15 +256,15 @@ const CaseStudy = () => (
           <div className={caseStyle.rigtDPtext}>
             <div className={caseStyle.titleProb}>Problem #1: Swipe Screen</div>
             <div className={caseStyle.sidewayrightCon}>
-              <div className={caseStyle.numcirlrigt}>1</div>
+              <img src={cirl1} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>No price indication of the food item</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
-              <div className={caseStyle.numcirlrigt}>2</div>
+              <img src={cirl2} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>No indication of distance between user and the restaurant</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
-              <div className={caseStyle.numcirlrigt}>3</div>
+              <img src={cirl3} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>Swipe feature is not apparent to the user</div>
             </div>
           </div>
@@ -242,15 +278,15 @@ const CaseStudy = () => (
           <div className={caseStyle.rigtDPtext}>
             <div className={caseStyle.titleProb}>Solution</div>
             <div className={caseStyle.sidewayrightCon}>
-              <div className={caseStyle.numcirlrigt}>1</div>
+              <img src={cirl1} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>Price and regular full price are visible to show the user that they're getting a deal</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
-              <div className={caseStyle.numcirlrigt}>2</div>
+              <img src={cirl2} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>Replaced city name with number of miles between user and restaurant</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
-              <div className={caseStyle.numcirlrigt}>3</div>
+              <img src={cirl3} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>Added buttons to make the action clear. (Checkmark to place order, red “X” to move to the next food item)</div>
             </div>
           </div>
@@ -264,11 +300,11 @@ const CaseStudy = () => (
           <div className={caseStyle.rigtDPtext}>
             <div className={caseStyle.titleProb}>Problem #2: Placing an Order</div>
             <div className={caseStyle.sidewayrightCon}>
-              <div className={caseStyle.numcirlrigt}>1</div>
+              <img src={cirl1} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>User must go through 2 screens to place an order</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
-              <div className={caseStyle.numcirlrigt}>2</div>
+              <img src={cirl2} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>The white space between elements can be condensed to fit more information into a single viewport</div>
             </div>
           </div>
@@ -282,15 +318,15 @@ const CaseStudy = () => (
           <div className={caseStyle.rigtDPtext}>
             <div className={caseStyle.titleProb}>Solution</div>
             <div className={caseStyle.sidewayrightCon}>
-              <div className={caseStyle.numcirlrigt}>1</div>
+              <img src={cirl1} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>Condensed information into a single viewport</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
-              <div className={caseStyle.numcirlrigt}>2</div>
+              <img src={cirl2} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>Added a subtotal section to show the cost of the order. Suggested through competitive analysis.</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
-              <div className={caseStyle.numcirlrigt}>3</div>
+              <img src={cirl3} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>Added “You Saved” phrase at the end to incentivize users to add more to their order. (The more you add to your order, the more you save)</div>
             </div>
           </div>
@@ -304,11 +340,11 @@ const CaseStudy = () => (
           <div className={caseStyle.rigtDPtext}>
             <div className={caseStyle.titleProb}>Problem #3: After Placing an Order</div>
             <div className={caseStyle.sidewayrightCon}>
-              <div className={caseStyle.numcirlrigt}>1</div>
+              <img src={cirl1} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>No address of the restaurant</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
-              <div className={caseStyle.numcirlrigt}>2</div>
+              <img src={cirl2} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>Unable to input location on external map app</div>
             </div>
           </div>
@@ -322,15 +358,15 @@ const CaseStudy = () => (
           <div className={caseStyle.rigtDPtext}>
             <div className={caseStyle.titleProb}>Solution</div>
             <div className={caseStyle.sidewayrightCon}>
-              <div className={caseStyle.numcirlrigt}>1</div>
+              <img src={cirl1} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>Address of the restaurant is visible. Also included the distance between user and restaurant.</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
-              <div className={caseStyle.numcirlrigt}>2</div>
+              <img src={cirl2} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>Added a button to open in an external map app</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
-              <div className={caseStyle.numcirlrigt}>3</div>
+              <img src={cirl3} className={caseStyle.numcirlrigt}></img>
               <div className={caseStyle.textDPrigt}>Changed the call to action to be more direct. “Pickup” color is changed to green to stand out from the text.</div>
             </div>
           </div>
