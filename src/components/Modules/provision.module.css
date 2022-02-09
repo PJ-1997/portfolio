@@ -350,6 +350,12 @@
   margin-top: 70px;
   }  
 
+  .mainContainrTop { 
+    width: auto;
+    display: flex;
+    margin-top: 66px;
+    } 
+
   .leftDPImg {
     margin-right: auto;
   }

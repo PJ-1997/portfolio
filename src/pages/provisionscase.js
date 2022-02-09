@@ -248,7 +248,7 @@ const CaseStudy = () => (
 
         <DesignProb title="Problem #1: Swipe Screen" picClass={caseStyle.pic2} pic={pic2} arrayQ={["No price indication of the food item","No indication of distance between user and the restaurant", "Swipe feature is not apparent to the user"]}></DesignProb> */}
 
-        <div className={caseStyle.mainContainr}>
+        <div className={caseStyle.mainContainrTop}>
           <div className={caseStyle.leftDPImg}>
             <img className={caseStyle.pic1} src={pic1}></img>
           </div>

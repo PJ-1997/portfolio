@@ -21,6 +21,15 @@
   border-color: rgba(51, 51, 51, 0.05);
 }
 
+.layoutspacertopFig {
+  height: 1px;
+  margin-top: 75px;
+  margin-bottom: 56px;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: rgba(51, 51, 51, 0.05);
+}
+
 .divcenter {
   margin-left:auto;
   margin-right:auto;
@@ -50,6 +59,21 @@
   line-height: 40px;
   font-weight: 400;
   padding-left: 16px;
+}
+
+.newpicsImage {
+  margin-top: 20px;
+}
+
+.newpicimgdescription {
+  margin-bottom: 0px;
+  margin-top: 14px;
+  text-align: center;
+  font-family: 'Circular Std', sans-serif;
+  font-size: 15px;
+  line-height: 40px;
+  color: rgba(188, 188, 188, 1);
+  font-weight: 500;
 }
 
 .IphonePic {
@@ -221,7 +245,7 @@
   line-height: 40px;
   color: rgba(188, 188, 188, 1);
   font-weight: 500;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .titleFigContainer {

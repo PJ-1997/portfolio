@@ -7,14 +7,9 @@ import { Link } from "gatsby"
 import rotatoImg from "../images/stocknotify-imgs/rotato.png"
 
 import initialScreen from "../images/stocknotify-imgs/lofi-notify.png"
-import lofiMain from "../images/stocknotify-imgs/lofi-main.png"
-import hifiMain from "../images/stocknotify-imgs/hifi-main.png"
+import lofiMain from "../images/stocknotify-imgs/lofiSN.jpg"
+import hifiMain from "../images/stocknotify-imgs/higiSN.jpg"
 import compare from "../images/stocknotify-imgs/compare.png"
-
-import comparePopup from "../images/stocknotify-imgs/popup-images/compare.png"
-import lofiPopup from "../images/stocknotify-imgs/popup-images/lofiPopup.png"
-import initialPopup from "../images/stocknotify-imgs/popup-images/initialPopup.png"
-import hifiPopup from "../images/stocknotify-imgs/popup-images/hifiPopup.png"
 
 const CaseStudy = () => (
   <Layout>
@@ -121,10 +116,17 @@ const CaseStudy = () => (
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Lo-Fidelity Prototyping</p>
               <p className={caseStyle.subjectText}>I like to get my ideas on paper before I move into digitally creating the lo-fidelity prototypes.<br></br><br></br>Once I’ve gone through a couple of iterations, I then shared these lo-fidelity prototypes with users to get some feedback. This is an important step to make sure that the design fulfills the users’ need.</p>
-              <img src={lofiMain} alt="styleimg" className={caseStyle.styleguideImg}></img>
-              <p className={caseStyle.imgdescriptext}>Lo-Fidelity Wireframes</p>
+              {/* <img src={lofiMain} alt="styleimg" className={caseStyle.styleguideImg}></img> */}
+              {/* <p className={caseStyle.imgdescriptext}>Lo-Fidelity Wireframes</p> */}
             </div>
           </div>
+
+          {/* Center Big Image */}
+          <div className={caseStyle.hifiPiccontainer}>
+            <img src={lofiMain} alt="New Pics" className={caseStyle.newpicsImage}></img>
+            <p className={caseStyle.newpicimgdescription}>Low Fidelity Screens</p>
+          </div>
+
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}></h1>
             <div className={caseStyle.flexTextContainer}>
@@ -134,33 +136,32 @@ const CaseStudy = () => (
               <p className={caseStyle.imgdescriptext}>Initial Iteration of Notify Screen</p>
             </div>
           </div>
+
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}></h1>
             <div className={caseStyle.flexTextContainer}>
-              <p className={caseStyle.titleParagraph}>Hi-Fidelity Wireframes</p>
-              <p className={caseStyle.subjectText}>I chose to only give the user two options. Either set the price notification	 higher or lower than the inputed price. And I also removed the slide menu so that the options are apparent to the user and not hidden away through a slide menu. This new iteration is simple and improved the task of setting a price notification.</p>
+              <p className={caseStyle.titleParagraph}>Design Iteration</p>
+              <p className={caseStyle.subjectText}>From the user data, I changed the way how the user sets up a price notification. Either set the price notification higher or lower than the inputted price. Removed the slide menu so that the options are apparent to the user and not hidden away through a slide menu. This new iteration is simple and improved the task of setting a price notification.</p>
               <img src={compare} alt="styleimg" className={caseStyle.styleguideImg}></img>
-              {/* <img className={caseStyle.styleguideImg} src={compare} alt="styleimg"></img> */}
               <p className={caseStyle.imgdescriptext}>Comparing Iterations</p>
-              <p className={caseStyle.bottomImageST}>I also chose to color code the type of notification. For example, green is above and red is below. I kept this concept when creating the home screen for the application. The user is able to quickly see what notifications are still active and tell how the notified stock will activate based on the color.</p>
-              <img src={hifiMain} alt="styleimg" className={caseStyle.styleguideImg}></img>
-
-              <p className={caseStyle.imgdescriptext}>Hi-Fidelity Wireframes</p>
             </div>
           </div>
 
-          {/* TODO figma */}
-          <div className={caseStyle.titleFigContainer}>
-            <h1 className={caseStyle.textFig}>Figma Prototype</h1>
+          <div className={caseStyle.flexcontaineroverviewfirst}>
+            <h1 className={caseStyle.flextitleoverview}>High Fidelity<br></br> Wireframes</h1>
+            <div className={caseStyle.flexTextContainer}>
+              <p className={caseStyle.overviewdescription}>Color coded the type of notification. Red is below and green is above. The user can quickly see what notifications are still active and tell how the notification will activate based on the color.</p>
+            </div>
           </div>
 
-          <div className={caseStyle.figmacontrainer}>
-            <iframe className={caseStyle.figmaiframe} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Flo16QmS6ty9ePx0u9UEA8v%2FProtoype-SN%3Fnode-id%3D5%253A96%26viewport%3D553%252C225%252C0.2686116397380829%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
+          {/* Center Big Image */}
+          <div className={caseStyle.hifiPiccontainer}>
+            <img src={hifiMain} alt="New Pics" className={caseStyle.newpicsImage}></img>
+            <p className={caseStyle.newpicimgdescription}>High Fidelity Screens</p>
           </div>
-
         </div>
-
       </section>
+
       <div className={caseStyle.layoutspacertop}></div>
 
       {/* Conclusion */}
