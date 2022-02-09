@@ -44,7 +44,7 @@ const CaseStudy = () => (
           </div>
         </div>
       </section>
-      <div className="layout-spacer-top"></div>
+      <div className={caseStyle.layoutspacertop}></div>
 
       {/* Overview */}
       <section className={caseStyle.sectionaligncenter}>
@@ -83,7 +83,7 @@ const CaseStudy = () => (
           </div>
         </div>
       </section>
-      <div className="layout-spacer-top"></div>
+      <div className={caseStyle.layoutspacertop}></div>
 
       {/* Starting Out / Inspiration */}
       <section className={caseStyle.sectionaligncenter}>
@@ -144,7 +144,7 @@ const CaseStudy = () => (
         </div>
 
       </section>
-      <div className="layout-spacer-top"></div>
+      <div className={caseStyle.layoutspacertop}></div>
 
       {/* New Design */}
       <section className={caseStyle.sectionaligncenter}>
@@ -202,7 +202,7 @@ const CaseStudy = () => (
 
           {/* Center Big Image */}
           <div className={caseStyle.hifiPiccontainer}>
-            <img src={newpics} alt="New Pics"></img>
+            <img src={newpics} alt="New Pics" className={caseStyle.newpicsImage}></img>
             <p className={caseStyle.newpicimgdescription}>High Fidelity Screens</p>
           </div>
 
@@ -234,7 +234,7 @@ const CaseStudy = () => (
 
         </div>
       </section>
-      <div className="layout-spacer-top"></div>
+      <div className={caseStyle.layoutspacertop}></div>
 
       {/* Indepth Design Problems */}
       <section className={caseStyle.sectionaligncenter}>
@@ -373,7 +373,7 @@ const CaseStudy = () => (
         </div>
 
       </section>
-      <div className="layout-spacer-top"></div>
+      <div className={caseStyle.layoutspacertop}></div>
 
       {/* Prototype */}
       <section className={caseStyle.sectionaligncenter}>
@@ -392,7 +392,7 @@ const CaseStudy = () => (
         </div>
 
       </section>
-      <div className="layout-spacer-top"></div>
+      <div className={caseStyle.layoutspacertop}></div>
 
       {/* Conclusion */}
       <section className={caseStyle.sectionaligncenter}>

@@ -32,7 +32,7 @@ const CaseStudy = () => (
           </div>
         </div>
       </section>
-      <div className="layout-spacer-top"></div>
+      <div className={caseStyle.layoutspacertop}></div>
 
       {/* Overview */}
       <section className={caseStyle.sectionaligncenter}>
@@ -71,7 +71,7 @@ const CaseStudy = () => (
           </div>
         </div>
       </section>
-      <div className="layout-spacer-top"></div>
+      <div className={caseStyle.layoutspacertop}></div>
 
       {/* Research Process */}
       <section className={caseStyle.sectionaligncenter}>
@@ -86,7 +86,7 @@ const CaseStudy = () => (
             <p className={caseStyle.overviewdescription}>The first step of the design process begins with collecting user data. This includes who are the users, how do they currently accomplish the task, and what do users perceive are problems with their current practices. In this case, I want to find out how do users get up to date with their stock prices.</p>
           </div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Naturalistic Observation</h1>
+            <h1 className={caseStyle.flextitleoverview}>Naturalistic <br></br> Observation</h1>
             <p className={caseStyle.overviewdescription}>To understand the problem space, I set to carry out a set of techniques to discover how is the user currently accomplishing the task. In this case, I chose to conduct a naturalistic observation to observe the user with no interaction between me and the user. The goal of this observation was to see how did the user keep themselves notified on price changes in their stocks. The data I found was quite interesting, users would open their respective brokerage application and check the price multiple times throughout day which got me thinking on potential questions to ask during a direct interaction with the user.</p>
           </div>
           {/* <div className={caseStyle.flexcontaineroverviewfirst}>
@@ -96,7 +96,7 @@ const CaseStudy = () => (
         </div>
 
       </section>
-      <div className="layout-spacer-top"></div>
+      <div className={caseStyle.layoutspacertop}></div>
 
       {/* Prototype */}
       <section className={caseStyle.sectionaligncenter}>
@@ -117,7 +117,7 @@ const CaseStudy = () => (
           </div>
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Prototyping and Iterations</h1>
+            <h1 className={caseStyle.flextitleoverview}>Prototyping and <br></br>Iterations</h1>
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.titleParagraph}>Lo-Fidelity Prototyping</p>
               <p className={caseStyle.subjectText}>I like to get my ideas on paper before I move into digitally creating the lo-fidelity prototypes.<br></br><br></br>Once I’ve gone through a couple of iterations, I then shared these lo-fidelity prototypes with users to get some feedback. This is an important step to make sure that the design fulfills the users’ need.</p>
@@ -161,7 +161,7 @@ const CaseStudy = () => (
         </div>
 
       </section>
-      <div className="layout-spacer-top"></div>
+      <div className={caseStyle.layoutspacertop}></div>
 
       {/* Conclusion */}
       <section className={caseStyle.sectionaligncenter}>
