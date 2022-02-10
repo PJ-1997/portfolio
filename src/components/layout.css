@@ -355,7 +355,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .projectdescription {
      max-width: 320px;
      margin-top: 0px;
-     margin-bottom: 6px;
+     margin-bottom: 8px;
      font-family: 'Circular Std', sans-serif;
      font-size: 16px;
      line-height: 26px;
@@ -722,7 +722,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
    .rewind {
      margin-top: 0px;
-     padding: 16px 32px;
+     padding: 15px 28px;
      border-radius: 8px;
      background-color: rgba(35, 177, 108, 0.1);
      -webkit-transition: background-color 200ms ease;
