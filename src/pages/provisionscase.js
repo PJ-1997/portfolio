@@ -155,7 +155,7 @@ const CaseStudy = () => (
 
         <div className={caseStyle.flexcontaineroverviewfirst}>
           <h1 className={caseStyle.flextitleoverview}>Why the switch to <br></br>dark theme?</h1>
-          <p className={caseStyle.overviewdescription}>The main reason for the switch was to stand out the competition. I surveyed participants on their impression on the theme choice. And participants responded positively with the neon dark theme. Other surplus food apps in the market are light theme with one main primary color.</p>
+          <p className={caseStyle.overviewdescription}>The main reason for the switch was to stand out from the competition. <br></br>I surveyed participants on their impression on the theme choice. And participants responded positively with the neon dark theme. Other surplus food apps in the market are light theme with one main primary color.</p>
         </div>
 
         {/* Center Big Image */}

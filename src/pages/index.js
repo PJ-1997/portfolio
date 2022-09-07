@@ -8,7 +8,7 @@ import provImage from "../images/provisions-imgs/provDisplayImage.png"
 import provisPopImage from "../images/provisions-imgs/provPopImage.jpg"
 import snpopImage from "../images/snPopup.png"
 import snScreenshots from "../images/snScreenshots.png"
-import github from "../images/githubLogo.png"
+import dribblepic from "../images/githubLogo.png"
 import linkedin from "../images/linkedinLogo.png"
 
 const IndexPage = () => (
@@ -24,7 +24,7 @@ const IndexPage = () => (
           <div className="description">Product designer with experience in creating prototypes and a passion for explaining the importance of good design to non-designers</div>
           <div className="icons">
             <div className="iconContainter"><a href="https://www.linkedin.com/in/pedro-molina-465441165/" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={linkedin} alt="Linkedin"></img></a></div>
-            <div className="iconContainter"><a href="https://github.com/PJ-1997" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={github} alt="Github"></img></a></div>
+            <div className="iconContainter"><a href="https://dribbble.com/nice38/shots" target="_blank" rel="noopener noreferrer"><img className="imgPicDribble" src={dribblepic} alt="Dribble"></img></a></div>
           </div>
         </div>
       </div>
