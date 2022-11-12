@@ -44,7 +44,7 @@ const IndexPage = () => (
           </div>
           <div className="projectinfo">
             <div className="projecttitle">+provisions</div>
-            <div className="projectdates">Jan 2022 - May 2022</div>
+            <div className="projectdates">Mar 2022 - Sep 2022</div>
             <div className="projectdescription">Deals on Surplus food. I was in charge <br></br>of redesigning the app and creating high fidelity wireframes to make the design presentable to potential investors.<br></br> Created prototype to demonstrate how <br></br>the app functions.</div>
             <Link to="/provisionscase" className="linkcasestudy">View Case Study</Link>
           </div>
