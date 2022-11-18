@@ -54,7 +54,7 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Summary</h1>
-            <p className={caseStyle.overviewdescription}>My role as a Product designer was to conduct research. This involved asking questions such as who are the users and how they currently accomplish the task. I then designed interfaces to improve the task of setting a price notification.</p>
+            <p className={caseStyle.overviewdescription}>My role as a UI/UX designer was to conduct research. This involved asking questions such as who are the users and how they currently accomplish the task. I then designed interfaces to improve the task of setting a price notification.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Challenge</h1>

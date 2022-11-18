@@ -21,7 +21,7 @@ const IndexPage = () => (
       <div className="introduction" >
         <div className="w-container">
           <h1 className="header">Pedro Molina</h1>
-          <div className="description">Product designer with experience in creating prototypes and a passion for explaining the importance of good design to non-designers</div>
+          <div className="description">UI/UX designer with experience in creating prototypes and a passion for explaining the importance of good design to non-designers</div>
           <div className="icons">
             <div className="iconContainter"><a href="https://www.linkedin.com/in/pedro-molina-465441165/" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={linkedin} alt="Linkedin"></img></a></div>
             <div className="iconContainter"><a href="https://dribbble.com/pedromolina" target="_blank" rel="noopener noreferrer"><img className="imgPicDribble" src={dribblepic} alt="Dribble"></img></a></div>

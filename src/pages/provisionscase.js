@@ -56,11 +56,11 @@ const CaseStudy = () => (
         <div className={caseStyle.gridcontainer}>
           <div>
             <h1 className={caseStyle.overviewTitle}>Duration</h1>
-            <p className={caseStyle.overviewText}>4 Months</p>
+            <p className={caseStyle.overviewText}>6 Months</p>
           </div>
           <div>
             <h1 className={caseStyle.overviewTitle}>My Role</h1>
-            <p className={caseStyle.overviewText}>Product Design, UX/UI</p>
+            <p className={caseStyle.overviewText}>UI/UX, Product Design</p>
           </div>
           <div>
             <h1 className={caseStyle.overviewTitle}>Involvement</h1>
@@ -71,11 +71,11 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Summary</h1>
-            <p className={caseStyle.overviewdescription}>My role as a Product designer was to redesign the original screens. This involved reconstructing how the user navigates around the app. I also created a prototype of the swipe feature to demonstrate the process of placing an order.</p>
+            <p className={caseStyle.overviewdescription}>My role as a UI/UX designer was to redesign the original screens. This involved reconstructing how the user navigates around the app. I also created a prototype of the swipe feature to demonstrate the process of placing an order.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Challenge</h1>
-            <p className={caseStyle.overviewdescription}>The main challenge was the time constraint. The goal was to have high fidelity wireframes and a prototype of the app before a specific deadline. In time for an accelerator program. Another challenge was differentiating the design of the app from other surplus food apps on the market. We want the app to stand out from the crowd.</p>
+            <p className={caseStyle.overviewdescription}>The goal was to have high fidelity wireframes and a prototype of the app before a specific deadline. In time for an accelerator program. Another challenge was differentiating the design of the app from other surplus food apps on the market. We want the app to stand out from the crowd.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Solution</h1>
