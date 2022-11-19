@@ -103,6 +103,18 @@
   margin-bottom: 4px;
 }
 
+.textProtypeDesecpiton {
+  font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    margin-top:8px;
+}
+
 .underlinetitle {
   background-color: rgba(18, 175, 105, 0.3);
   width: 80px;
@@ -113,7 +125,7 @@
 .gridcontainer {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  margin-top: 22px;
+  margin-top: 24px;
 }
 
 .overviewTitle {
@@ -160,7 +172,7 @@
 
 .flexcontaineroverviewfirst {
   display: flex;
-  margin-top: 20px;
+  margin-top: 24px;
 }
 
 .newpicsImage {
@@ -293,7 +305,7 @@
 }
 
 .figmacontrainer {
-  margin-top: 30px;
+  margin-top: 48px;
   align-content: center;
   justify-content: center;
   text-align: center;
@@ -325,7 +337,7 @@
 }
 
 .reflectionContainer {
-  margin-top: 30px;
+  margin-top: 32px;
 
   display: flex;
   align-items: center;

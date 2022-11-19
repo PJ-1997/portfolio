@@ -379,7 +379,7 @@ const CaseStudy = () => (
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
           <h1 className={caseStyle.titletextUnderGrnLine}>Prototype</h1>
-          <div className={caseStyle.underlinetitle}></div>
+          <h1 className={caseStyle.textProtypeDesecpiton}>Sign Up/In&nbsp;&&nbsp;Placing an Order</h1>
         </div>
 
         {/* Figma Prototype */}
