@@ -201,17 +201,9 @@
   max-width: 528px;
   margin-top: 20px;
   margin-left: var(--desctription-marginleft);
-
-  /* THis is the previous code */
-  /* margin-right: 30px; */
-  /* margin-left: auto; */
-
 }
 
 /* Design Process */
-/* .flexTextContainer {
-
-} */
 .titleParagraph {
   font-family: 'Circular Std', sans-serif;
   font-style: normal;
@@ -373,7 +365,8 @@
   }
 
   .rigtDPtext{
-    width: 508px;
+    /* problem text not shrkining with windowsize width: 508px; */
+    max-width: 508px;
     height: auto;
     margin-left: auto;
     margin-right: 20px;
@@ -462,6 +455,12 @@
 @media (max-width: 732px) {
   .mainContainr {
     display: block;
+  }
+  .mainContainrTop{
+    display: block;
+  }
+  .rigtDPtext {
+    margin-left: 58px;
   }
   .ratioimage {
     margin-left: 0px;

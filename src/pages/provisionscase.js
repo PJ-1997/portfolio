@@ -71,7 +71,7 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Summary</h1>
-            <p className={caseStyle.overviewdescription}>My role as a UI/UX designer was to redesign the original screens. This involved reconstructing how the user navigates around the app. I also created a prototype of the swipe feature to demonstrate the process of placing an order.</p>
+            <p className={caseStyle.overviewdescription}>My role as a UI/UX designer was to redesign the company’s mockups. And to conduct user research to find out impression of the mockups. <br></br>To know which parts of the design to prioritize on based on user feedback. I also developed a high-fidelity prototype to demonstrate <br></br>how the user places an order.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Challenge</h1>
@@ -101,12 +101,12 @@ const CaseStudy = () => (
           {/* Center Big Image */}
           <div className={caseStyle.figmacontrainer}>
             <img src={oldpics} alt="Old Pics"></img>
-            <p className={caseStyle.imgdescriptextCenter}>Original Screens</p>
+            <p className={caseStyle.imgdescriptextCenter}>Company's Mockups</p>
           </div>
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Conducting a <br></br>Survey</h1>
-            <p className={caseStyle.overviewdescription}>I chose to run a survey through Google Forms to find out impressions about the original design. I also asked the participants' age to find out which demographic I need to design for. Due to the time constraint, I surveyed 31 participants through Slack and LinkedIn.</p>
+            <p className={caseStyle.overviewdescription}>I chose to run a survey through Google Forms to find out impressions about the original design. I also asked the participants' age to find out which demographic I need to design for. Due to the time constraint, <br></br>I surveyed 31 participants through Slack and LinkedIn.</p>
           </div>
 
           <div className={caseStyle.flexSideImageContainer}>
@@ -287,7 +287,7 @@ const CaseStudy = () => (
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
               <img src={cirl3} className={caseStyle.numcirlrigt}></img>
-              <div className={caseStyle.textDPrigt}>Added buttons to make the action clear. (Checkmark to place order, red “X” to move to the next food item)</div>
+              <div className={caseStyle.textDPrigt}>Added buttons to make the action clear. (Checkmark to place order, “X” to move to the next food item)</div>
             </div>
           </div>
         </div>
@@ -323,7 +323,7 @@ const CaseStudy = () => (
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
               <img src={cirl2} className={caseStyle.numcirlrigt}></img>
-              <div className={caseStyle.textDPrigt}>Added a subtotal section to show the cost of the order. Suggested through competitive analysis.</div>
+              <div className={caseStyle.textDPrigt}>Added a subtotal section to show the cost of the order. From competitive analysis</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
               <img src={cirl3} className={caseStyle.numcirlrigt}></img>
@@ -359,7 +359,7 @@ const CaseStudy = () => (
             <div className={caseStyle.titleProb}>Solution</div>
             <div className={caseStyle.sidewayrightCon}>
               <img src={cirl1} className={caseStyle.numcirlrigt}></img>
-              <div className={caseStyle.textDPrigt}>Address of the restaurant is visible. Also included the distance between user and restaurant.</div>
+              <div className={caseStyle.textDPrigt}>Address of the restaurant is visible. Also included the distance between user and restaurant</div>
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
               <img src={cirl2} className={caseStyle.numcirlrigt}></img>
@@ -367,7 +367,7 @@ const CaseStudy = () => (
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
               <img src={cirl3} className={caseStyle.numcirlrigt}></img>
-              <div className={caseStyle.textDPrigt}>Changed the call to action to be more direct. “Pickup” color is changed to green to stand out from the text.</div>
+              <div className={caseStyle.textDPrigt}>Changed the call to action to be more direct. “Pickup” color changed to green to stand out from the text</div>
             </div>
           </div>
         </div>
