@@ -45,7 +45,7 @@ const IndexPage = () => (
           <div className="projectinfo">
             <div className="projecttitle">+provisions</div>
             <div className="projectdates">Mar 2022 - Sep 2022</div>
-            <div className="projectdescription">Deals on Surplus food. I was in charge <br></br>of redesigning the app and creating high fidelity wireframes to make the design presentable to potential investors.<br></br> Created prototype to demonstrate how <br></br>the app functions.</div>
+            <div className="projectdescription">Surplus food platform for restaurants. <br></br>In charge of redesigning app, conducting user research, and creating prototype <br></br>to demonstrate app’s functionality.</div>
             <Link to="/provisionscase" className="linkcasestudy">View Case Study</Link>
           </div>
         </div>
@@ -63,7 +63,7 @@ const IndexPage = () => (
           <div className="projectinfo">
             <div className="projecttitle">Stock Notify</div>
             <div className="projectdates">Nov 2020 - Feb 2021</div>
-            <div className="projectdescription">Personal project that I designed and programmed in Xcode. Sends notifications on stock prices. The user can search, favorite, and set price notifications.</div>
+            <div className="projectdescription">Personal project developed in Xcode. <br></br>Sends notifications on stock prices. <br></br>User can search, favorite, and set price notifications.</div>
             <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
           </div>
         </div>
