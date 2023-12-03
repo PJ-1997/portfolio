@@ -2,14 +2,13 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
+import BigPopup from "../components/Popups/bigpopup"
 import ImagePopup from "../components/Popups/popup"
 // Images
 import provImage from "../images/provisions-imgs/provDisplayImage.png"
-import provisPopImage from "../images/provisions-imgs/provPopImage.jpg"
-import snpopImage from "../images/snPopup.png"
-import snScreenshots from "../images/snScreenshots.png"
 import dribblepic from "../images/githubLogo.png"
 import linkedin from "../images/linkedinLogo.png"
+import farrierImage from "../images/farrier-imgs/farrier.png"
 
 const IndexPage = () => (
   <Layout>
@@ -20,8 +19,8 @@ const IndexPage = () => (
       {/* Introduction */}
       <div className="introduction" >
         <div className="w-container">
-          <h1 className="header">Pedro Molina</h1>
-          <div className="description">UI/UX designer with experience in creating prototypes and a passion for explaining the importance of good design to non-designers</div>
+          <h1 className="header">UI/UX Designer</h1>
+          <div className="description">Experience in creating prototypes and a passion for explaining the importance of good design to non-designers</div>
           <div className="icons">
             <div className="iconContainter"><a href="https://www.linkedin.com/in/pedro-molina-465441165/" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={linkedin} alt="Linkedin"></img></a></div>
             <div className="iconContainter"><a href="https://dribbble.com/pedromolina" target="_blank" rel="noopener noreferrer"><img className="imgPicDribble" src={dribblepic} alt="Dribble"></img></a></div>
@@ -36,11 +35,26 @@ const IndexPage = () => (
 
       {/* App Projects */}
       <div id="Projects" className="projects">
-        <div className="project w-container">
+        <div className="project pw-holder">
           <div className="projectimagebg">
-            <ImagePopup title="+provisions" popimage={provisPopImage}
-              triggerElement={<img className="projectimage w-inline-block pointer" src={provImage} alt="+provisions"></img>}>
-            </ImagePopup>
+            <img className="projectimage w-inline-block" src={farrierImage} alt="Farrier Business"></img>
+          </div>
+          <div className="projectinfo">
+            <div className="projecttitle">Farrier Business</div>
+            <div className="projectdates">Sep 2023 - Oct 2023</div>
+            <div className="projectdescription">Business website. Includes header, <br></br>nav bar, hero, services, about us, <br></br>social proof, contact form, CTA, <br></br>and footer.<br></br></div>
+            {/* <Link to="/provisionscase" className="linkcasestudy">View Case Study</Link> */}
+          </div>
+        </div>
+      </div>
+
+      <div style={{ marginBottom: `100px` }}> </div>
+
+
+      <div id="Projects" className="projects">
+        <div className="project pw-holder">
+          <div className="projectimagebg">
+            <img className="projectimage w-inline-block" src={provImage} alt="+provisions"></img>
           </div>
           <div className="projectinfo">
             <div className="projecttitle">+provisions</div>
@@ -53,7 +67,7 @@ const IndexPage = () => (
 
       <div style={{ marginBottom: `100px` }}> </div>
 
-      <div id="Projects" className="projects">
+      {/* <div id="Projects" className="projects">
         <div className="project w-container">
           <div className="projectimagebg">
             <ImagePopup title="Stock Notify" popimage={snpopImage}
@@ -67,7 +81,7 @@ const IndexPage = () => (
             <Link to="/stocknotifycase" className="linkcasestudy">View Case Study</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <SEO title="Pedro Molina" />
     </body>
 

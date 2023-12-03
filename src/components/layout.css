@@ -36,15 +36,15 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
   .iconContainter {
     padding-right: 10px;
-    padding-left: 10px;
+    padding-left: 6px;
   }
 
   .imgPic {
-    height: 50px;
+    height: 44px;
   }
 
   .imgPicDribble {
-    height: 52px;
+    height: 44px;
   }
 
   .demoStyle {
@@ -230,8 +230,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      display: -webkit-flex;
      display: -ms-flexbox;
      display: flex;
-     width: 600px;
-     height: 400px;
+     width: 754px;
+     /* height: 400px; */
      float: right;
      -webkit-box-orient: horizontal;
      -webkit-box-direction: normal;
@@ -247,15 +247,11 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      -ms-flex-align: center;
      align-items: center;
      border-style: none;
-     border-width: 1px;
-     border-color: rgba(51, 51, 51, 0.05);
-     border-radius: 8px;
-     background-color: hsla(0, 0%, 96.9%, 0.5);
    }
    
    .projectimage {
      display: block;
-     max-width: 80%;
+     /* max-width: 80%; */
      margin-right: auto;
      margin-left: auto;
      -webkit-box-flex: 0;
@@ -271,11 +267,11 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      transition: transform 1000ms ease, -webkit-transform 1000ms ease;
    }
    
-   .projectimage:hover {
+   /* .projectimage:hover {
      -webkit-transform: scale(1.05);
      -ms-transform: scale(1.05);
      transform: scale(1.05);
-   }
+   } */
    
    .arrowforward {
      margin-left: 2px;
@@ -310,7 +306,8 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      -ms-flex-pack: center;
      justify-content: center;
      font-family: 'Circular Std', sans-serif;
-     font-size: 45px;
+     font-size: 40px;
+     margin-top: 18px;
      font-weight: 700;
      text-align: center;
      letter-spacing: 0px;
@@ -344,6 +341,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .projectinfo {
      position: absolute;
      margin-top: 0px;
+     position: -webkit-sticky;
+     position: sticky;
+     top: 40px;
    }
    
    .projecttitle {
@@ -876,7 +876,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      }
      .projectimagebg {
        width: 440px;
-       height: 300px;
+       /* height: 300px; */
      }
      .projectimage {
        max-width: 85%;
@@ -1012,7 +1012,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
        -ms-flex-pack: end;
        justify-content: flex-end;
      }
-     .projectimage {
+     /* .projectimage {
        position: static;
        top: 5%;
        display: block;
@@ -1023,7 +1023,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
        -webkit-flex: 0 auto;
        -ms-flex: 0 auto;
        flex: 0 auto;
-     }
+     } */
      .introduction {
        margin-top: 0px;
        margin-right: 0px;
@@ -2123,7 +2123,29 @@ textarea.w-input,textarea.w-select{
 .w-container{
     margin-left:auto;
     margin-right:auto;
+    /* background-color: red; */
     max-width:940px
+}
+.pw-holder{
+  margin-left:auto;
+  margin-right:auto;
+  /* background-color: yellow; */
+  max-width:1106px
+}
+.pw-holder:before,.pw-holder:after{
+  content:" ";
+  display:table;
+  grid-column-start:1;
+  grid-row-start:1;
+  grid-column-end:2;
+  grid-row-end:2
+}
+.pw-holder:after{
+  clear:both
+}
+.pw-holder .w-row{
+  margin-left:-10px;
+  margin-right:-10px
 }
 .w-container:before,.w-container:after{
     content:" ";
@@ -2210,6 +2232,9 @@ textarea.w-input,textarea.w-select{
     .w-container{
         max-width:728px
     }
+    .pw-holder {
+      max-width:728px
+    }
     .w-hidden-main{
         display:inherit !important
     }
@@ -2272,6 +2297,10 @@ textarea.w-input,textarea.w-select{
         margin-left:0;
         margin-right:0
     }
+    .w-row,.pw-holder.w-row{
+      margin-left:0;
+      margin-right:0
+  }
     .w-col{
         width:100%;
         left:auto;
@@ -2317,6 +2346,9 @@ textarea.w-input,textarea.w-select{
 @media screen and (max-width:479px){
     .w-container{
         max-width:none
+    }
+    .pw-holder {
+      max-width: none;
     }
     .w-hidden-main{
         display:inherit !important

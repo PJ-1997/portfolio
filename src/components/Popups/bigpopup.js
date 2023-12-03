@@ -2,14 +2,14 @@ import React from 'react';
 import Popup from 'reactjs-popup';
 
 const contentStyle = {
-  width: "65%",
+  width: "80%",
   minWidth: "350px",
-  maxWidth: "960px"
+  maxWidth: "1050px"
 };
 
-function OwnPopup({ title, popimage, triggerElement }) {
+function BigPopup({ title, popimage, triggerElement }) {
   return (
-    <Popup contentStyle={contentStyle} trigger={triggerElement} modal>
+    <Popup contentStyle={contentStyle} trigger={triggerElement} lockScroll={false} modal>
       {close => (
         <div className="modal">
           <a className="close" onClick={close}> &times; </a>
@@ -26,6 +26,6 @@ function OwnPopup({ title, popimage, triggerElement }) {
     </Popup>
   )
 }
-export default OwnPopup
+export default BigPopup
 
 
