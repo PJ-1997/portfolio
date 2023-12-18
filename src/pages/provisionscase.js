@@ -206,7 +206,7 @@ const CaseStudy = () => (
             <p className={caseStyle.newpicimgdescription}>High Fidelity Screens</p>
           </div>
 
-          <div className={caseStyle.flexcontaineroverviewfirst}>
+          {/* <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Flow of the App</h1>
             <p className={caseStyle.overviewdescription}> After competitive analysis, I chose 3 tab bar sections: account, orders, and explore (swipe feature). This is where color came into play and color coded the different sections.</p>
           </div>
@@ -217,7 +217,7 @@ const CaseStudy = () => (
               <img className={caseStyle.styleguideImg} src={layout} alt="Inspiration"></img>
               <p className={caseStyle.imgdescriptext}>Tab Bar Layout</p>
             </div>
-          </div>
+          </div> */}
 
           {/* <div className={caseStyle.flexcontaineroverviewfirst}>
             <h1 className={caseStyle.flextitleoverview}>Prototyping and Iterations</h1>
@@ -412,7 +412,7 @@ const CaseStudy = () => (
       </div>
 
     </body>
-    <SEO title="Case Study" />
+    <SEO title="+provisions" />
   </Layout>
 )
 

@@ -6,8 +6,10 @@ import BigPopup from "../components/Popups/bigpopup"
 import ImagePopup from "../components/Popups/popup"
 // Images
 import provImage from "../images/provisions-imgs/provDisplayImage.png"
-import dribblepic from "../images/githubLogo.png"
-import linkedin from "../images/linkedinLogo.png"
+// import dribblepic from "../images/githubLogo.png"
+// import linkedin from "../images/linkedinLogo.png"
+import dribblepic from "../images/dribble.svg"
+import linkedin from "../images/linkedin.svg"
 import farrierImage from "../images/farrier-imgs/farrier.png"
 
 const IndexPage = () => (
@@ -20,10 +22,10 @@ const IndexPage = () => (
       <div className="introduction" >
         <div className="w-container">
           <h1 className="header">UI/UX Designer</h1>
-          <div className="description">Experience in creating prototypes and a passion for explaining the importance of good design to non-designers</div>
+          <div className="description">Experience using data-driven insights and user-centered approach to make designs <br></br>that fulfill needs</div>
           <div className="icons">
-            <div className="iconContainter"><a href="https://www.linkedin.com/in/pedro-molina-465441165/" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={linkedin} alt="Linkedin"></img></a></div>
-            <div className="iconContainter"><a href="https://dribbble.com/pedromolina" target="_blank" rel="noopener noreferrer"><img className="imgPicDribble" src={dribblepic} alt="Dribble"></img></a></div>
+            <div><a href="https://www.linkedin.com/in/pedro-molina-465441165/" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={linkedin} alt="Linkedin"></img></a></div>
+            <div><a href="https://www.behance.net/pedromolina22" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={dribblepic} alt="Behance"></img></a></div>
           </div>
         </div>
       </div>
@@ -48,7 +50,7 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div style={{ marginBottom: `100px` }}> </div>
+      <div style={{ marginBottom: `180px` }}> </div>
 
 
       <div id="Projects" className="projects">
@@ -82,7 +84,7 @@ const IndexPage = () => (
           </div>
         </div>
       </div> */}
-      <SEO title="Pedro Molina" />
+      <SEO title="Pedro Molina • UI/UX Designer" />
     </body>
 
     {/* Spacer */}

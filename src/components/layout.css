@@ -32,19 +32,18 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
     text-align: center;
     justify-content: center;
     display: flex;
-  }
-
-  .iconContainter {
-    padding-right: 10px;
-    padding-left: 6px;
+    gap: 14px;
   }
 
   .imgPic {
     height: 44px;
+    /* background-color: red; */
   }
 
-  .imgPicDribble {
-    height: 44px;
+  .imgPic:hover {
+    /* filter: opacity(0.78); */
+    /* filter: brightness(92%) */
+    /* filter: contrast(1) */
   }
 
   .demoStyle {
@@ -801,7 +800,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
    .layout-spacer-bottom {
      height: 1px;
-     margin-top: 96px;
+     margin-top: 120px;
      margin-bottom: 96px;
      border-style: none none solid;
      border-width: 1px;
