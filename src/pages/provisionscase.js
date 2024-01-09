@@ -71,15 +71,15 @@ const CaseStudy = () => (
         <div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Summary</h1>
-            <p className={caseStyle.overviewdescription}>My role as a UI/UX designer was to redesign the company’s mockups. And to conduct user research to find out impression of the mockups. <br></br>To know which parts of the design to prioritize on based on user feedback. I also developed a high-fidelity prototype to demonstrate <br></br>how the user places an order.</p>
+            <p className={caseStyle.overviewdescription}>My role as a UI/UX designer was to redesign the company’s mockups. And to conduct user research to know which parts of the design to prioritize on. I developed a prototype to show how users can navigate, select items, adjust quantities, and proceed to checkout.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Challenge</h1>
-            <p className={caseStyle.overviewdescription}>The goal was to have high fidelity wireframes and a prototype of the app before a specific deadline. In time for an accelerator program. Another challenge was differentiating the design of the app from other surplus food apps on the market. We want the app to stand out from the crowd.</p>
+            <p className={caseStyle.overviewdescription}>The goal was to have high fidelity wireframes and a prototype of the app before a specific deadline. In time for an accelerator program. Another challenge was differentiating the design of the app from other surplus food apps on the market.</p>
           </div>
           <div className={caseStyle.flexcontaineroverview}>
             <h1 className={caseStyle.flextitleoverview}>Solution</h1>
-            <p className={caseStyle.overviewdescription}>We decided to pursue a dark theme and incorporate color to make the design pop out from the competition. I also used Figma to collaborate and get feedback on the design in real time. The target user for the app are young adults looking to save some money on their next meal.</p>
+            <p className={caseStyle.overviewdescription}>We decided to pursue a dark theme and incorporate color to make the design pop out from the competition. I used Figma to collaborate and get feedback on the design in real time. The target user for the app are young adults looking to save some money on their next meal.</p>
           </div>
         </div>
       </section>
@@ -169,7 +169,7 @@ const CaseStudy = () => (
             <h1 className={caseStyle.flextitleoverview}>Findings from <br></br>Research</h1>
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.overviewdescription}>From the survey, the most amount of feedback came from the swipe screen and placing an order. Participants wanted the price of the food item shown in the swipe screen. The swipe feature wasn’t clear to the participants. Others wanted to know how far they must drive to pick up their order.</p>
-              <p className={caseStyle.overviewdescription}>After purchasing the order, participants felt lost. They wanted to know where to pick up their order and show directions to the restaurant. Others felt placing an order can done in one screen instead of two.</p>
+              {/* <p className={caseStyle.overviewdescription}>After purchasing the order, participants felt lost. They wanted to know where to pick up their order and show directions to the restaurant. Others felt placing an order can done in one screen instead of two.</p> */}
             </div>
           </div>
 

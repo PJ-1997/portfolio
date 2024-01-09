@@ -50,7 +50,7 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div style={{ marginBottom: `180px` }}> </div>
+      <div className="spaceingBetweenProjects"> </div>
 
 
       <div id="Projects" className="projects">
