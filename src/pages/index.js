@@ -22,7 +22,7 @@ const IndexPage = () => (
       <div className="introduction" >
         <div className="w-container">
           <h1 className="header">UI/UX Designer</h1>
-          <div className="description">Experience using data-driven insights and user-centered approach to make designs <br></br>that fulfill needs</div>
+          <div className="description">Experience using data-driven insights and user-centered approach to make designs <br className="hide-in-mobile"></br>that fulfill needs</div>
           <div className="icons">
             <div><a href="https://www.linkedin.com/in/pedro-molina-465441165/" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={linkedin} alt="Linkedin"></img></a></div>
             <div><a href="https://www.behance.net/pedromolina22" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={dribblepic} alt="Behance"></img></a></div>

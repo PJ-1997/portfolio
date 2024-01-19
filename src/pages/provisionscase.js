@@ -105,8 +105,8 @@ const CaseStudy = () => (
           </div>
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Conducting a <br></br>Survey</h1>
-            <p className={caseStyle.overviewdescription}>I chose to run a survey through Google Forms to find out impressions about the original design. I also asked the participants' age to find out which demographic I need to design for. Due to the time constraint, <br></br>I surveyed 31 participants through Slack and LinkedIn.</p>
+            <h1 className={caseStyle.flextitleoverview}>Conducting a <br className={caseStyle.hideinmobile}></br>Survey</h1>
+            <p className={caseStyle.overviewdescription}>I chose to run a survey through Google Forms to find out impressions about the original design. I also asked the participants' age to find out which demographic I need to design for. Due to the time constraint, <br className={caseStyle.hideinmobile}></br>I surveyed 31 participants through Slack and LinkedIn.</p>
           </div>
 
           <div className={caseStyle.flexSideImageContainer}>
@@ -154,8 +154,8 @@ const CaseStudy = () => (
         </div>
 
         <div className={caseStyle.flexcontaineroverviewfirst}>
-          <h1 className={caseStyle.flextitleoverview}>Why the switch to <br></br>dark theme?</h1>
-          <p className={caseStyle.overviewdescription}>The main reason for the switch was to stand out from the competition. <br></br>I surveyed participants on their impression on the theme choice. And participants responded positively with the neon dark theme. Other surplus food apps in the market are light theme with one main primary color.</p>
+          <h1 className={caseStyle.flextitleoverview}>Why the switch to <br className={caseStyle.hideinmobile}></br>dark theme?</h1>
+          <p className={caseStyle.overviewdescription}>The main reason for the switch was to stand out from the competition. <br className={caseStyle.hideinmobile}></br>I surveyed participants on their impression on the theme choice. And participants responded positively with the neon dark theme. Other surplus food apps in the market are light theme with one main primary color.</p>
         </div>
 
         {/* Center Big Image */}
@@ -166,7 +166,7 @@ const CaseStudy = () => (
 
         <div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Findings from <br></br>Research</h1>
+            <h1 className={caseStyle.flextitleoverview}>Findings from <br className={caseStyle.hideinmobile}></br>Research</h1>
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.overviewdescription}>From the survey, the most amount of feedback came from the swipe screen and placing an order. Participants wanted the price of the food item shown in the swipe screen. The swipe feature wasn’t clear to the participants. Others wanted to know how far they must drive to pick up their order.</p>
               {/* <p className={caseStyle.overviewdescription}>After purchasing the order, participants felt lost. They wanted to know where to pick up their order and show directions to the restaurant. Others felt placing an order can done in one screen instead of two.</p> */}
@@ -181,7 +181,7 @@ const CaseStudy = () => (
             </div>
           </div>
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>Low Fidelity<br></br> Wireframes</h1>
+            <h1 className={caseStyle.flextitleoverview}>Low Fidelity<br className={caseStyle.hideinmobile}></br> Wireframes</h1>
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.overviewdescription}>Sketched lofi wireframes based on feedback from the survey. Also changed the design to a tab bar layout, recommended by Apple’s Human Interface Guidelines. </p>
             </div>
@@ -194,7 +194,7 @@ const CaseStudy = () => (
           </div>
 
           <div className={caseStyle.flexcontaineroverviewfirst}>
-            <h1 className={caseStyle.flextitleoverview}>High Fidelity<br></br> Wireframes</h1>
+            <h1 className={caseStyle.flextitleoverview}>High Fidelity<br className={caseStyle.hideinmobile}></br> Wireframes</h1>
             <div className={caseStyle.flexTextContainer}>
               <p className={caseStyle.overviewdescription}>Designed hifi wireframes to get impressions of the redesign. The color scheme of the app and tab bar menu received positive impressions.</p>
             </div>

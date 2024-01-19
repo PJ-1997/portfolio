@@ -4,6 +4,10 @@
    
    --main-headingleftside-text: 25px;
  }
+
+ .hideinmobile {
+  display: block;
+ }
  
  .introsection {
   display: flex;
@@ -453,26 +457,59 @@
     }
 
 @media (max-width: 732px) {
-  .mainContainr {
-    display: block;
+
+  .hideinmobile {
+    display: none;
+   }
+
+  /* Intro Section */
+  .introsection {
+    /* background-color: red; */
+    margin-top: 90px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
-  .mainContainrTop{
-    display: block;
-  }
-  .rigtDPtext {
-    margin-left: 58px;
+  .divcenter {
+    /* background-color: blue; */
+    margin-left:auto;
+    margin-right:auto;
+    /* max-width:940px; */
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
   }
 
-  
+  .toptext {
+    text-align: center;
+    padding-left: 0px;
+  }
+  .bottomtext{
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .IphonePic {
+    margin-left: 0px;
+    padding-bottom: 0px;
+    width: 85%;
+  }
   .ratioimage {
     margin-left: 0px;
     max-width: 100%;
+    margin-top: 35px;
     margin-bottom: 0px;
   }
-  .introsection {
-    /* background-color: red; */
-    height: 500px;
+  .lefttextcontainer {
+    /* background-color: green; */
+    height: 40px;
   }
+/* End of intro section */
+
   .gridcontainer {
     grid-template-columns: repeat(1, auto);
   }
@@ -530,6 +567,43 @@
 
   .imgdescriptext {
     margin-left: 0px;
+  }
+
+/* Working */
+  .sectionaligncenter {
+    /* background-color: red; */
+    margin-left:auto;
+    margin-right:auto;
+    max-width:940px;
+    width: 100%;
+  }
+
+  .pic1 {
+    /* background-color: aqua; */
+    width: 280px;
+    margin-left: 0px;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .leftDPImg {
+    /* margin-right: none; */
+    justify-content: center;
+    align-content: center;
+  }
+
+  .mainContainrTop{
+    /* background-color: brown; */
+    display: block;
+    justify-content: center;
+    align-content: center;
+  }
+  .mainContainr {
+    display: block;
+  }
+  
+  .rigtDPtext {
+    margin-left: 58px;
   }
   
 }
