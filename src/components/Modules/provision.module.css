@@ -10,16 +10,25 @@
  }
  
  .introsection {
+   background-color: #ffffff; 
   display: flex;
   align-items: center;
   justify-content: center;
   height: 650px;
 }
 
+.layoutspacerTopOverview{
+  height: 1px;
+  margin-top: 0px;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: rgba(51, 51, 51, 0.05);
+}
+
 .layoutspacertop{
   height: 1px;
-  margin-top: 96px;
-  margin-bottom: 56px;
+  padding-bottom: 56px;
+  padding-top: 56px;
   border-style: none none solid;
   border-width: 1px;
   border-color: rgba(51, 51, 51, 0.05);
@@ -74,11 +83,16 @@
 
 /* Overview Section */
 .sectionaligncenter {
+  background-color: #F5F5F5;
   /* 1. Set in the center */
   margin-left:auto;
   margin-right:auto;
   max-width:940px;
   width: 100%;
+}
+
+.grayBackgroundContainer {
+  background-color: #F5F5F5;
 }
 
 .titlecontainer {
@@ -98,6 +112,8 @@
 }
 
 .titletextUnderGrnLine {
+  margin-top: 0px;
+  padding-top: 40px;
   font-family: 'Circular Std', sans-serif;
   text-align: center;
   justify-content: center;
@@ -179,9 +195,6 @@
   margin-top: 24px;
 }
 
-.newpicsImage {
-  margin-top: 10px;
-}
 
 .flextitleoverview {
   /* 3. This is the how to get in the sides */
@@ -235,6 +248,10 @@
   margin-left: var(--desctription-marginleft);
 }
 
+.bigimg {
+  max-width: 890px;
+}
+
 .lofidimg {
   /* max-width: 500px; */
   margin-top: 20px;
@@ -249,7 +266,7 @@
   font-family: 'Circular Std', sans-serif;
   font-size: 15px;
   line-height: 40px;
-  color: #ABABAB;
+  color: #626262;
   font-weight: 500;
 }
 
@@ -260,7 +277,7 @@
   font-family: 'Circular Std', sans-serif;
   font-size: 15px;
   line-height: 40px;
-  color: #ABABAB;
+  color: #626262;
   font-weight: 500;
 }
 
@@ -435,7 +452,7 @@
       margin-left: 60px;
     }
     .pic2 {
-      width: 349px;
+      width: 360px;
       margin-left: 25px;
     }
     .pic3 {
@@ -462,6 +479,10 @@
     display: none;
    }
 
+   .bigimg {
+     width: 100%;
+   }
+
   /* Intro Section */
   .introsection {
     /* background-color: red; */
@@ -474,7 +495,6 @@
     align-items: center;
   }
   .divcenter {
-    /* background-color: blue; */
     margin-left:auto;
     margin-right:auto;
     /* max-width:940px; */
@@ -505,7 +525,6 @@
     margin-bottom: 0px;
   }
   .lefttextcontainer {
-    /* background-color: green; */
     height: 40px;
   }
 /* End of intro section */

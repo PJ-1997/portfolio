@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
+// import caseStyle from "../components/Modules/provision.module.css"
 import BigPopup from "../components/Popups/bigpopup"
 import ImagePopup from "../components/Popups/popup"
 // Images
@@ -31,9 +32,14 @@ const IndexPage = () => (
       </div>
 
       {/* Spacer */}
-      <div style={{ paddingBottom: 20 }}> </div>
+      {/* <div style={{ paddingBottom: 120 }}> </div> */}
       {/* Line */}
       <div className="layout-spacer-top"></div>
+
+      {/* <div className={caseStyle.titlecontainer}>
+          <h1 className={caseStyle.titletextUnderGrnLine}>My Work</h1>
+          <div className={caseStyle.underlinetitle}></div>
+        </div> */}
 
       {/* App Projects */}
       <div id="Projects" className="projects">
@@ -50,10 +56,10 @@ const IndexPage = () => (
         </div>
       </div>
 
-      <div className="spaceingBetweenProjects"> </div>
+      {/* <div className="spaceingBetweenProjects"> </div> */}
 
 
-      <div id="Projects" className="projects">
+      <div id="Projects" className="projectsAftertop">
         <div className="project pw-holder">
           <div className="projectimagebg">
             <img className="projectimage w-inline-block" src={provImage} alt="+provisions"></img>
@@ -66,8 +72,9 @@ const IndexPage = () => (
           </div>
         </div>
       </div>
+      <div className="layout-spacer-top"></div>
 
-      <div style={{ marginBottom: `100px` }}> </div>
+      {/* <div style={{ marginBottom: `100px` }}> </div> */}
 
       {/* <div id="Projects" className="projects">
         <div className="project w-container">
@@ -88,7 +95,7 @@ const IndexPage = () => (
     </body>
 
     {/* Spacer */}
-    <div style={{ marginBottom: `2rem` }}> </div>
+    {/* <div style={{ marginBottom: `2rem` }}> </div> */}
   </Layout>
 )
 

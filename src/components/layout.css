@@ -144,6 +144,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    
    .body {
      line-height: 40px;
+     background-color: #ffffff;
    }
    
    .linkcasestudy {
@@ -211,9 +212,20 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .projects {
+     padding-top: 100px;
+     padding-bottom: 124px;
+     background-color: #F5F5F5;
      position: relative;
      clear: both;
    }
+
+   .projectsAftertop {
+    padding-top: 0px;
+    padding-bottom: 124px;
+    background-color: #F5F5F5;
+    position: relative;
+    clear: both;
+  }
    
    .project {
      position: relative;
@@ -296,8 +308,9 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .introduction {
+     background-color: #ffffff;
      padding-top: 16px;
-     padding-bottom: 0px;
+     padding-bottom: 104px;
    }
    
    .header {
@@ -316,7 +329,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .header.contact {
-     margin-top: 50px;
+     margin-top: 84px;
      margin-bottom: 40px;
      line-height: 36px;
      font-size: 38px;
@@ -373,6 +386,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .contact {
+     background-color: #ffffff;
      margin-top: 0px;
      margin-bottom: 0px;
    }
@@ -420,14 +434,14 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .footer {
-     /* margin-top: 64px; */
+    background-color: #ffffff;
      margin-bottom: 20px;
    }
    
    .footer-text {
      margin-bottom: 0px;
      font-family: 'Circular Std', sans-serif;
-     color: rgba(51, 51, 51, 0.5);
+     color:#626262;
      font-size: 14px;
      line-height: 40px;
      font-weight: 400;
@@ -575,7 +589,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      padding-bottom: 0px;
      font-family: 'Circular Std', sans-serif;
      /* color: rgb(124, 125, 129); */
-      color: #ABABAB;
+     color: #626262;
      font-size: 16px;
      line-height: 14px;
      font-weight: 500;
@@ -729,6 +743,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .rewind-container {
      text-align: center;
      margin-top: 52px;
+     padding-bottom: 64px;
    }
    
    .rewind {
@@ -798,9 +813,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .layout-spacer-top {
-     height: 1px;
-     margin-top: 96px;
-     margin-bottom: 64px;
+     height: 1px;;
      border-style: none none solid;
      border-width: 1px;
      border-color: rgba(51, 51, 51, 0.05);
@@ -2146,15 +2159,20 @@ textarea.w-input,textarea.w-select{
 .w-icon-file-upload-uploading{
     height:20px
 }
+
+.headerFull {
+  background-color: #ffffff;
+}
 .w-container{
+    /* background-color: red; */
     margin-left:auto;
     margin-right:auto;
     max-width:940px
 }
 .pw-holder{
+  margin-top: 0px;
   margin-left:auto;
   margin-right:auto;
-  /* background-color: yellow; */
   max-width:1106px
 }
 .pw-holder:before,.pw-holder:after{

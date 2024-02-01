@@ -44,9 +44,10 @@ const CaseStudy = () => (
           </div>
         </div>
       </section>
-      <div className={caseStyle.layoutspacertop}></div>
+      <div className={caseStyle.layoutspacerTopOverview}></div>
 
       {/* Overview */}
+      <div className={caseStyle.grayBackgroundContainer}>
       <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
           <h1 className={caseStyle.titletextUnderGrnLine}>Overview</h1>
@@ -64,7 +65,7 @@ const CaseStudy = () => (
           </div>
           <div>
             <h1 className={caseStyle.overviewTitle}>Involvement</h1>
-            <p className={caseStyle.overviewText3names}>Aaron Aguirre (Founder) <br></br> George Garcia (Engineer)<br></br>Pedro Molina</p>
+            <p className={caseStyle.overviewText3names}>Aaron Aguirre (Founder) <br></br> George Garcia (Engineer)<br></br>Pedro Molina (Designer)</p>
           </div>
         </div>
 
@@ -100,7 +101,7 @@ const CaseStudy = () => (
 
           {/* Center Big Image */}
           <div className={caseStyle.figmacontrainer}>
-            <img src={oldpics} alt="Old Pics"></img>
+            <img className={caseStyle.bigimg}src={oldpics} alt="Old Pics"></img>
             <p className={caseStyle.imgdescriptextCenter}>Company's Mockups</p>
           </div>
 
@@ -124,7 +125,7 @@ const CaseStudy = () => (
 
           {/* Center Big Image */}
           <div className={caseStyle.figmacontrainer}>
-            <img src={persona} alt="Persona"></img>
+            <img className={caseStyle.bigimg}src={persona} alt="Persona"></img>
             <p className={caseStyle.imgdescriptextCenter}>Persona</p>
           </div>
 
@@ -160,7 +161,7 @@ const CaseStudy = () => (
 
         {/* Center Big Image */}
         <div className={caseStyle.figmacontrainer}>
-          <img src={competitors} alt="Competitors"></img>
+          <img className={caseStyle.bigimg} src={competitors} alt="Competitors"></img>
           <p className={caseStyle.imgdescriptextCenter}>Competitors</p>
         </div>
 
@@ -189,7 +190,7 @@ const CaseStudy = () => (
 
           {/* Center Big Image */}
           <div className={caseStyle.figmacontrainer}>
-            <img src={lofiPaper} alt="Low Pics"></img>
+            <img className={caseStyle.bigimg} src={lofiPaper} alt="Low Pics"></img>
             <p className={caseStyle.imgdescriptextCenter}>Low Fidelity Screens</p>
           </div>
 
@@ -202,7 +203,7 @@ const CaseStudy = () => (
 
           {/* Center Big Image */}
           <div className={caseStyle.hifiPiccontainer}>
-            <img src={newpics} alt="New Pics" className={caseStyle.newpicsImage}></img>
+            <img className={caseStyle.bigimg} src={newpics} alt="New Pics" ></img>
             <p className={caseStyle.newpicimgdescription}>High Fidelity Screens</p>
           </div>
 
@@ -373,25 +374,20 @@ const CaseStudy = () => (
         </div>
 
       </section>
-      <div className={caseStyle.layoutspacertop}></div>
+      {/* <div className={caseStyle.layoutspacertop}></div> */}
 
       {/* Prototype */}
-      <section className={caseStyle.sectionaligncenter}>
+      {/* <section className={caseStyle.sectionaligncenter}>
         <div className={caseStyle.titlecontainer}>
           <h1 className={caseStyle.titletextUnderGrnLine}>Prototype</h1>
           <h1 className={caseStyle.textProtypeDesecpiton}>Signing Up/In&nbsp;&&nbsp;Placing an Order</h1>
         </div>
 
-        {/* Figma Prototype */}
-        {/* <div className={caseStyle.titleFigContainer}>
-          <h1 className={caseStyle.textFig}>Figma Prototype</h1>
-        </div> */}
-
         <div className={caseStyle.figmacontrainer}>
           <iframe className={caseStyle.figmaiframe} src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6XlBBCzyYOFj7Sza4k1kb1%2F%252Bprovisions-Prototype%3Fscaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D491%253A3862%26node-id%3D491%253A3862" allowfullscreen></iframe>
         </div>
 
-      </section>
+      </section> */}
       <div className={caseStyle.layoutspacertop}></div>
 
       {/* Conclusion */}
@@ -410,7 +406,7 @@ const CaseStudy = () => (
       <div className="rewind-container">
         <Link className="rewind" to="/">Back to Portfolio</Link>
       </div>
-
+      </div>
     </body>
     <SEO title="+provisions" />
   </Layout>

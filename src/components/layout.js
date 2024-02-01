@@ -26,7 +26,6 @@ const Layout = ({ children }) => {
 
             <div id="Contact" className="contact">
               <div className="container-2 w-container">
-                <div className="layout-spacer-bottom">
                 </div>
                 <div className="header contact">Let's keep in touch</div>
                 <div className="w-row"><div className="column w-col">
@@ -35,7 +34,6 @@ const Layout = ({ children }) => {
                   </div>
                 </div>
                 </div>
-              </div>
             </div>
 
             {/* Spacer */}
