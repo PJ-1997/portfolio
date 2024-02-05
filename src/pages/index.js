@@ -67,7 +67,7 @@ const IndexPage = () => (
           <div className="projectinfo">
             <div className="projecttitle">+provisions</div>
             <div className="projectdates">Oct 2022 - Mar 2023</div>
-            <div className="projectdescription">Ecommerce surplus food. In charge <br></br>of redesigning app, conducting user research, and creating prototype <br></br>to demonstrate swipe feature.</div>
+            <div className="projectdescription">Platform for restaurant owners to sell <br></br> unsold food. In charge of redesigning<br></br> app, conducting user research, and <br></br>creating prototype.</div>
             <Link to="/provisionscase" className="linkcasestudy">View Case Study</Link>
           </div>
         </div>

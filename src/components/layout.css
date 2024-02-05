@@ -148,23 +148,34 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    }
    
    .linkcasestudy {
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-style: none none solid;
-    border-width: 1.4px;
-    border-color: #000 #000 #23b16c;
+  
+    margin-top: 15px;
     font-family: 'Circular Std', sans-serif;
     color: #23b16c;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    text-decoration: none;
-    cursor: pointer;
+
+    display: inline-block;
+            padding: 2px 14px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: 2px solid #00754B;
+            color: #00754B;
+            background-color: #F5F5F5;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
    }
 
    .linkcasestudy:hover {
     border-bottom-color: #129057;
     color: #129057;
+
+    background-color: #00754B;
+    color: #fff;
   }
    
    /* .link.projects {
@@ -193,10 +204,10 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      margin-bottom: 8px;
      margin-left: 12px;
      border-style: none none solid;
-     border-color: #000 #000 #23b16c;
+     border-color: #000 #000 #00754B;
      border-bottom-width: 1px;
      font-family: 'Circular Std', sans-serif;
-     color: #23b16c;
+     color: #00754B;
      font-size: 20px;
      font-weight: 400;
      text-decoration: none;
@@ -378,7 +389,6 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
    .projectdescription {
      max-width: 320px;
      margin-top: 0px;
-     margin-bottom: 8px;
      font-family: 'Circular Std', sans-serif;
      font-size: 16px;
      line-height: 26px;
@@ -563,7 +573,7 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
      -webkit-transition: background-color 300ms ease;
      transition: background-color 300ms ease;
      font-family: 'Circular Std', sans-serif;
-     color: #23b16c;
+     color: #00754B;
      font-size: 20px;
      line-height: 16px;
      font-weight: 800;
@@ -742,27 +752,37 @@ html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:1
 
    .rewind-container {
      text-align: center;
-     margin-top: 52px;
+     margin-top: 36px;
      padding-bottom: 64px;
    }
    
    .rewind {
-     margin-top: 0px;
-     padding: 15px 28px;
-     border-radius: 8px;
-     background-color: rgba(35, 177, 108, 0.1);
-     -webkit-transition: background-color 200ms ease;
-     transition: background-color 200ms ease;
-     font-family: 'Circular Std', sans-serif;
-     color: #23b16c;
-     font-size: 16px;
-     font-weight: 500;
-     text-decoration: none;
+    font-family: 'Circular Std', sans-serif;
+    color: #23b16c;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    display: inline-block;
+            padding: 2px 14px;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            cursor: pointer;
+            border: 2px solid #00754B;
+            color: #00754B;
+            background-color: #F5F5F5;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
    }
    
    .rewind:hover {
-     background-color: rgba(35, 177, 108, 0.2);
-     color: #129057;
+     /* background-color: rgba(35, 177, 108, 0.2);
+     color: #129057; */
+
+    background-color: #00754B;
+    color: #fff;
    }
    
    .rewind.password {

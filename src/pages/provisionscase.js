@@ -288,7 +288,7 @@ const CaseStudy = () => (
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
               <img src={cirl3} className={caseStyle.numcirlrigt}></img>
-              <div className={caseStyle.textDPrigt}>Added buttons to make the action clear. (Checkmark to place order, “X” to move to the next food item)</div>
+              <div className={caseStyle.textDPrigt}>Added buttons to make actions clear</div>
             </div>
           </div>
         </div>
@@ -328,7 +328,7 @@ const CaseStudy = () => (
             </div>
             <div className={caseStyle.sidewayrightCBOTTOM}>
               <img src={cirl3} className={caseStyle.numcirlrigt}></img>
-              <div className={caseStyle.textDPrigt}>Added “You Saved” phrase at the end to incentivize users to add more to their order. (The more you add to your order, the more you save)</div>
+              <div className={caseStyle.textDPrigt}>Added “You Saved” phrase at the end to incentivize users to add more to their order</div>
             </div>
           </div>
         </div>
