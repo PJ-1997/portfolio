@@ -2,13 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Link } from "gatsby"
-// import caseStyle from "../components/Modules/provision.module.css"
-import BigPopup from "../components/Popups/bigpopup"
-import ImagePopup from "../components/Popups/popup"
 // Images
 import provImage from "../images/provisions-imgs/provDisplayImage.png"
-// import dribblepic from "../images/githubLogo.png"
-// import linkedin from "../images/linkedinLogo.png"
 import dribblepic from "../images/dribble.svg"
 import linkedin from "../images/linkedin.svg"
 import farrierImage from "../images/farrier-imgs/farrier.png"
@@ -42,7 +37,7 @@ const IndexPage = () => (
         </div> */}
 
       {/* App Projects */}
-      <div id="Projects" className="projects">
+      <div id="work" className="projects">
         <div className="project pw-holder">
           <div className="projectimagebg">
             <img className="projectimage w-inline-block" src={farrierImage} alt="Farrier Business"></img>

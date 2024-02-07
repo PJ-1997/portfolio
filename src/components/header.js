@@ -1,16 +1,32 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
-import React from "react"
+import React, { useState } from "react"
+import { Link } from "gatsby"
 
-const Header = ({ siteTitle }) => (
-  <div className="headerFull">
-  <header className="container-3 w-container">
-    <div className="headerFull" style={{ padding: `1rem 1.0875rem`, }}>
-      <Link className="logo">{siteTitle}</Link>
-    </div>
-  </header>
-  </div>
-)
+const Header = ({ siteTitle }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
+  return (
+    <nav className="header">
+      <div className="header-left">
+        <div className="name">Pedro Molina</div>
+        <div className="designation">UI/UX Designer</div>
+      </div>
+      <div className={`header-right ${isOpen ? 'open' : ''}`}>
+        <Link to="/work">Work</Link>
+        <Link to="/contact">Contact</Link>
+      </div>
+      <div className="hamburger-menu" onClick={toggleMenu}>
+        <div className="line"></div>
+        <div className="line"></div>
+        <div className="line"></div>
+      </div>
+    </nav>
+  )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,

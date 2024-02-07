@@ -2,7 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
+import Navbar from "./Navbar"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -18,10 +18,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Navbar siteTitle={data.site.siteMetadata.title} />
       <div>
         <main>{children}</main>
-        <div id="Footer" className="footer">
+        <div id="contact" className="footer">
           <div className="w-container">
 
             <div id="Contact" className="contact">
