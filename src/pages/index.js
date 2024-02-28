@@ -4,8 +4,8 @@ import SEO from "../components/seo"
 import { Link } from "gatsby"
 // Images
 import provImage from "../images/provisions-imgs/provDisplayImage.png"
-import dribblepic from "../images/dribble.svg"
-import linkedin from "../images/linkedin.svg"
+import caseStyle from "../components/Modules/provision.module.css"
+import heroImage from "../images/heroImage.jpg"
 import farrierImage from "../images/farrier-imgs/farrier.png"
 
 const IndexPage = () => (
@@ -15,16 +15,31 @@ const IndexPage = () => (
       <div style={{ marginBottom: `2rem` }}> </div>
 
       {/* Introduction */}
-      <div className="introduction" >
-        <div className="w-container">
-          <h1 className="header">UI/UX Designer</h1>
-          <div className="description">Experience using data-driven insights and user-centered approach to make designs <br className="hide-in-mobile"></br>that fulfill needs</div>
-          <div className="icons">
-            <div><a href="https://www.linkedin.com/in/pedro-molina-465441165/" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={linkedin} alt="Linkedin"></img></a></div>
-            <div><a href="https://www.behance.net/pedromolina22" target="_blank" rel="noopener noreferrer"><img className="imgPic" src={dribblepic} alt="Behance"></img></a></div>
+      <div className="hero-container">
+        <div className="container-heroContent">
+          <div className="hero-text">
+            <h1>Pedro Molina</h1>
+            <p className="hero-description"> I'm a UI/UX Designer. I help companies design effective interfaces based on a
+user-centered approach.</p>
+          </div>
+          <div className="hero-image">
+            <img src={heroImage} alt="Hero Image" />
           </div>
         </div>
       </div>
+
+
+      {/* <section className={caseStyle.introsection}>
+        <div className={caseStyle.divcenter}>
+          <div className={caseStyle.lefttextcontainer}>
+            <h1 className={caseStyle.toptext}>Pedro Molina </h1>
+            <div className={caseStyle.bottomtext}>I'm a UI/UX Designer. I help companies design effective interfaces based on a <br></br> user-centered approach.</div>
+          </div>
+          <div className={caseStyle.IphonePic}>
+            <img className="heroImage" src={heroImage} alt="Stock Notify"></img>
+          </div>
+        </div>
+      </section> */}
 
       {/* Spacer */}
       {/* <div style={{ paddingBottom: 120 }}> </div> */}

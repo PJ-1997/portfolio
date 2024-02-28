@@ -33,7 +33,20 @@ const CaseStudy = () => (
     <body className="body">
 
       {/* Hero */}
-      <section className={caseStyle.introsection}>
+
+      <div className="hero-container">
+        <div className="prov-container">
+          <div className="hero-text">
+            <h1>+provisions</h1>
+            <p className="prov-descrtiption"> Deals on surplus food, helping to <br></br>prevent food waste</p>
+          </div>
+          <div className="hero-image">
+            <img src={provis} alt="Hero Image" />
+          </div>
+        </div>
+      </div>
+
+      {/* <section className={caseStyle.introsection}>
         <div className={caseStyle.divcenter}>
           <div className={caseStyle.lefttextcontainer}>
             <h1 className={caseStyle.toptext}>+provisions</h1>
@@ -43,7 +56,7 @@ const CaseStudy = () => (
             <img src={provis} className={caseStyle.ratioimage} alt="Stock Notify"></img>
           </div>
         </div>
-      </section>
+      </section> */}
       <div className={caseStyle.layoutspacerTopOverview}></div>
 
       {/* Overview */}
@@ -403,9 +416,9 @@ const CaseStudy = () => (
 
       </section>
 
-      <div className="rewind-container">
+      {/* <div className="rewind-container">
         <Link className="rewind" to="/">Back to Portfolio</Link>
-      </div>
+      </div> */}
       </div>
     </body>
     <SEO title="+provisions" />
